@@ -1,0 +1,432 @@
+{
+  "number": 8,
+  "startDate": "2026-09-06T15:59:59.999Z",
+  "endDate": "2026-09-13T15:59:59.999Z",
+  "dateLabel": "2026年9月6日 — 13日",
+  "publishedAt": "2026-09-14T07:13:01.129Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Introducing ChatGPT Images 2.5",
+          "titleZh": "ChatGPT Images 2.5 正式发布",
+          "description": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+          "descriptionZh": "ChatGPT Images 2.5 能够将您的创意、草图和参考照片转化为更具个性化、更精致的图像，更好地体现您的构想。",
+          "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "formattedDate": "2026年9月8日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog"
+          ]
+        },
+        {
+          "title": "On the Navier–Stokes Millennium Prize Problem",
+          "titleZh": "关于纳维-斯托克斯千禧奖问题",
+          "description": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+          "descriptionZh": "我们将分享一个由人工智能生成的纳维-斯托克斯千禧年大奖问题的解法，其中包括一份说明文档以及用Lean语言编写的正式证明。",
+          "link": "https://openai.com/index/navier-stokes-solution",
+          "formattedDate": "2026年9月8日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog",
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "GPT-6 Astra: The next generation in intelligence for work",
+          "titleZh": "GPT-6 Astra：新一代工作智能解决方案",
+          "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+          "descriptionZh": "来认识一下 GPT-6 Astra——OpenAI 专为企业打造的性能最强大的模型，它具备先进的推理能力、计算机操作能力，以及更强的写作和设计判断力。",
+          "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "formattedDate": "2026年9月9日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog"
+          ]
+        },
+        {
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "titleZh": "AlphaGenome Atlas：人类基因组中所有可能的DNA碱基变异预测图谱",
+          "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+          "descriptionZh": "AlphaGenome Atlas 绘制了人类基因组中 90 亿个单碱基 DNA 变异所产生的分子效应图谱。",
+          "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "formattedDate": "2026年9月8日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+          "titleZh": "营销运营即代码：在 GitHub 上实现从活动策划到后续跟进的自动化",
+          "description": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared…",
+          "descriptionZh": "如果你能把工作流程写下来，就能实现自动化。以下是我为支持 GitHub 亚太区（APAC）市场营销团队所采取的措施。这篇题为《营销运营即代码：在 GitHub 上实现从策划到跟进的活动自动化》的文章已发布……",
+          "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+          "formattedDate": "2026年9月11日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "titleZh": "Cognition 借助 GPT‑6 Astra 帮助 Devin 对自身的工作进行测试",
+          "description": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "descriptionZh": "GPT‑6 Astra 提升了 Devin 测试软件并验证其功能的能力，旨在帮助工程师减少代码审查工作量，加快代码发布速度。",
+          "link": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "formattedDate": "2026年9月11日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+          "titleZh": "GitHub Copilot 入门指南：使用 diff、终端和浏览器",
+          "description": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners:…",
+          "descriptionZh": "检查代理生成的代码通常意味着要在不同标签页之间来回切换。了解如何在 GitHub Copilot 应用中并排查看差异、运行终端命令以及预览 Web 应用。文章《GitHub Copilot 应用入门指南：…》",
+          "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+          "formattedDate": "2026年9月10日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+          "titleZh": "使用 Gradio 工作流重构 AUTOMATIC1111",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/gradio-workflow-1111",
+          "formattedDate": "2026年9月10日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+          "titleZh": "IBM发布了采用商业友好型许可的SOTA Granite时间序列模型PatchTST-FM-r2",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+          "formattedDate": "2026年9月9日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+          "titleZh": "安全是为了谁？拒绝某个话题的特定部分，而非整个话题",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "formattedDate": "2026年9月8日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "Anthropic CEO outlines plan to slow AI development",
+          "titleZh": "Anthropic首席执行官概述了放缓人工智能发展的计划",
+          "description": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+          "descriptionZh": "Anthropic公司的达里奥·阿莫德伊（Dario Amodei）和OpenAI公司的萨姆·阿尔特曼（Sam Altman）似乎都认为，现在是时候“在前沿领域稳步推进”了。这实际上会是什么样子呢？",
+          "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "formattedDate": "2026年9月12日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
+          "titleZh": "TechCrunch Disrupt 2026 配套活动最后、最后、最后一次征集通知",
+          "description": "The absolute last chance to apply to host an official Side Event during TechCrunch Disrupt 2026 is tonight, September 11, at 11:59 p.m. PT.",
+          "descriptionZh": "申请承办 2026 年 TechCrunch Disrupt 大会官方配套活动的最后截止时间是今晚（9 月 11 日）太平洋时间晚上 11:59。",
+          "link": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+          "formattedDate": "2026年9月11日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "titleZh": "Meta的人工智能助手Muse目前已成为美国排名第二的应用程序",
+          "description": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+          "descriptionZh": "Meta的最新应用Muse的起步速度比该公司其他应用（如Meta AI或Threads）要慢一些。",
+          "link": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "formattedDate": "2026年9月10日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "AI agents are flooding public services with new requests",
+          "titleZh": "人工智能代理正向公共服务系统涌入大量新请求",
+          "description": "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.",
+          "descriptionZh": "“我们发现的大多数案例都是，有权就某事提出索赔的人，正在就该事项提出索赔，”这位研究人员对TechCrunch表示。",
+          "link": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
+          "formattedDate": "2026年9月10日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
+          "titleZh": "“这就是男人们真正使用的AI”：Meta广告推广的应用程序将真实的青少年变成裸体形象",
+          "description": "Meta dragged its feet removing ads that nudify young girls' Instagram pics.",
+          "descriptionZh": "Meta在删除那些将年轻女孩的Instagram照片处理成裸露效果的广告时拖拖拉拉。",
+          "link": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
+          "formattedDate": "2026年9月8日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "I spent $4,000 on a robot dog from China",
+          "titleZh": "我花4,000美元买了一只来自中国的机器人狗",
+          "description": "Unitree might be the world’s most important robotics company.",
+          "descriptionZh": "Unitree 或许是全球最重要的机器人公司。",
+          "link": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+          "formattedDate": "2026年9月12日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Presentation: From Retrieval to Reasoning: Building Production-Ready Agentic AI Systems with Knowledge Graphs",
+          "titleZh": "演讲：从检索到推理：利用知识图谱构建可投入生产的代理式人工智能系统",
+          "description": "Cassie Shum discusses why knowledge graphs serve as a critical foundation for agentic systems. Moving beyond basic RAG, she explains 4 practical architectural patterns: context bundling, decision provenance, code as…",
+          "descriptionZh": "Cassie Shum 探讨了知识图谱为何是代理系统的重要基础。她超越了基础的 RAG 框架，阐述了 4 种实用的架构模式：上下文打包、决策溯源、代码即……",
+          "link": "https://www.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月12日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Roundtables: AI’s apocalypse crisis",
+          "titleZh": "圆桌会议：人工智能引发的末日危机",
+          "description": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive…",
+          "descriptionZh": "全球顶尖人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们说得对吗？还是这不过是危言耸听和炒作？请听《麻省理工科技评论》执行……",
+          "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+          "formattedDate": "2026年9月11日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
+          "titleZh": "一名使用ChatGPT的律师因引用虚构证人的虚假证词而受到处罚",
+          "description": "\"I didn't know that AI could hallucinate facts,\" New Mexico defense lawyer says.",
+          "descriptionZh": "“我不知道人工智能竟然会编造事实，”新墨西哥州的一位辩护律师说道。",
+          "link": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
+          "formattedDate": "2026年9月11日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "NVIDIA Personal AI Router Distributes AI Tasks across Local Compute",
+          "titleZh": "NVIDIA 个人 AI 路由器将 AI 任务分配到本地计算资源上",
+          "description": "NVIDIA Personal AI Router (PAIR), now available in beta, lets you combine the inference capacity of multiple computers on your local network and automatically distribute AI requests among them. It is primarily designed…",
+          "descriptionZh": "NVIDIA 个人 AI 路由器（PAIR）现已推出测试版，可让您整合本地网络中多台计算机的推理能力，并自动在它们之间分配 AI 请求。该功能主要设计用于……",
+          "link": "https://www.infoq.com/news/2026/09/nvidia-pair-ai-task-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月11日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Claude users found ways around safeguards for bioweapons research",
+          "titleZh": "Claude用户找到了绕过生物武器研究安全防护措施的方法",
+          "description": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
+          "descriptionZh": "某些危险的生物学研究与正当的研究极为相似，这给人工智能的安全保障措施带来了困难。",
+          "link": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+          "formattedDate": "2026年9月11日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How LinkedIn Trains AI Job Search 8x Faster with Multi-Teacher Distillation",
+          "titleZh": "LinkedIn如何利用多教师蒸馏技术将AI求职训练速度提升8倍",
+          "description": "LinkedIn has published details of the training infrastructure behind its AI-powered job search, describing a multi-teacher distillation pipeline that compresses knowledge from large teacher models into a compact…",
+          "descriptionZh": "LinkedIn 公布了其人工智能驱动的求职功能背后培训基础设施的详细信息，描述了一种多教师知识蒸馏管道，该管道将大型教师模型中的知识浓缩为一个紧凑的……",
+          "link": "https://www.infoq.com/news/2026/09/linkedin-ai-multi-teacher/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月11日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "datasette 1.0a39",
+          "titleZh": "datasette 1.0a39",
+          "description": "Release: datasette 1.0a39 See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Tags: security , datasette",
+          "descriptionZh": "发布：datasette 1.0a39 请参阅 Datasette 博客上的 Datasette 1.0a39 和 0.65.4 安全更新。标签：安全、datasette",
+          "link": "https://simonwillison.net/2026/Sep/11/datasette-2/",
+          "formattedDate": "2026年9月11日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Bernie Sanders AI Bill Threatens Developers with 20-Year Jail Terms",
+          "titleZh": "伯尼·桑德斯提出的AI法案威胁要对开发者处以20年监禁",
+          "description": "Article URL:…",
+          "descriptionZh": "文章网址：…",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/bernie-sanders-introduces-a-bill-in-senate-that-may-land-sam-altman-dario-amodei-and-other-top-tech-executives-in-jail-for-as-much-as-20-years/articleshow/133749410.cms",
+          "formattedDate": "2026年9月11日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Ask HN: What's your AI coding set up?",
+          "titleZh": "向HN提问：你的AI编程环境是怎样的？",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=49636239 Points: 4 # Comments: 1",
+          "descriptionZh": "评论网址：https://news.ycombinator.com/item?id=49636239 积分：4 # 评论数：1",
+          "link": "https://news.ycombinator.com/item?id=49636239",
+          "formattedDate": "2026年9月9日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI researcher Andrew Tulloch leaving Meta",
+          "titleZh": "人工智能研究员安德鲁·图洛克将离开Meta",
+          "description": "Article URL: https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta Comments URL: https://news.ycombinator.com/item?id=49635363 Points: 2 # Comments: 0",
+          "descriptionZh": "文章网址：https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta 评论网址： https://news.ycombinator.com/item?id=49635363 积分：2 # 评论：0",
+          "link": "https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta",
+          "formattedDate": "2026年9月9日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "California Brown Pelican",
+          "titleZh": "加利福尼亚褐鹈鹕",
+          "description": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by…",
+          "descriptionZh": "美国加利福尼亚州圣马特奥县的加州褐鹈鹕。6月初，由于混凝土人行道出现裂缝，导致前往帕西菲卡码头的通道存在安全隐患，该码头随即关闭。此后，该码头已被……完全占据。",
+          "link": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
+          "formattedDate": "2026年9月12日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Quoting Paul Ford",
+          "titleZh": "引用保罗·福特的话",
+          "description": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still…",
+          "descriptionZh": "我必须承认，有一段时间，像我这样的软件开发人员似乎真的要被淘汰了。我们怎么可能与不知疲倦的机器人抗衡呢？但我们的行业正逐渐意识到，开发真正尖端的软件仍然……",
+          "link": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+          "formattedDate": "2026年9月12日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+          "titleZh": "前线工程兵的崛起——以及如何做好这份工作",
+          "description": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
+          "descriptionZh": "在联合创立Kepler之前，Vinoo Ganesh曾领导Palantir公司的Spark项目，并创建了“前线项目”（Project Frontline）——这是一个面向前线部署工程师（FDEs）的开创性项目。他向我们详细介绍了前线部署工程师的最佳实践。",
+          "link": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+          "formattedDate": "2026年9月12日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+          "titleZh": "[AINews] DeepSeek v4.1-Flash：采用763B-P8B-D16B新型因果编码器-解码器架构的视觉模型，标志着“鲸鱼”的回归",
+          "description": "We agree with Sebastian: this should have been DeepSeek v5",
+          "descriptionZh": "我们赞同塞巴斯蒂安的观点：这本应是 DeepSeek v5",
+          "link": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+          "formattedDate": "2026年9月12日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "OpenAI agents attacked RubyGems back in May",
+          "titleZh": "早在5月，OpenAI的智能代理就曾对RubyGems发起过攻击",
+          "description": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis…",
+          "descriptionZh": "斯宾塞·基茨（Spencer Kitts）、托马斯·拉森（Thomas Larsen）和悉尼·冯·阿克斯（Sydney Von Arx）——即那份关于代理对废弃维基网站发动攻击的报告的四位作者中的三位——发布了一份最新重磅报告，称OpenAI的代理对RubyGems发动了一次未公开的攻击……",
+          "link": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+          "formattedDate": "2026年9月12日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] not much happened today",
+          "titleZh": "[AINews] 今天没什么大事",
+          "description": "a quiet day",
+          "descriptionZh": "一个安静的日子",
+          "link": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+          "formattedDate": "2026年9月10日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+          "titleZh": "[AINews] OpenAI 报告称，利用 Astra-next、约 10,000 个代理和 1300 亿个令牌（>4000 万美元），在 88 小时内发现了纳维-斯托克斯奇异点，该成果有望角逐有史以来第二届千禧年大奖",
+          "description": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+          "descriptionZh": "Cognition的480亿美元E轮融资、Mistral的240亿美元D轮融资、Meta的Muse智能代理以及GPT Image 2.5都相形见绌。这是人工智能史上内容最丰富、让人真切感受到AGI到来的日子。",
+          "link": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+          "formattedDate": "2026年9月9日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Align AI and Mathematics–To Something Else",
+          "titleZh": "将人工智能与数学相结合——以实现其他目标",
+          "description": "Article URL: https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/ Comments URL: https://news.ycombinator.com/item?id=49678783 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址：https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/ 评论网址： https://news.ycombinator.com/item?id=49678783 积分：1 # 评论：0",
+          "link": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/",
+          "formattedDate": "2026年9月13日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "Claude",
+      "items": [
+        {
+          "title": "v2.1.270",
+          "titleZh": "v2.1.270",
+          "description": "What's changed Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+          "descriptionZh": "更改内容：修复了在 Bash 中，当会话运行一段时间后，某些只读 Git 命令会意外提示请求权限的问题（2.1.269 版本中的回归问题）",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+          "formattedDate": "2026年9月12日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "v2.1.269",
+          "titleZh": "v2.1.269",
+          "description": "What's changed Added claude plugin eval: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [name] to list and…",
+          "descriptionZh": "有哪些变化 添加了 claude plugin eval：对 Claude Code 运行插件的 eval 测试套件，并获取可重复的评分结果（JSON + HTML 报告）；请参阅 claude plugin eval --help 在列表中添加了 /output-style [name] 并……",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "formattedDate": "2026年9月11日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "v2.1.268",
+          "titleZh": "v2.1.268",
+          "description": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spend meter Added a…",
+          "descriptionZh": "有哪些变化 在 Claude 应用网关中新增了以下内容：定价：在 gateway.yaml 中设置，已登录的 Claude Code 客户端可通过托管设置获得相同的费率，因此 /cost 和遥测数据与支出计量器保持一致 新增了……",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+          "formattedDate": "2026年9月10日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "v2.1.267",
+          "titleZh": "v2.1.267",
+          "description": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level Added…",
+          "descriptionZh": "有哪些变化 添加了 maxEffortLevel 设置（位于顶层或在 modelSettings 下按模型设置）：对每个提供商（包括 Bedrock、Vertex 和 Foundry）的努力等级设置上限；用户仍可选择较低的等级 添加了……",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+          "formattedDate": "2026年9月9日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 232,
+    "published": 38,
+    "sourceCount": 12,
+    "translated": true
+  }
+}
