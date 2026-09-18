@@ -1,113 +1,91 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+本文件只放**约束性内容**：现役禁令、跨文件的隐式契约、踩过的坑及其理由。
+叙述性内容（架构取舍、算法来由、历史方案）已外放到 [`.docs/`](.docs/)，按下方索引按需读。
+
+## 每次必读
+
+- **每次开工** → 先读完本文件，再按「索引」读本次要动的那篇 [`.docs/`](.docs/) 文档。
+- **每次提交** → 走 `/commit` skill（`~/.claude/skills/commit/SKILL.md`），不要手写 `git add` + `git commit` 绕过去。
+
+## 索引
+
+| 动手前 | 先读 | 不读的后果 |
+|---|---|---|
+| 改选取 / 聚类参数（[`src/data/build-issue.ts`](src/data/build-issue.ts)） | [`.docs/selection-algorithm.md`](.docs/selection-algorithm.md) | 把实测出来的阈值当成拍脑袋的数字改掉，页面上出现读者一眼可见的误合并 |
+| 改数据流、渲染或构建管线的结构 | [`.docs/architecture.md`](.docs/architecture.md) | 破坏「纯静态 + 按路由切分数据」的性质，期数增长后首屏被全部历史期拖垮 |
+| 改翻译链路 | [`.docs/decisions/2026-07-22-deepl-translation.md`](.docs/decisions/2026-07-22-deepl-translation.md) | 照着已被取代的旧方案把翻译挪回采集期，一个月内烧光 DeepL Free 额度 |
+| 需要项目全貌、完整命令参数、产品行为描述 | [`README.md`](README.md) | 在第二处重写一遍事实描述，从此两份副本各自漂移 |
 
 ## Commands
 
-- `pnpm install` — install dependencies
-- `pnpm dev` — runs `vite`, a hot-reloading dev server for iterating on structure/styles (renders `src/data/sample-issue.ts`, not real content — see below)
-- `pnpm build` — runs `vite-ssg build`. **Reads only the local JSON under `content/`; makes zero network requests.**
-- `pnpm preview` — runs `vite preview`, serving the already-built `dist/` locally
-- `pnpm collect` — fetches every RSS source and writes one day's snapshot to `content/snapshots/YYYY-MM-DD.json`. The only command that touches the feeds.
-- `pnpm publish-issue` — assembles a new issue into `content/issues/00N.json`, covering **from the previous issue's `endDate` up to this Monday 00:00 CST** (falls back to the last complete week when no issue exists yet). The only command that calls DeepL. Flags: `--recent <days>` (use "last N days" instead — needed for a cold start), `--skip-translation`, `--dry-run`.
-- `pnpm rebuild-issue <n>` — recomputes issue `<n>` over its original window. Exists for tuning the selection parameters against real history.
-- `pnpm lint` — runs ESLint (`@antfu/eslint-config`) over the repo
-- `pnpm typecheck` — runs `vue-tsc --noEmit` (full project type check, including `.vue` SFC `<script>` blocks — plain `tsc` can't check those)
+| 命令 | 说明 |
+|---|---|
+| `pnpm dev` | 热更新开发服务器。渲染的是 [`src/data/sample-issue.ts`](src/data/sample-issue.ts)，**不是真实内容** |
+| `pnpm build` | `vite-ssg build`。**只读 `content/` 下的本地 JSON，零网络请求** |
+| `pnpm preview` | 预览已构建的 `dist/` |
+| `pnpm collect` | 抓取全部 RSS 源，写入当天快照。**唯一会碰 feed 的命令** |
+| `pnpm publish-issue` | 出新一期，窗口是**上一期 `endDate` 到本周一 00:00 CST**（无往期时退回「上一个完整周」）。**唯一会调 DeepL 的命令** |
+| `pnpm rebuild-issue <n>` | 用原始窗口重算第 `<n>` 期，调参验证用 |
+| `pnpm lint` / `pnpm typecheck` | ESLint / `vue-tsc --noEmit` |
 
-There is no test suite in this repo. To verify a change to the selection algorithm, run `pnpm rebuild-issue 1 --skip-translation` and inspect the resulting JSON; to verify rendering, `pnpm build` then `pnpm preview`.
+参数表见 [README「快速开始」](README.md#快速开始)。
 
-**Note**: the script is `publish-issue`, not `publish` — `pnpm publish` is pnpm's own package-publishing command and would shadow the script.
+**本仓库没有测试框架。** 完成前的核实按这两条走：改选取算法 → `pnpm rebuild-issue 1 --skip-translation` 后逐条查产出 JSON；改渲染 → `pnpm build` 后 `pnpm preview`。
 
-**Why `pnpm dev` needs sample data**: content is loaded build-time-only, inside an `if (import.meta.env.SSR)` guard in `src/main.ts`, because it reads `content/` off the filesystem via `node:fs`. Plain `vite` dev-server sessions render client-side only, so that branch never runs there. `main.ts` has a second `else if (import.meta.env.DEV)` branch that dynamically imports `src/data/sample-issue.ts` as a fallback. `import.meta.env.DEV` is a compile-time constant Vite replaces with `false` in a production build, so that whole branch — and `sample-issue.ts` itself — gets dead-code-eliminated out of `dist/assets/*.js`; verify by grepping the built client bundle for the sample data after `pnpm build`.
+**脚本名必须是 `publish-issue`，不要改成 `publish`** —— `pnpm publish` 是 pnpm 自带的发包命令，会盖掉同名脚本。
 
-## Architecture
+## 禁令与契约
 
-A weekly digest ("AI 周刊"), modelled on JavaScript Weekly: `/` is the latest issue, `/issues/` lists all past issues, `/issues/N/` is permanent. Vite + Vue 3 + [`vite-ssg`](https://github.com/antfu-collective/vite-ssg) in **multi-page mode** with `vue-router`.
+### 数据契约
 
-The central design fact: **the site has no memory of its own, so Git is the database.** RSS feeds are a sliding window — high-volume sources only retain a few hours of items — so a single fetch on publishing day cannot reconstruct a week. Instead a daily job accumulates raw material into the repo, and a weekly job turns it into an issue.
+- **不要把 `Date` 对象放进 `content/` 的 JSON 或 `initialState`。** 两者都要经 JSON 序列化跨越 SSR→客户端边界，`Date` 到浏览器里只剩字符串，原型和 `.toLocaleDateString()` 都没了；而 Vue 3 hydration 会拿现有 DOM 重跑一遍渲染函数，模板里现算日期就会抛错。所以 `IssueItem` 带的是 `formattedDate: string`，快照里的 `pubDate` 是 ISO **字符串**。新增任何构建期计算的字段都要保持 JSON-safe。
 
-```
-每日 07:23 CST   collect.yml  →  content/snapshots/YYYY-MM-DD.json  (英文原文，commit 回仓库)
-每周一 08:23 CST publish.yml  →  content/issues/00N.json            (聚类+选取+翻译，commit 后部署)
-代码 push        deploy.yml   →  只读本地 JSON 渲染全部期号，零网络请求
-```
+### 渲染
 
-### The three data stages
+- **[`src/main.ts`](src/main.ts) 的 `ViteSSG(App, { routes, base }, …)` 必须传 `base`**（`import.meta.env.BASE_URL`）。站点部署在 `/ai-news-digest/` 下，不传的话 vue-router 的 history base 是 `/`，浏览器里没有路由能匹配，`RouterView` 渲染出**空白**。SSR 看起来一切正常，因为 vite-ssg 是直接按路径渲染的——这个故障只在浏览器里现形。
+- **[`src/data/content-store.ts`](src/data/content-store.ts) 的路径必须从 `process.cwd()` 解析，不能用 `import.meta.url`。** SSR 构建会把该模块打进 `.vite-ssg-temp/<hash>/assets/`，相对 `import.meta.url` 的路径会落到临时目录，静默读到零期内容，页面渲染成「还没有发布任何一期」且不报错。
+- **跨期导航必须用普通 `<a>`**（[`siteUrl()`](src/utils/site-url.ts)），不要换成 `RouterLink`。理由见 [`.docs/architecture.md`](.docs/architecture.md)。
+- **[`src/data/sample-issue.ts`](src/data/sample-issue.ts) 只能从 `import.meta.env.DEV` 分支里动态导入。** `DEV` 是编译期常量，生产构建里被替换成 `false`，整个分支连同示例数据一起被摇树删掉。改动这里之后，`pnpm build` 后 grep 一下 `dist/assets/*.js` 确认示例数据没被打进客户端产物。
+- **不要手动转义 HTML。** Vue 的 `{{ }}` 和 `:href` 在 SSR 渲染期已由 `@vue/compiler-ssr` 自动转义。
 
-1. **Collect** (`scripts/collect.ts` → `collectSnapshot()` in `src/data/fetch-sources.ts`) — fetches all sources concurrently, English only, no translation. Because collection no longer costs DeepL quota, `ITEMS_PER_SOURCE` is 20 rather than the old 5.
-2. **Select** (`src/data/build-issue.ts`) — a pure function, no I/O: dedupe by normalized link across snapshots → filter to the issue's date window by `pubDate` → cluster same-event stories → rank → cap. See "Selection algorithm" below.
-3. **Assemble** (`src/data/assemble-issue.ts`) — runs selection, then translates the ~30–48 selected items and freezes the result into the issue JSON. Shared by `publish.ts` and `rebuild-issue.ts`.
+### 选取与采集
 
-### Rendering
+- **改 `CLUSTER_THRESHOLD` 前必须用 `pnpm rebuild-issue` 重新实测**，不要凭页面观感调。它是在 110 条真实标题上量出来的，真假区间重叠，取值取舍见 [`.docs/selection-algorithm.md`](.docs/selection-algorithm.md)。
+- **聚类只和簇的代表条比较，不要改成和全部成员比较**——会产生链式合并（A≈B、B≈C ⇒ A 和 C 被并进同一簇）。
+- **保持[选取](src/data/build-issue.ts)是无 I/O 的纯函数**，`pnpm rebuild-issue` 依赖这一点。
+- **单源容错不能去掉**：`fetchSource()` 逐源 `try/catch`，失败记进快照的 `errors`；`collect.ts` 只在**所有**源都没返回内容时才让任务失败（那是网络/DNS 问题，不是当天没新闻）。
+- **两层超时都要保留**：[`withTimeout()`](src/utils/network.ts) 在 parser 自带的 15s socket 超时之外再套一层 20s 硬竞速，专门防止某个源卡死整个 Actions 任务。
 
-- `src/main.ts` calls `ViteSSG(App, { routes, base }, callback)`. **`base` must be passed** (`import.meta.env.BASE_URL`) — the site is served from `/ai-news-digest/`, and without it vue-router's history base is `/`, so in the browser no route matches and `RouterView` renders *nothing*. SSR still looks fine because vite-ssg renders each route path directly, so this failure mode only shows up in a browser.
-- vite-ssg calls the SSR entry's `createApp(routePath)` **once per route** and serializes `initialState` into *that route's* HTML (`vite-ssg/dist/shared/*.mjs`, and `routePath` is on the callback context). So `loadPageData(routePath)` (`src/data/load-content.ts`) loads only the page's own data — **52 issues do not end up in the client bundle**.
-- Cross-issue navigation deliberately uses plain `<a>` (`siteUrl()` in `src/utils/site-url.ts`), not `RouterLink`. Every page is fully pre-rendered, so a full page load needs zero runtime data fetching; client-side routing would have to re-fetch the target issue's JSON at runtime and break the "pure static" property.
-- `vite.config.ts`'s `ssgOptions.includedRoutes` enumerates `/issues/N/` by reading `content/issues/`; vite-ssg cannot discover dynamic routes on its own.
-- `src/components/CategoryNav.vue` is an **anchor table of contents**, not a filter — an issue is a complete read, so clicking a category scrolls to that section rather than hiding the rest.
+### 翻译
 
-**`content-store.ts` resolves paths from `process.cwd()`, not `import.meta.url`** — the SSR build bundles that module into `.vite-ssg-temp/<hash>/assets/`, so anything relative to `import.meta.url` lands in the temp dir and silently reads zero issues (the page then renders "还没有发布任何一期" with no error).
+- **翻译只发生在出刊期，且只对入选条目。** 放在采集期会撑爆 DeepL Free 的月额度（14 源全量 ≈ 588k 字符/月，上限 500k），且每次 push 都会重跑。现在约 13k 字符/周，结果冻结进期号 JSON，**重建站点永远不重新翻译**。
+- **翻译失败必须静默降级，永不 throw。** [`translate.ts`](src/data/translate.ts) 读 `process.env.DEEPL_API_KEY`，无 key / 超时 / 非 2xx / 网络错误一律 `console.warn` 后原样返回英文，这样 `pnpm build` 和 fork 都能跑通。降级结果由 `Issue.stats.translated` 透传到页面提示。
+- **按板块分批调用**（每批 ≤ 24 条，远低于 DeepL 单请求 50 条上限）：一批失败只让那个板块回退英文。
+- **[`sources.json`](sources.json) 里的来源名保持英文**，是品牌专名，不要翻译。
+- **本地 `.env` 要在两处加载**：[`vite.config.ts`](vite.config.ts) 给 `pnpm build`/`dev` 调 `process.loadEnvFile()`，[`scripts/load-env.ts`](scripts/load-env.ts) 给 `tsx` 跑的脚本做同样的事——脚本根本不经过 Vite，少了它本地 `pnpm publish-issue` 会静默走「无 key」路径。
 
-**Critical correctness detail — do not put `Date` objects into `content/` JSON or `initialState`**: both cross the SSR→client boundary via JSON serialization, so a `Date` arrives in the browser as a plain string with its prototype (and `.toLocaleDateString()`) gone. Vue 3 hydration re-runs render functions against the existing DOM, so a template formatting a date at render time would throw. This is why `IssueItem` carries `formattedDate: string` and snapshots carry `pubDate` as an ISO **string**. Keep any new build-time-computed field JSON-safe.
+### 依赖与工具链
 
-### Selection algorithm (`src/data/build-issue.ts`)
+- **`@unhead/vue` 的版本必须和 `vite-ssg` 内部依赖的完全一致**（用 `pnpm why @unhead/vue` 核对）。两个实例意味着两套 head 注册表，`useHead()` 会静默失效。
+- **pnpm 固定到确切版本**（`pnpm/action-setup` 写 `version: 11.15.1`，不是浮动的 `11`），**Node 固定 22**：pnpm 11.15+ 要求 Node ≥ 22.13，在 Node 20 上会让 `setup-node` 探测 pnpm 缓存时崩溃。两条都是 CI 真炸过之后才钉死的。
+- pnpm 11.15+ 对 `--frozen-lockfile` 安装启用 `minimumReleaseAge` 供应链检查。若某个依赖解析到了刚发布不久的版本，CI 可能以 `ERR_PNPM_MINIMUM_RELEASE_AGE_VIOLATION` 拒绝 lockfile，哪怕几分钟前本地装得好好的。遇到就 `pnpm clean --lockfile && pnpm install` 重新解析，推送前用 `pnpm install --frozen-lockfile` 复验。
+- **[`pnpm-workspace.yaml`](pnpm-workspace.yaml) 上的 `pnpm/yaml-enforce-settings` 规则要保持禁用。** 该文件存在只是为了携带 `allowBuilds: esbuild: true`（tsx 的依赖需要跑安装脚本，否则 pnpm 以 `ERR_PNPM_IGNORED_BUILDS` 中止）；启用那条规则会写入 `trustPolicy: no-downgrade`，导致 `undici-types@6.21.0`（当前钉住的 `@types/node` 的传递依赖）以 `ERR_PNPM_TRUST_DOWNGRADE` 装不上。要启用得先升 `@types/node`。
+- **ESLint 忽略 `content/**`**：那是抓来的数据不是源码，feed 文本里合法地含有会触发 `no-irregular-whitespace` 的字符。
+- `lint-staged` 里的 `vue-tsc` 要用 `bash -c` 包住，否则 lint-staged 自动追加的文件参数会让它绕过 `tsconfig.json`。CI 里另有一个独立的 typecheck 步骤跑在 `pnpm build` 之前。
 
-Ranking signal is **"reported by multiple outlets = important"**, so same-event clustering has to work for the ranking to mean anything.
+### CI/CD
 
-- Similarity is **IDF-weighted Jaccard over title tokens**, not plain Jaccard. Plain token overlap cannot separate signal from noise here: `ai` appears in ~half of all titles while `hugging`/`face` appear in a handful, and weighting them equally puts unrelated stories at the same score as genuine co-coverage.
-- `CLUSTER_THRESHOLD = 0.18` is **measured, not guessed**. On 110 real titles, genuine cross-source pairs scored 0.155–0.187 while the one false pair scored 0.169 — the ranges *overlap*, so no threshold is both complete and correct. 0.18 sits at the top of the true range: prefer missing a merge over showing two unrelated stories merged into one. Expect only ~1–2 merges per issue. **Re-measure with `pnpm rebuild-issue` before changing it.**
-- Clustering compares each item only against each cluster's *representative*, never all members — comparing against members causes chain merges (A≈B, B≈C ⇒ A and C in one cluster despite being unrelated).
-- `ITEMS_PER_SOURCE_IN_CATEGORY = 4` caps how much one source can occupy in a category. Without it a high-volume link blog took 9 of 12 slots in 社区/独立博客 and the page read like one person's timeline.
-- `sources.json` entries carry an optional `priority` (default 1) used to pick a cluster's representative and to break ranking ties.
-- Items with no `pubDate` are dropped — there's no way to tell which issue they belong to, and keeping them would make the same item reappear every week.
+三条 workflow 的对照表见 [README「定时任务的执行机制」](README.md#定时任务的执行机制)，拆分理由见 [`.docs/architecture.md`](.docs/architecture.md)。以下是不能动的部分：
 
-Key points for anyone modifying this:
-
-- **Per-source isolation**: `fetchSource()` catches errors per source so one broken/slow feed doesn't fail collection; failures are recorded in the snapshot's `errors` array. `collect.ts` only fails the job when *every* source returned nothing (that means a network/DNS problem, not a slow news day).
-- **Hard timeout**: `withTimeout()` (`src/utils/network.ts`) wraps each `parser.parseURL()` with a 20s race on top of the parser's own 15s socket timeout, specifically so a hanging feed can't hang the Actions job. Keep both.
-- **No manual HTML escaping**: Vue's `{{ }}` and `:href` auto-escape at SSR render time via `@vue/compiler-ssr`.
-- TypeScript is checked via ESLint's type-aware rules and `pnpm typecheck` (`vue-tsc --noEmit`) — the latter runs on every commit via `lint-staged` (wrapped in `bash -c` so lint-staged's auto-appended file args don't make `vue-tsc` bypass `tsconfig.json`) and again as a dedicated CI step before `pnpm build`.
-- `@unhead/vue`'s version is pinned to match exactly what `vite-ssg` depends on internally (check with `pnpm why @unhead/vue`) — two instances would mean two head-tag registries, silently breaking `useHead()`.
-- ESLint ignores `content/**`: it's fetched data, not source, and feed text legitimately contains characters that trip `no-irregular-whitespace`.
-- `pnpm-workspace.yaml` exists only to carry `allowBuilds: esbuild: true` (tsx's dependency needs its install script; otherwise pnpm aborts with `ERR_PNPM_IGNORED_BUILDS`). The `pnpm/yaml-enforce-settings` ESLint rule is **disabled** for that file: it writes `trustPolicy: no-downgrade`, which makes `undici-types@6.21.0` (a transitive dep of the pinned `@types/node`) fail to install with `ERR_PNPM_TRUST_DOWNGRADE`. Enabling it requires bumping `@types/node` first.
-
-### Translation (DeepL)
-
-Static UI copy is hardcoded Chinese in the components; dates use `toLocaleDateString('zh-CN', …)`. Only `IssueItem.title`/`description` come from RSS and actually need translating.
-
-**Translation happens at publish time, on selected items only** — not at collection time. This is deliberate and load-bearing: collecting 14 sources × 5 items × ~280 chars daily came to ~588k chars/month, over DeepL Free's 500k limit (and every `push` to main re-ran it). Translating only what gets published costs ~13k chars/week, and because the result is frozen into the issue JSON, **rebuilding the site never re-translates anything**.
-
-- `src/data/translate.ts` exports `translateTexts(texts)`, called once per section from `assemble-issue.ts` (≤ 24 texts per request, well under DeepL's 50-text cap). Batching per section means one failed batch only costs that section its Chinese.
-- Reads `process.env.DEEPL_API_KEY`. **No key → return input unchanged, no error**, so `pnpm build` and forks stay green. Timeouts/non-2xx/network errors are caught the same way and fall back to English. Failures are `console.warn`'d, never thrown. `Issue.stats.translated` carries this through to the reader-facing notice.
-- Source names in `sources.json` are deliberately left untranslated — they're brand names.
-- **Local `.env` loading**: `vite.config.ts` calls `process.loadEnvFile()` for `pnpm build`/`dev`, and `scripts/load-env.ts` does the same for the `tsx`-run scripts — those don't go through Vite at all, so without it a local `pnpm publish-issue` would silently take the "no key" path.
-
-## CI/CD
-
-Three workflows, split by what actually needs to happen:
-
-| workflow | trigger | does | permissions |
-|---|---|---|---|
-| `collect.yml` | cron `23 23 * * *` (07:23 CST), manual | `pnpm collect` → commit. No build, no deploy. | `contents: write` |
-| `publish.yml` | cron `23 0 * * 1` (Mon 08:23 CST), manual | `pnpm publish-issue` → commit → calls `deploy.yml` | `contents: write` + Pages |
-| `deploy.yml` | push to `main` (`paths-ignore: content/**`), manual, `workflow_call` | typecheck → build → Pages + rsync to server | Pages, `id-token: write` |
-
-- **No build loop**: GitHub does not trigger workflows for commits pushed with `GITHUB_TOKEN`, so the content commits can't retrigger a build. `paths-ignore: content/**` is a second line of defence.
-- **`deploy.yml` checks out `ref: ${{ github.ref_name }}`, not the triggering SHA** — when called from `publish.yml`, the new issue's commit is pushed *after* the run started, so the default SHA would build a site without it.
-- Publishing is scheduled an hour after collection so it picks up that morning's snapshot.
-- Both content-writing workflows share `concurrency: group: content` and `git pull --rebase` before pushing, so they can't collide on `main`.
-- `workflow_dispatch` on `publish.yml` takes a `recent_days` input — that's the cold-start path (`--recent 7`) for producing issue #1 before a full week of snapshots exists.
-- **Both crons sit at minute 23, not on the hour.** GitHub *drops* scheduled triggers during peak load rather than deferring them, and the top of the hour — especially UTC midnight — is the busiest slot. `publish.yml`'s original `0 0 * * 1` never fired on the first Monday it was due; issue #2 had to be dispatched by hand. Don't move either cron back to `:00`.
-- **A dropped publish does not lose a week**: `scripts/publish.ts` starts the window at the *previous issue's* `endDate` rather than recomputing "last complete week", so a missed Monday is swept up by the next one. Keep that property when touching the window logic — `lastCompleteWeek()` alone would silently drop the skipped week's snapshots forever.
-
-**pnpm is pinned to an exact version** (`pnpm/action-setup`'s `version: 11.15.1`, not a floating `11`) and Node is pinned to 22 (pnpm 11.15+ requires Node >= 22.13 and crashes during `setup-node`'s pnpm-cache probing on Node 20). This pinning was added after CI actually failed on both counts. Also be aware pnpm 11.15+ enforces a `minimumReleaseAge` supply-chain check on `--frozen-lockfile` installs — if a dependency resolved to a very recently published version, CI can reject the lockfile with `ERR_PNPM_MINIMUM_RELEASE_AGE_VIOLATION` even though the same lockfile installed fine locally minutes earlier. If this happens, `pnpm clean --lockfile && pnpm install` to re-resolve, then re-verify with `pnpm install --frozen-lockfile` before pushing.
+- **两个 cron 都停在第 23 分钟，不要移回 `:00`。** GitHub 在高峰期是**丢弃**定时触发而不是延后执行，整点（尤其 UTC 午夜）是最挤的时段。`publish.yml` 原来的 `0 0 * * 1` 在第一个该触发的周一就没响，第 2 期是手动补发的。
+- **[`deploy.yml`](.github/workflows/deploy.yml) 必须 checkout `ref: ${{ github.ref_name }}`，不是触发本次运行的 SHA。** 被 `publish.yml` 调用时，新一期的 commit 是运行开始之后才推上去的，用默认 SHA 会构建出一个没有新期号的站点。
+- **出刊窗口的起点必须是上一期的 `endDate`**（[`scripts/publish.ts`](scripts/publish.ts)），不能改成重算「上一个完整周」。前者能让漏掉的那周被下一次出刊顺带扫进来，后者会把跳过那周的快照永久丢弃。
+- **两条写内容的 workflow 共用 `concurrency: group: content` 并在推送前 `git pull --rebase`**，不要拆开，否则会在 `main` 上撞车。
+- `deploy.yml` 的 `paths-ignore: content/**` 是防构建回环的第二道保险（第一道是 GitHub 不为 `GITHUB_TOKEN` 推送的 commit 触发 workflow），不要删。
 
 ## Agent skills
 
-### Issue tracker
-
-Issues are tracked in GitHub Issues (Hub-yang/ai-news-digest), via the `gh` CLI. See `docs/agents/issue-tracker.md`.
-
-### Domain docs
-
-Single-context layout — `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+- **Issue 跟踪**：GitHub Issues（Hub-yang/ai-news-digest），走 `gh` CLI。约定见 [`docs/agents/issue-tracker.md`](docs/agents/issue-tracker.md)。
+- **Domain docs**：单 context 布局，约定见 [`docs/agents/domain.md`](docs/agents/domain.md)。它声明的 `CONTEXT.md` 和 `docs/adr/` **目前尚未创建**，这是有意的——由 `/domain-modeling` skill 在真正有术语或决策要固化时懒生成，不要当成疏漏去补。
+- [`docs/agents/`](docs/agents/) 是 skill 按固定路径读取的配置，不要迁进 [`.docs/`](.docs/)；`.docs/` 只放叙述性协作文档。
