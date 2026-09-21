@@ -1,0 +1,416 @@
+{
+  "number": 9,
+  "startDate": "2026-09-13T15:59:59.999Z",
+  "endDate": "2026-09-20T15:59:59.999Z",
+  "dateLabel": "2026年9月13日 — 20日",
+  "publishedAt": "2026-09-21T05:07:28.367Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Our framework for reporting model misalignment",
+          "titleZh": "我们用于报告模型错配的框架",
+          "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+          "descriptionZh": "OpenAI 发布了一个用于追踪、调查和披露模型对齐问题的框架，并公布了六份关于模型出现意外或令人担忧行为的报告。",
+          "link": "https://openai.com/index/model-misalignment-reporting-framework",
+          "formattedDate": "2026年9月16日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "InfoQ AI, ML & Data Eng"
+          ]
+        },
+        {
+          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "titleZh": "介绍 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+          "formattedDate": "2026年9月15日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog"
+          ]
+        },
+        {
+          "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+          "titleZh": "如果你仔细研读了代码，RAG是否已经寿终正寝，而Skills是否终结了MCP？",
+          "description": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog.",
+          "descriptionZh": "在最新一期的 GitHub 播客中，我们将深入探讨这些问题以及其他关于人工智能的热门观点。文章《你应该阅读代码吗？RAG 是否已死？Skills 是否终结了 MCP？》首发于 GitHub 博客。",
+          "link": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+          "formattedDate": "2026年9月18日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Introducing the Australian Youth Safety Blueprint",
+          "titleZh": "介绍《澳大利亚青年安全蓝图》",
+          "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+          "descriptionZh": "OpenAI 推出了《澳大利亚青少年安全蓝图》，这是一份由六个支柱构成的路线图，旨在打造更安全的人工智能体验，以保护青少年并赋予他们更多能力。",
+          "link": "https://openai.com/index/australian-youth-safety-blueprint",
+          "formattedDate": "2026年9月18日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How Cooley is accelerating IPO work with ChatGPT",
+          "titleZh": "库利律所如何借助ChatGPT加快IPO业务进程",
+          "description": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+          "descriptionZh": "库利律所利用ChatGPT Work构建了GO Public平台，旨在为首次公开募股（IPO）流程注入智能元素，帮助律师更早地发现问题，并将判断力集中在最关键的环节。",
+          "link": "https://openai.com/index/cooley-gopublic",
+          "formattedDate": "2026年9月17日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+          "titleZh": "使用 Copilot 将 GitHub Copilot 运行时迁移到 Rust",
+          "description": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot…",
+          "descriptionZh": "在引入代理之前，如此大规模的重写是难以负担的。以下是将 Copilot 代理运行时移植到 80 万行生产环境 Rust 代码中实际耗费的代价。这篇题为《使用 Copilot 将 GitHub Copilot 运行时迁移到 Rust》的文章……",
+          "link": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+          "formattedDate": "2026年9月17日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Introducing Astra for Law",
+          "titleZh": "介绍“Astra for Law”",
+          "description": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+          "descriptionZh": "OpenAI for Law 为法律领域带来前沿智能技术、定制化的律所工作流程、互联的法律数据源，以及针对机密客户工作的法律级控制措施。",
+          "link": "https://openai.com/index/astra-for-law",
+          "formattedDate": "2026年9月17日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Your Agent Aced the Task. Will It Do It Again?",
+          "titleZh": "您的代理出色地完成了任务。它还能再做一次吗？",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "formattedDate": "2026年9月15日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
+          "titleZh": "距离在 TechCrunch Disrupt 2026 参展还有 5 天",
+          "description": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
+          "descriptionZh": "申请参加9月18日TechCrunch Disrupt 2026展会展位的截止日期为9月18日。仅剩5天。立即锁定展览大厅的展位，让您的企业亮相于10,000多名创始人、投资者和科技领袖面前。",
+          "link": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
+          "formattedDate": "2026年9月14日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+          "titleZh": "特朗普表示，是时候为人工智能起一个新名字了——他还正在组建一支“人工智能部队”",
+          "description": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+          "descriptionZh": "特朗普在没有证据的情况下声称，针对人工智能的抵制是民主党制造的一场骗局。",
+          "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "formattedDate": "2026年9月19日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+          "titleZh": "关于中国核部件的AI幻觉险些导致美军发动袭击",
+          "description": "But the military's overall use of AI seems to be accelerating.",
+          "descriptionZh": "但军方在人工智能领域的整体应用似乎正在加速。",
+          "link": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+          "formattedDate": "2026年9月18日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "US government website used Chinese model the FBI called \"malicious\"",
+          "titleZh": "美国政府网站使用了FBI称为“恶意”的中国模型",
+          "description": "The Federal Register website briefly used an open source Chinese AI search tool.",
+          "descriptionZh": "《联邦公报》网站曾短暂使用过一款开源的中文AI搜索工具。",
+          "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
+          "formattedDate": "2026年9月18日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Researchers used Claude to hack OpenAI",
+          "titleZh": "研究人员利用Claude入侵了OpenAI",
+          "description": "Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.",
+          "descriptionZh": "研究人员利用Claude成功访问了一个OpenAI员工的账户以及敏感的GitHub数据。",
+          "link": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+          "formattedDate": "2026年9月18日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+          "titleZh": "美国联邦航空管理局（FAA）改善空中交通的计划？价值8.75亿美元的人工智能",
+          "description": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
+          "descriptionZh": "一款基于人工智能的新软件即将推出，旨在帮助空中交通管制员更好地履行其作为美国领空“交通指挥员”的职责。",
+          "link": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+          "formattedDate": "2026年9月17日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "Google announces new experimental \"CC\" AI agent for families",
+          "titleZh": "谷歌宣布推出面向家庭的新型实验性“CC”人工智能助手",
+          "description": "Multiple family members can share data to help the agent make plans and complete tasks.",
+          "descriptionZh": "家庭中的多名成员可以共享数据，以协助代理人制定计划并完成任务。",
+          "link": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
+          "formattedDate": "2026年9月17日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "titleZh": "微软高管称人工智能“抓取”是“人类历史上最大的劳动力盗窃行为”，新披露的未删节文件显示",
+          "description": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
+          "descriptionZh": "新解封的法庭文件显示，微软曾私下将OpenAI的数据处理做法称为“盗窃”，而两家公司当时都在抓取《纽约时报》的付费内容，据此构建数据集，并内部警告称此举将重创出版商。",
+          "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "formattedDate": "2026年9月17日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "Roundtables: Could AI really kill us all?",
+          "titleZh": "圆桌讨论：人工智能真的会把我们全都杀光吗？",
+          "description": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch…",
+          "descriptionZh": "收听本期节目或点击下方观看。全球顶尖人工智能实验室的员工们表示，先进的人工智能确实有可能毁灭人类。他们说得对吗？还是这不过是危言耸听和炒作？点击观看……",
+          "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+          "formattedDate": "2026年9月15日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review",
+          "titleZh": "阿里巴巴将AI辅助代码审查工具OpenCodeReview开源",
+          "description": "Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LLM agent for dynamic code analysis. It supports…",
+          "descriptionZh": "阿里巴巴最近开源了 OpenCodeReview，这是一个基于人工智能的代码审查命令行工具（CLI），它将用于文件选择、打包和规则匹配的确定性管道与用于动态代码分析的大语言模型（LLM）代理相结合。它支持……",
+          "link": "https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月20日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI",
+          "titleZh": "Google 面向 Kotlin 的 Agent 开发工具包已实现与 Python 的功能对等，并支持设备端 AI",
+          "description": "Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications. It brings Kotlin to feature parity with…",
+          "descriptionZh": "谷歌发布了适用于 Kotlin 1.0 的 Agent Development Kit（ADK），这是一个可用于在 Kotlin、Android 以及 JVM/服务器应用程序中构建 AI 代理的、已准备就绪的框架。它使 Kotlin 在功能上与……实现了对等……",
+          "link": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月20日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP",
+          "titleZh": "演讲：LinkedIn 的语境工程：我们如何利用 MCP 为 AI 代理构建组织语境层",
+          "description": "Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Protocol (MCP) - which serves procedural memory, code…",
+          "descriptionZh": "阿贾伊·普拉卡什探讨了领英（LinkedIn）如何在大型代码库中克服AI代理的局限性。他介绍了基于模型上下文协议（MCP）构建的“上下文代理操作指南与工具”，该协议支持过程记忆、代码……",
+          "link": "https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月19日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+          "titleZh": "Gemini在谷歌AI首次已知的大规模攻击中入侵了三家公司",
+          "description": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company…",
+          "descriptionZh": "Gemini在谷歌AI首次已知外泄事件中入侵了三家公司 Gemini终于登上了《Felony Bench》！该公司周五证实，这些入侵事件发生于5月，是该公司进行的一次测试的一部分……",
+          "link": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+          "formattedDate": "2026年9月18日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": [
+            "TechCrunch AI",
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "datasette 0.65.5",
+          "titleZh": "datasette 0.65.5",
+          "description": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags:…",
+          "descriptionZh": "发布：datasette 0.65.5 修复了一个安全问题：当请求的表名末尾带有换行符时，可能会绕过表权限并泄露私有行，该问题由 dpfkdlemtp 在 GHSA-h547-rmjf-5m2m 中报告。标签：…",
+          "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+          "formattedDate": "2026年9月16日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Why AI Cannot Save an Enterprise That Doesn't Understand Its Data",
+          "titleZh": "为什么人工智能无法拯救一家不了解自身数据的企业",
+          "description": "Article URL: https://architectureintel.com/why-ai-cannot-save-an-enterprise-that-doesnt-understand-its-data-83613f209317 Comments URL: https://news.ycombinator.com/item?id=49770580 Points: 13 # Comments: 5",
+          "descriptionZh": "文章网址：https://architectureintel.com/why-ai-cannot-save-an-enterprise-that-doesnt-understand-its-data-83613f209317 评论网址： https://news.ycombinator.com/item?id=49770580 积分：13 # 评论：5",
+          "link": "https://architectureintel.com/why-ai-cannot-save-an-enterprise-that-doesnt-understand-its-data-83613f209317",
+          "formattedDate": "2026年9月19日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: Agenttik – work on multiple projects in parallel with AI agents",
+          "titleZh": "Show HN：Agenttik——借助 AI 代理同时处理多个项目",
+          "description": "Hi! I've been reading HN daily for almost 16 years. Really glad this community exist. This is my first Show HN, so I hope you find this tool useful/interesting. During my summer holidays I started playing with latest AI…",
+          "descriptionZh": "大家好！我每天浏览 HN 已经快 16 年了。真的很高兴这个社区存在。这是我第一次参加“Show HN”活动，希望你们觉得这个工具既实用又有趣。暑假期间，我开始尝试使用最新的 AI……",
+          "link": "https://github.com/pausan/agenttik",
+          "formattedDate": "2026年9月15日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI STL Generator – Turn text and images into 3D-printable STL files",
+          "titleZh": "AI STL 生成器——将文本和图像转换为可3D打印的STL文件",
+          "description": "Article URL: https://aistlgenerator.com/ Comments URL: https://news.ycombinator.com/item?id=49719708 Points: 2 # Comments: 0",
+          "descriptionZh": "文章网址：https://aistlgenerator.com/ 评论网址：https://news.ycombinator.com/item?id=49719708 积分：2 # 评论：0",
+          "link": "https://aistlgenerator.com/",
+          "formattedDate": "2026年9月15日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Dan Selsam's Personal Statement on AI Risk",
+          "titleZh": "丹·塞尔萨姆关于人工智能风险的个人声明",
+          "description": "Article URL: https://twitter.com/DKokotajlo/status/2099600298855829616 Comments URL: https://news.ycombinator.com/item?id=49705866 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址： https://twitter.com/DKokotajlo/status/2099600298855829616 评论网址：https://news.ycombinator.com/item?id=49705866 积分：1 # 评论：0",
+          "link": "https://twitter.com/DKokotajlo/status/2099600298855829616",
+          "formattedDate": "2026年9月14日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "datasette-explain 0.2.2",
+          "titleZh": "datasette-explain 0.2.2",
+          "description": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags:…",
+          "descriptionZh": "发布：datasette-explain 0.2.2 执行计划解析功能现已在只读的存储查询页面上生效。我已将 datasette.simonwillison.net 升级至 Datasette 1.0a40，这促使我发布了该解释插件的新版本。标签：…",
+          "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+          "formattedDate": "2026年9月20日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "datasette-auth-github 1.0",
+          "titleZh": "datasette-auth-github 1.0",
+          "description": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting…",
+          "descriptionZh": "发布：datasette-auth-github 1.0 我在 agent.datasette.io 演示站点上运行了这个 GitHub 登录插件，并注意到我的认证会话持续时间很短。结果发现，该插件设置了……",
+          "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+          "formattedDate": "2026年9月19日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+          "titleZh": "[AINews] 两天内出现了6个Jev的克隆体",
+          "description": "Imitation is the sincerest form of Flattery",
+          "descriptionZh": "模仿是最高形式的奉承",
+          "link": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+          "formattedDate": "2026年9月19日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] not much happened today",
+          "titleZh": "[AINews] 今天没什么大事",
+          "description": "a quiet day",
+          "descriptionZh": "一个安静的日子",
+          "link": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+          "formattedDate": "2026年9月18日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+          "titleZh": "[AINews] 人工智能新闻的现实检验（Yegge 关闭 Gas Town，Databricks 的 Astra 成本上涨 60%）",
+          "description": "A dash of cold water keeps the foomers away.",
+          "descriptionZh": "一勺冷水就能让那些爱吹牛的人知难而退。",
+          "link": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+          "formattedDate": "2026年9月17日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+          "titleZh": "“承保超级智能”：支持你可以起诉的代理——Rune Kvist，AIUC",
+          "description": "We sit down with AIUC’s CEO on their Series A!",
+          "descriptionZh": "我们就AIUC的A轮融资采访了该公司首席执行官！",
+          "link": "https://www.latent.space/p/aiuc",
+          "formattedDate": "2026年9月16日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "Claude",
+      "items": [
+        {
+          "title": "v2.1.278",
+          "titleZh": "v2.1.278",
+          "description": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead…",
+          "descriptionZh": "有哪些变化？针对 Claude API 和企业版用户，以及在 Bedrock、Vertex、Foundry 和网关上，已对自动模式进行调整，使其默认使用服务器端分类器，该分类器不会收取分类器开销费用……",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+          "formattedDate": "2026年9月19日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "v2.1.277",
+          "titleZh": "v2.1.277",
+          "description": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) Added…",
+          "descriptionZh": "有哪些变化 新增了对 AGENTS.md 的支持：在没有 CLAUDE.md 的项目中，Claude Code 会改读 AGENTS.md；请在 /config 中的“项目说明”下进行修改（Bedrock、Vertex 或 Foundry 目前尚不支持） 新增了……",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+          "formattedDate": "2026年9月18日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "v2.1.276",
+          "titleZh": "v2.1.276",
+          "description": "What's changed Fixed every request failing with 400 … Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
+          "descriptionZh": "变更内容：修复了当 ANTHROPIC_BASE_URL 指向代理或网关时，所有请求均返回 400 错误的问题……请输入标签“advisor_20260301”（2.1.275 版本的回归问题）",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+          "formattedDate": "2026年9月18日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "v2.1.275",
+          "titleZh": "v2.1.275",
+          "description": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+enter, or ctrl+x…",
+          "descriptionZh": "更新内容：在 Claude 应用网关登录功能中添加了已登录账户：当网关显示该账户名称时，您需在凭据保存前进行确认，且 /status 命令会显示该账户；新增了“立即发送”键（Ctrl+Enter 或 Ctrl+X…",
+          "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+          "formattedDate": "2026年9月17日",
+          "source": "Claude Code Releases",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 291,
+    "published": 36,
+    "sourceCount": 12,
+    "translated": true
+  }
+}
