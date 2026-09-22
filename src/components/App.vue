@@ -101,7 +101,9 @@ const showLatest = computed(() => {
   white-space: nowrap;
 }
 .site-title a {
-  color: inherit;
+  /* 不写 inherit：只继承 color 的元素会晚一次样式计算才起过渡（理由见 base.css 里
+     svg 那条规则），主题切换时标题会拖在整页后面。直接声明同一个令牌即可同批过渡。 */
+  color: var(--fg);
   text-decoration: none;
 }
 .header-actions {
