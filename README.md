@@ -43,7 +43,7 @@ pnpm typecheck             # vue-tsc 类型检查
 
 > 脚本名是 `publish-issue` 而不是 `publish`——`pnpm publish` 是 pnpm 自带的发包命令，会覆盖同名脚本。
 
-**`pnpm dev` 用的是示例数据**：内容只在构建期从 `content/` 读取（依赖 `node:fs`），`pnpm dev` 是纯客户端渲染的开发服务器，读不到。所以 `main.ts` 在开发模式下会退回 `src/data/sample-issue.ts` 里的固定示例数据，让本地改样式/结构时不用等构建。这个兜底分支和示例数据在生产构建里会被摇树删掉。要看真实内容，用 `pnpm build` + `pnpm preview`。
+**`pnpm dev` 用的是示例数据**：内容只在构建期从 `content/` 读取（依赖 `node:fs`），`pnpm dev` 是纯客户端渲染的开发服务器，读不到。所以 [`main.ts`](src/main.ts) 在开发模式下会退回 [`src/data/sample-issue.ts`](src/data/sample-issue.ts) 里的固定示例数据，让本地改样式/结构时不用等构建。这个兜底分支和示例数据在生产构建里会被摇树删掉。要看真实内容，用 `pnpm build` + `pnpm preview`。
 
 本地测试翻译：在项目根目录新建 `.env`（已加入 `.gitignore`），写入 `DEEPL_API_KEY=你的密钥`。
 
@@ -73,7 +73,7 @@ pnpm typecheck             # vue-tsc 类型检查
 
 聚类阈值 `0.18` 是实测出来的：在 110 条真实标题上，真正的跨源同源对落在 0.155–0.187，而唯一一组误配在 0.169——**真假区间是重叠的**，不存在既不漏又不误的分界线。取 0.18 是宁可漏合，也不把两件不相干的事并成一条。代价是每期大约只合并 1~2 组。要调这个值，请先用 `pnpm rebuild-issue` 在历史期上量一遍。
 
-排序依次看：报道家数 → 来源权重（`sources.json` 里的 `priority`）→ 发布时间。之后按单源配额（每分类最多 4 条）过滤，再取每类前 12 条。
+排序依次看：报道家数 → 来源权重（[`sources.json`](sources.json) 里的 `priority`）→ 发布时间。之后按单源配额（每分类最多 4 条）过滤，再取每类前 12 条。
 
 ## 项目结构
 
@@ -127,7 +127,7 @@ pnpm typecheck             # vue-tsc 类型检查
 
 ## 自定义数据源
 
-编辑 `sources.json` 增删条目即可，无需改动脚本逻辑。`priority` 可选（缺省 1），用于决定同一事件由哪个源当代表条，以及排序时的优先级：
+编辑 [`sources.json`](sources.json) 增删条目即可，无需改动脚本逻辑。`priority` 可选（缺省 1），用于决定同一事件由哪个源当代表条，以及排序时的优先级：
 
 ```json
 { "name": "Your Source", "url": "https://example.com/feed.xml", "category": "科技媒体", "priority": 2 }
@@ -141,17 +141,17 @@ pnpm typecheck             # vue-tsc 类型检查
 
 | workflow | 触发 | 动作 | 权限 |
 |---|---|---|---|
-| `collect.yml` | 每日 cron `23 23 * * *`（北京 07:23）、手动 | `pnpm collect` → commit，不构建不部署 | `contents: write` |
-| `publish.yml` | 每周一 cron `23 0 * * 1`（北京 08:23）、手动 | `pnpm publish-issue` → commit → 调用 `deploy.yml` | `contents: write` + Pages |
-| `deploy.yml` | push 到 `main`（忽略 `content/**`）、手动、被调用 | typecheck → build → Pages + 服务器 rsync | Pages、`id-token: write` |
+| [`collect.yml`](.github/workflows/collect.yml) | 每日 cron `23 23 * * *`（北京 07:23）、手动 | `pnpm collect` → commit，不构建不部署 | `contents: write` |
+| [`publish.yml`](.github/workflows/publish.yml) | 每周一 cron `23 0 * * 1`（北京 08:23）、手动 | `pnpm publish-issue` → commit → 调用 [`deploy.yml`](.github/workflows/deploy.yml) | `contents: write` + Pages |
+| [`deploy.yml`](.github/workflows/deploy.yml) | push 到 `main`（忽略 `content/**`）、手动、被调用 | typecheck → build → Pages + 服务器 rsync | Pages、`id-token: write` |
 
 几个关键点：
 
 - **不会构建回环**：用 `GITHUB_TOKEN` 推送的 commit 不会触发任何 workflow，这是 GitHub 的内建机制；`paths-ignore: content/**` 是第二道保险。
-- **`deploy.yml` 显式 checkout 分支最新提交**而不是触发本次运行的 SHA——被 `publish.yml` 调用时，新一期的 commit 是运行开始之后才推上去的。
+- **[`deploy.yml`](.github/workflows/deploy.yml) 显式 checkout 分支最新提交**而不是触发本次运行的 SHA——被 [`publish.yml`](.github/workflows/publish.yml) 调用时，新一期的 commit 是运行开始之后才推上去的。
 - 出刊排在当日采集之后一小时，确保用上最新一份快照。
 - 两条写内容的流水线共用 `concurrency: content` 并在推送前 `git pull --rebase`，不会在 `main` 上撞车。
-- `publish.yml` 的手动触发支持 `recent_days` 参数，这是冷启动出第 1 期用的路径。
+- [`publish.yml`](.github/workflows/publish.yml) 的手动触发支持 `recent_days` 参数，这是冷启动出第 1 期用的路径。
 
 ### 容错机制
 
