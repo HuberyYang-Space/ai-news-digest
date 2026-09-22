@@ -1,7 +1,7 @@
 # AI Weekly
 
-[![Deploy](https://github.com/Hub-yang/ai-news-digest/actions/workflows/deploy.yml/badge.svg)](https://github.com/Hub-yang/ai-news-digest/actions/workflows/deploy.yml)
-[![Collect Snapshot](https://github.com/Hub-yang/ai-news-digest/actions/workflows/collect.yml/badge.svg)](https://github.com/Hub-yang/ai-news-digest/actions/workflows/collect.yml)
+[![Deploy](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/deploy.yml/badge.svg)](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/deploy.yml)
+[![Collect Snapshot](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/collect.yml/badge.svg)](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/collect.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 自动出刊的 AI 周刊，形式参照 [JavaScript Weekly](https://javascriptweekly.com/)：每周一发布一期，往期永久可查。用 Vue 3 + vite-ssg 生成静态站，由 GitHub Actions 每日采集、每周出刊、自动部署。
@@ -11,7 +11,7 @@
 ## 功能特性
 
 - 每周一自动出刊，`/` 是最新一期，`/issues/` 是往期列表，`/issues/N/` 永久可访问
-- 聚合 14 个 AI 相关 RSS 源，按「官方/实验室」「科技媒体」「社区/独立博客」「Claude」分板块，顶部锚点目录可跳转
+- 聚合 13 个 AI 相关 RSS 源，按「官方/实验室」「科技媒体」「社区/独立博客」分板块，末尾固定一个「Claude」板块（官方博客 + Claude Code 发版记录），顶部锚点目录可跳转
 - 同一事件的多家报道会被合并成一条并标注「另有 N 家报道」，报道家数同时作为排序信号
 - 单个来源在一个板块内最多占 4 条，避免高产源霸榜
 - 标题/摘要在出刊时通过 DeepL 翻译成中文并固化进当期数据，支持中英一键切换；未配置 Key 或翻译失败时降级为英文原文
@@ -98,6 +98,7 @@ pnpm typecheck             # vue-tsc 类型检查
 │   │   ├── content-store.ts          # content/ 读写（仅构建期/脚本）
 │   │   ├── load-content.ts           # 按路由装载页面数据
 │   │   ├── translate.ts              # DeepL 翻译，无 key / 失败时降级
+│   │   ├── claude-links.ts           # Claude 板块的固定链接（不走采集）
 │   │   └── sample-issue.ts           # pnpm dev 用的示例数据（会被摇树删掉）
 │   ├── components/
 │   │   ├── App.vue                   # 布局外壳（header + RouterView + footer）
@@ -106,6 +107,7 @@ pnpm typecheck             # vue-tsc 类型检查
 │   │   ├── IssueSection.vue          # 一个分类板块
 │   │   ├── IssueItem.vue             # 单条目 + 来源署名
 │   │   ├── CategoryNav.vue           # 板块锚点目录
+│   │   ├── ClaudeLinks.vue           # Claude 固定链接板块
 │   │   ├── LangToggle.vue            # 中英文切换按钮
 │   │   └── ThemeToggle.vue           # 浅色/深色/跟随系统切换按钮
 │   ├── composables/

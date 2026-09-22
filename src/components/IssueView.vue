@@ -4,9 +4,11 @@ import { useHead } from '@unhead/vue'
 import { computed, inject } from 'vue'
 import IconChevronLeft from '~icons/lucide/chevron-left'
 import IconChevronRight from '~icons/lucide/chevron-right'
+import { CLAUDE_ANCHOR, CLAUDE_CATEGORY } from '../data/claude-links'
 import { pageKey } from '../data/page-key'
 import { siteUrl } from '../utils/site-url'
 import CategoryNav from './CategoryNav.vue'
+import ClaudeLinks from './ClaudeLinks.vue'
 import IssueSection from './IssueSection.vue'
 
 const page = inject(pageKey)
@@ -23,9 +25,10 @@ const sections = computed(() =>
     anchorId: `section-${index}`,
   })),
 )
-const categories = computed(() =>
-  sections.value.map(({ section, anchorId }) => ({ name: section.category, anchorId })),
-)
+const categories = computed(() => [
+  ...sections.value.map(({ section, anchorId }) => ({ name: section.category, anchorId })),
+  { name: CLAUDE_CATEGORY, anchorId: CLAUDE_ANCHOR },
+])
 
 const statsText = computed(() => {
   if (!issue)
@@ -60,6 +63,8 @@ useHead({
       :section="section"
       :anchor-id="anchorId"
     />
+
+    <ClaudeLinks :anchor-id="CLAUDE_ANCHOR" />
 
     <nav class="issue-pager" aria-label="期号导航">
       <a v-if="prev" class="pager-link" :href="siteUrl(`/issues/${prev}/`)">
@@ -123,9 +128,6 @@ useHead({
     0 12px 40px -8px rgba(0, 0, 0, 0.25),
     0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease;
 }
 :root[data-theme='dark'] .issue-pager {
   box-shadow:

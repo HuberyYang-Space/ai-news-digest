@@ -24,6 +24,7 @@ provide(languageKey, useLanguage())
       <div class="header-actions">
         <LangToggle />
         <ThemeToggle />
+        <a class="pill-button latest-link" :href="siteUrl('/')">最新</a>
         <GithubLink />
       </div>
     </div>
@@ -33,7 +34,7 @@ provide(languageKey, useLanguage())
     <RouterView />
 
     <footer>
-      每周一出刊 · 聚合自 14 个 AI 相关 RSS 来源
+      每周一出刊 · 聚合自 13 个 AI 相关 RSS 来源
     </footer>
   </div>
 </template>
@@ -54,9 +55,6 @@ provide(languageKey, useLanguage())
   z-index: 100;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease;
 }
 .site-header-inner {
   display: flex;
@@ -100,6 +98,13 @@ provide(languageKey, useLanguage())
   gap: 0.5rem;
   flex: none;
 }
+/* .pill-button 是按图标设计的，只有 min-width 撑着；文字态得自己给横向内边距 */
+.latest-link {
+  padding: 0 0.7rem;
+  font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
 footer {
   margin-top: 2.5rem;
   padding-top: 1.5rem;
@@ -124,6 +129,10 @@ footer {
   }
   .header-actions {
     gap: 0.35rem;
+  }
+  .latest-link {
+    padding: 0 0.5rem;
+    font-size: 0.7rem;
   }
 }
 </style>

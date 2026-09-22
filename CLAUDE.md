@@ -93,6 +93,6 @@
 
 ## Agent skills
 
-- **Issue 跟踪**：GitHub Issues（Hub-yang/ai-news-digest），走 `gh` CLI。约定见 [`docs/agents/issue-tracker.md`](docs/agents/issue-tracker.md)。
+- **Issue 跟踪**：GitHub Issues（HuberyYang-Space/ai-news-digest），走 `gh` CLI。约定见 [`docs/agents/issue-tracker.md`](docs/agents/issue-tracker.md)。
 - **Domain docs**：单 context 布局，约定见 [`docs/agents/domain.md`](docs/agents/domain.md)。它声明的 `CONTEXT.md` 和 `docs/adr/` **目前尚未创建**，这是有意的——由 `/domain-modeling` skill 在真正有术语或决策要固化时懒生成，不要当成疏漏去补。
 - [`docs/agents/`](docs/agents/) 是 skill 按固定路径读取的配置，不要迁进 [`.docs/`](.docs/)；`.docs/` 只放叙述性协作文档。

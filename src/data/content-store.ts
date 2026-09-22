@@ -4,6 +4,7 @@ import { existsSync } from 'node:fs'
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import process from 'node:process'
+import { renderableSections } from './claude-links'
 
 /**
  * content/ 的读写。**仅限构建期/脚本使用**——依赖 node:fs，绝不能进客户端
@@ -120,7 +121,8 @@ export async function listIssueSummaries(): Promise<IssueSummary[]> {
       endDate: issue.endDate,
       dateLabel: issue.dateLabel,
       publishedAt: issue.publishedAt,
-      itemCount: issue.stats.published,
+      itemCount: renderableSections(issue.sections)
+        .reduce((count, section) => count + section.items.length, 0),
     })
   }
 
