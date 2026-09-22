@@ -30,7 +30,9 @@ defineProps<{ anchorId: string }>()
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--accent);
-  margin: 0 0 0.9rem;
+  /* 不留下外边距：这里只有两条，标题到板块横线的距离若比条目之间的分隔线大一截，
+     一眼就能看出第一条被压低了。各条统一由 .link-row 的 1rem 内边距决定间距 */
+  margin: 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
 }

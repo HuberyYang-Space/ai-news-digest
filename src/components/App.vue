@@ -22,9 +22,9 @@ provide(languageKey, useLanguage())
         <span class="eyebrow">每周精选</span>
       </div>
       <div class="header-actions">
+        <a class="pill-button latest-link" :href="siteUrl('/')">最新</a>
         <LangToggle />
         <ThemeToggle />
-        <a class="pill-button latest-link" :href="siteUrl('/')">最新</a>
         <GithubLink />
       </div>
     </div>
