@@ -33,7 +33,7 @@ jobs:
           version: 11.22.0
       - uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
 
@@ -58,6 +58,22 @@ jobs:
             echo "No new issue to commit."
             exit 0
           fi
+
+          # 重跑保护。GitHub 的「Re-run all jobs」会用原来那个 SHA 重新检出，
+          # 已经推上去的那一期不在这份检出里，于是这里会重算出一份同号、但
+          # publishedAt 不同的 JSON（见 assemble-issue.ts 的 `new Date()`），
+          # git pull --rebase 必然 add/add 冲突，这个 run 重跑多少次都不可能变绿。
+          # 2026-09-21 就卡在这儿：出刊那步其实第一次就成功了，真正挂的是
+          # 后面的 deploy-server，重跑反而把现场盖成了一个假的出刊失败。
+          # 远端已经有这一期 = 出刊早成功过，丢掉重算的这份，让 deploy 照常跑。
+          git fetch origin "$GITHUB_REF_NAME"
+          for file in $(git diff --staged --diff-filter=A --name-only); do
+            if git cat-file -e "FETCH_HEAD:$file" 2>/dev/null; then
+              echo "$file 已在远端发布，本次是重跑，跳过提交。"
+              exit 0
+            fi
+          done
+
           git commit -m "feat(content): 发布新一期周刊"
           git pull --rebase
           git push
