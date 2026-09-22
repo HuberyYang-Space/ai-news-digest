@@ -35,7 +35,7 @@ jobs:
           version: 11.22.0
       - uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm typecheck
@@ -68,7 +68,31 @@ jobs:
         with:
           name: dist
           path: dist
-      - uses: easingthemes/ssh-deploy@v6
+      # rsync 走 SSH，对端偶尔会在握手阶段直接掐断（2026-09-21 出过一次：
+      # `Connection closed by <host> port 22`、rsync exit 255、0 字节都没传出去，
+      # 下一次部署自己就好了）。单次抖动不该把整条流水线判死——尤其它是
+      # publish.yml 的下游，红了会诱使人去重跑出刊。ssh-deploy 自己没有重试，
+      # 所以这里重复一遍。两个步骤的 with 必须一起改。
+      - id: rsync
+        continue-on-error: true
+        uses: easingthemes/ssh-deploy@v6
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+          REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
+          SOURCE: dist/
+          TARGET: /www/wwwroot/ai-news-digest/
+          ARGS: -rltgoDzvO --delete
+          EXCLUDE: .user.ini
+
+      # 立刻重试对「被对端限流」这类原因没用，等一会儿再来。
+      - name: Wait before retry
+        if: steps.rsync.outcome == 'failure'
+        run: sleep 30
+
+      - name: Retry rsync
+        if: steps.rsync.outcome == 'failure'
+        uses: easingthemes/ssh-deploy@v6
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
