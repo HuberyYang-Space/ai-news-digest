@@ -12,6 +12,7 @@
     "publish-issue": "tsx scripts/publish.ts",
     "rebuild-issue": "tsx scripts/rebuild-issue.ts",
     "preview": "vite preview",
+    "check-docs": "tsx scripts/check-doc-links.ts",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "typecheck": "vue-tsc --noEmit",

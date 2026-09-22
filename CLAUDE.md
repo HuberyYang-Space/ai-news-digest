@@ -28,10 +28,11 @@
 | `pnpm publish-issue` | 出新一期，窗口是**上一期 `endDate` 到本周一 00:00 CST**（无往期时退回「上一个完整周」）。**唯一会调 DeepL 的命令** |
 | `pnpm rebuild-issue <n>` | 用原始窗口重算第 `<n>` 期，调参验证用 |
 | `pnpm lint` / `pnpm typecheck` | ESLint / `vue-tsc --noEmit` |
+| `pnpm check-docs` | 协作文档的链接守卫（[`scripts/check-doc-links.ts`](scripts/check-doc-links.ts)），**改完任何 md 都要跑** |
 
 参数表见 [README「快速开始」](README.md#快速开始)。
 
-**本仓库没有测试框架。** 完成前的核实按这两条走：改选取算法 → `pnpm rebuild-issue 1 --skip-translation` 后逐条查产出 JSON；改渲染 → `pnpm build` 后 `pnpm preview`。
+**本仓库没有测试框架。** 完成前的核实按这三条走：改选取算法 → `pnpm rebuild-issue 1 --skip-translation` 后逐条查产出 JSON；改渲染 → `pnpm build` 后 `pnpm preview`；改协作文档 → `pnpm check-docs`。
 
 **脚本名必须是 `publish-issue`，不要改成 `publish`** —— `pnpm publish` 是 pnpm 自带的发包命令，会盖掉同名脚本。
 
@@ -54,7 +55,7 @@
 - **改 `CLUSTER_THRESHOLD` 前必须用 `pnpm rebuild-issue` 重新实测**，不要凭页面观感调。它是在 110 条真实标题上量出来的，真假区间重叠，取值取舍见 [`.docs/selection-algorithm.md`](.docs/selection-algorithm.md)。
 - **聚类只和簇的代表条比较，不要改成和全部成员比较**——会产生链式合并（A≈B、B≈C ⇒ A 和 C 被并进同一簇）。
 - **保持[选取](src/data/build-issue.ts)是无 I/O 的纯函数**，`pnpm rebuild-issue` 依赖这一点。
-- **单源容错不能去掉**：`fetchSource()` 逐源 `try/catch`，失败记进快照的 `errors`；`collect.ts` 只在**所有**源都没返回内容时才让任务失败（那是网络/DNS 问题，不是当天没新闻）。
+- **单源容错不能去掉**：[`fetchSource()`](src/data/fetch-sources.ts) 逐源 `try/catch`，失败记进快照的 `errors`；[`collect.ts`](scripts/collect.ts) 只在**所有**源都没返回内容时才让任务失败（那是网络/DNS 问题，不是当天没新闻）。
 - **两层超时都要保留**：[`withTimeout()`](src/utils/network.ts) 在 parser 自带的 15s socket 超时之外再套一层 20s 硬竞速，专门防止某个源卡死整个 Actions 任务。
 
 ### 翻译
@@ -72,17 +73,23 @@
 - pnpm 11.15+ 对 `--frozen-lockfile` 安装启用 `minimumReleaseAge` 供应链检查。若某个依赖解析到了刚发布不久的版本，CI 可能以 `ERR_PNPM_MINIMUM_RELEASE_AGE_VIOLATION` 拒绝 lockfile，哪怕几分钟前本地装得好好的。遇到就 `pnpm clean --lockfile && pnpm install` 重新解析，推送前用 `pnpm install --frozen-lockfile` 复验。
 - **[`pnpm-workspace.yaml`](pnpm-workspace.yaml) 上的 `pnpm/yaml-enforce-settings` 规则要保持禁用。** 该文件存在只是为了携带 `allowBuilds: esbuild: true`（tsx 的依赖需要跑安装脚本，否则 pnpm 以 `ERR_PNPM_IGNORED_BUILDS` 中止）；启用那条规则会写入 `trustPolicy: no-downgrade`，导致 `undici-types@6.21.0`（当前钉住的 `@types/node` 的传递依赖）以 `ERR_PNPM_TRUST_DOWNGRADE` 装不上。要启用得先升 `@types/node`。
 - **ESLint 忽略 `content/**`**：那是抓来的数据不是源码，feed 文本里合法地含有会触发 `no-irregular-whitespace` 的字符。
-- `lint-staged` 里的 `vue-tsc` 要用 `bash -c` 包住，否则 lint-staged 自动追加的文件参数会让它绕过 `tsconfig.json`。CI 里另有一个独立的 typecheck 步骤跑在 `pnpm build` 之前。
+- [`lint-staged`](lint-staged.config.mjs) 里的 `vue-tsc` 要用 `bash -c` 包住，否则 lint-staged 自动追加的文件参数会让它绕过 [`tsconfig.json`](tsconfig.json)。CI 里另有一个独立的 typecheck 步骤跑在 `pnpm build` 之前。
 
 ### CI/CD
 
 三条 workflow 的对照表见 [README「定时任务的执行机制」](README.md#定时任务的执行机制)，拆分理由见 [`.docs/architecture.md`](.docs/architecture.md)。以下是不能动的部分：
 
-- **两个 cron 都停在第 23 分钟，不要移回 `:00`。** GitHub 在高峰期是**丢弃**定时触发而不是延后执行，整点（尤其 UTC 午夜）是最挤的时段。`publish.yml` 原来的 `0 0 * * 1` 在第一个该触发的周一就没响，第 2 期是手动补发的。
-- **[`deploy.yml`](.github/workflows/deploy.yml) 必须 checkout `ref: ${{ github.ref_name }}`，不是触发本次运行的 SHA。** 被 `publish.yml` 调用时，新一期的 commit 是运行开始之后才推上去的，用默认 SHA 会构建出一个没有新期号的站点。
+- **两个 cron 都停在第 23 分钟，不要移回 `:00`。** GitHub 在高峰期是**丢弃**定时触发而不是延后执行，整点（尤其 UTC 午夜）是最挤的时段。[`publish.yml`](.github/workflows/publish.yml) 原来的 `0 0 * * 1` 在第一个该触发的周一就没响，第 2 期是手动补发的。
+- **[`deploy.yml`](.github/workflows/deploy.yml) 必须 checkout `ref: ${{ github.ref_name }}`，不是触发本次运行的 SHA。** 被 [`publish.yml`](.github/workflows/publish.yml) 调用时，新一期的 commit 是运行开始之后才推上去的，用默认 SHA 会构建出一个没有新期号的站点。
 - **出刊窗口的起点必须是上一期的 `endDate`**（[`scripts/publish.ts`](scripts/publish.ts)），不能改成重算「上一个完整周」。前者能让漏掉的那周被下一次出刊顺带扫进来，后者会把跳过那周的快照永久丢弃。
 - **两条写内容的 workflow 共用 `concurrency: group: content` 并在推送前 `git pull --rebase`**，不要拆开，否则会在 `main` 上撞车。
-- `deploy.yml` 的 `paths-ignore: content/**` 是防构建回环的第二道保险（第一道是 GitHub 不为 `GITHUB_TOKEN` 推送的 commit 触发 workflow），不要删。
+- [`deploy.yml`](.github/workflows/deploy.yml) 的 `paths-ignore: content/**` 是防构建回环的第二道保险（第一道是 GitHub 不为 `GITHUB_TOKEN` 推送的 commit 触发 workflow），不要删。
+
+### 协作文档
+
+- **新的方案讨论 / brainstorming 记录 / 选型对比一律写进 [`.docs/decisions/`](.docs/decisions/)，文件名 `YYYY-MM-DD-<主题>.md`。** superpowers 的 `brainstorming`、`writing-plans` 默认落盘到 `docs/superpowers/specs/`——那会在 [`docs/`](docs/)（skill 读的配置）和 [`.docs/`](.docs/)（叙述性文档）之外长出第三棵文档树，而且新方案不会出现在本文件的索引表里，下一个会话根本找不到它。
+- **`.docs/decisions/` 是存档，不是现役说明。** 里面的方案一旦被后续改动取代，在文首标注「已被取代」并指向现役出处，**不要就地改写成新方案**——改写会把「当初为什么这么选」一起抹掉，而那是这批文档唯一的价值。也因为它们描述的是旧代码，`pnpm check-docs` 不要求它们给文件名挂链接。
+- **改完任何 md 跑 `pnpm check-docs`。** 它守三件事：相对链接的目标还在、指向 README 小节的锚点还在、提到仓库里的文件时写成了链接。三者失效时 md 都不会报错，只会在某次有人点下去时才发现。
 
 ## Agent skills
 
