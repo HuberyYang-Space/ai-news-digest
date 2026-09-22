@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { provide } from 'vue'
+import { computed, inject, provide } from 'vue'
 import { RouterView } from 'vue-router'
 import { languageKey, useLanguage } from '../composables/use-language'
+import { pageKey } from '../data/page-key'
 import { siteUrl } from '../utils/site-url'
 import GithubLink from './GithubLink.vue'
 import LangToggle from './LangToggle.vue'
@@ -10,6 +11,17 @@ import ThemeToggle from './ThemeToggle.vue'
 // 只实例化一次，provide 给 LangToggle 和每个 IssueItem 共用
 // （useStorage 在同一文档内多实例不互相同步，见 use-language.ts 注释）。
 provide(languageKey, useLanguage())
+
+// 期号页的 next 为 null 就是最新一期（首页和 /issues/<最新期>/ 都落在这里），
+// 按钮点下去原地不动，不如不出现；往期列表页自身没有期号，只要有期就给入口。
+const page = inject(pageKey)
+const showLatest = computed(() => {
+  if (!page)
+    return false
+  return page.kind === 'archive'
+    ? page.issues.length > 0
+    : page.issue !== null && page.next !== null
+})
 </script>
 
 <template>
@@ -22,7 +34,7 @@ provide(languageKey, useLanguage())
         <span class="eyebrow">每周精选</span>
       </div>
       <div class="header-actions">
-        <a class="pill-button latest-link" :href="siteUrl('/')">最新</a>
+        <a v-if="showLatest" class="pill-button latest-link" :href="siteUrl('/')">最新</a>
         <LangToggle />
         <ThemeToggle />
         <GithubLink />
