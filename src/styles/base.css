@@ -67,6 +67,19 @@
     box-shadow 0.2s ease;
 }
 
+/* 只继承 color、自己不声明的元素，必须排除在上面的 color 过渡之外。
+   起跳那一刻它继承到的还是旧值（父元素的动画值在 t=0 等于旧值），要等父元素
+   真动起来、下一次样式计算才发现「变了」，于是晚一拍才开始、再从半路各自跑满
+   200ms——主题切换时肉眼可见地拖在整页后面。不给它过渡反而完全同步：currentColor
+   每帧直接取父元素的动画值。
+   实测切换后第一批 385 条过渡里没有它们，一帧后才多出 5 条，全部是这一类：
+   站点主标题里的 a 与四个按钮图标的 svg/g/path/circle。前者改成直接声明令牌
+   （见 App.vue），图标没有自己的 color 可声明（stroke="currentColor"），只能排除。 */
+svg,
+svg * {
+  transition-property: background-color, border-color, box-shadow;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -119,7 +132,10 @@ a:focus-visible {
     background-color 0.2s ease,
     border-color 0.2s ease,
     box-shadow 0.2s ease,
-    color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    /* color 跟全站统一用 ease。hover 时下划线扫过的手感来自 background-size，
+       color 走哪条曲线感觉不出来；但主题切换时整页文字会按两条曲线分成两拨，
+       导航项和条目标题明显和背景不同步。 */
+    color 0.2s ease,
     background-size 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
