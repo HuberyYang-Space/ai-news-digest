@@ -11,6 +11,5 @@
   { "name": "Hacker News (AI)", "url": "https://hnrss.org/newest?q=AI", "category": "社区/独立博客", "priority": 1 },
   { "name": "Simon Willison's Weblog", "url": "https://simonwillison.net/atom/everything/", "category": "社区/独立博客", "priority": 2 },
   { "name": "Latent Space", "url": "https://www.latent.space/feed", "category": "社区/独立博客", "priority": 2 },
-  { "name": "Simon Willison (Claude Code)", "url": "https://simonwillison.net/tags/claude-code.atom", "category": "Claude", "priority": 3 },
-  { "name": "Claude Code Releases", "url": "https://github.com/anthropics/claude-code/releases.atom", "category": "Claude", "priority": 3 }
+  { "name": "Simon Willison (Claude Code)", "url": "https://simonwillison.net/tags/claude-code.atom", "category": "Claude", "priority": 3 }
 ]

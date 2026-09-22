@@ -52,7 +52,6 @@ const description = computed(() => lang.value === 'zh' ? props.item.descriptionZ
   font-weight: 700;
   font-size: 1.08rem;
   text-decoration: none;
-  text-wrap: balance;
 }
 
 .item-date {

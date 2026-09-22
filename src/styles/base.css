@@ -51,15 +51,35 @@
 * {
   box-sizing: border-box;
 }
+
+/* 主题切换时所有元素同步过渡。
+   逐个组件补 transition 必然漏，而且漏了不报错：transition-property 的初始值
+   是 all，只是时长 0s，于是「没写过渡」的元素看起来也像被覆盖了，实际瞬切。
+   实测漏了 23 处（条目分隔线、日期、署名、悬浮胶囊的阴影等），背景渐变而它们
+   瞬跳，观感就是闪一下。 */
+*,
+*::before,
+*::after {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
 body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
   font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
   line-height: 1.5;
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
 }
 a:focus-visible {
   outline: 2px solid var(--accent);
@@ -84,10 +104,6 @@ a:focus-visible {
   cursor: pointer;
   text-decoration: none;
   background-color: transparent;
-  transition:
-    background-color 0.15s ease,
-    border-color 0.15s ease,
-    color 0.15s ease;
 }
 .pill-button svg {
   width: 1.1rem;
@@ -100,6 +116,9 @@ a:focus-visible {
   background-position: 0 100%;
   background-size: 0% 1px;
   transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
     color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
     background-size 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-box-decoration-break: clone;
