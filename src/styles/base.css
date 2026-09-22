@@ -1,9 +1,9 @@
 :root {
-  --bg: #f4f5f3;
-  --fg: #15191b;
-  --muted: #5c6663;
-  --accent: #1f6f78;
-  --border: #dbdfdc;
+  --bg: #f5f3f7;
+  --fg: #191520;
+  --muted: #635b6b;
+  --accent: #663399;
+  --border: #ded9e4;
 
   /* 主题色的淡色版，用作 .pill-button 的 hover 填充。
      --accent 明/暗各有一套值，color-mix 会自动跟着变，无需按主题重复定义 */
@@ -26,26 +26,26 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0c1210;
-    --fg: #eef1ef;
-    --muted: #8a9a95;
-    --accent: #55bcae;
-    --border: #223330;
+    --bg: #100c14;
+    --fg: #f0edf3;
+    --muted: #988fa3;
+    --accent: #b48af0;
+    --border: #2e2637;
   }
 }
 :root[data-theme='dark'] {
-  --bg: #0c1210;
-  --fg: #eef1ef;
-  --muted: #8a9a95;
-  --accent: #55bcae;
-  --border: #223330;
+  --bg: #100c14;
+  --fg: #f0edf3;
+  --muted: #988fa3;
+  --accent: #b48af0;
+  --border: #2e2637;
 }
 :root[data-theme='light'] {
-  --bg: #f4f5f3;
-  --fg: #15191b;
-  --muted: #5c6663;
-  --accent: #1f6f78;
-  --border: #dbdfdc;
+  --bg: #f5f3f7;
+  --fg: #191520;
+  --muted: #635b6b;
+  --accent: #663399;
+  --border: #ded9e4;
 }
 
 * {
