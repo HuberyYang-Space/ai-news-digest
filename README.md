@@ -1,7 +1,7 @@
 # AI Weekly
 
-[![Deploy](https://github.com/Hub-yang/ai-news-digest/actions/workflows/deploy.yml/badge.svg)](https://github.com/Hub-yang/ai-news-digest/actions/workflows/deploy.yml)
-[![Collect Snapshot](https://github.com/Hub-yang/ai-news-digest/actions/workflows/collect.yml/badge.svg)](https://github.com/Hub-yang/ai-news-digest/actions/workflows/collect.yml)
+[![Deploy](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/deploy.yml/badge.svg)](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/deploy.yml)
+[![Collect Snapshot](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/collect.yml/badge.svg)](https://github.com/HuberyYang-Space/ai-news-digest/actions/workflows/collect.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 自动出刊的 AI 周刊，形式参照 [JavaScript Weekly](https://javascriptweekly.com/)：每周一发布一期，往期永久可查。用 Vue 3 + vite-ssg 生成静态站，由 GitHub Actions 每日采集、每周出刊、自动部署。
