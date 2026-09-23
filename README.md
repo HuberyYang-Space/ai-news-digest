@@ -6,7 +6,7 @@
 
 自动出刊的 AI 周刊，形式参照 [JavaScript Weekly](https://javascriptweekly.com/)：每周一发布一期，往期永久可查。用 Vue 3 + vite-ssg 生成静态站，由 GitHub Actions 每日采集、每周出刊、自动部署。
 
-**在线预览**：https://hub-yang.github.io/ai-news-digest/
+**在线预览**：https://huberyyang-space.github.io/ai-news-digest/
 
 ## 功能特性
 
