@@ -65,7 +65,7 @@ const description = computed(() => lang.value === 'zh' ? props.item.descriptionZ
 .item-desc {
   margin: 0.4rem 0 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  font-size: 0.92rem;
+  font-size: 0.85rem;
   color: var(--muted);
   overflow-wrap: break-word;
   max-width: 65ch;

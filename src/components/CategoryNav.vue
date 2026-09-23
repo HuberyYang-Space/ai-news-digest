@@ -31,11 +31,12 @@ defineProps<{
   top: var(--header-height);
   z-index: 10;
   display: flex;
+  align-items: center;
   gap: 1rem;
+  height: var(--category-nav-height);
   overflow-x: auto;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  padding: 0.75rem 0;
   margin-bottom: 2rem;
   scrollbar-width: none;
   /* 向上延伸的阴影把吸顶后与页头之间可能露出的缝隙盖住（--header-height 是手动
