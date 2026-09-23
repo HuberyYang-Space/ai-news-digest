@@ -10,8 +10,16 @@
   --accent-soft: color-mix(in srgb, var(--accent) 12%, transparent);
 
   /* 固定页头高度，供 App.vue（.wrap 顶部 padding）、CategoryNav.vue（sticky top）、
-     IssueSection.vue（scroll-margin-top）共用，避免同一个数字散落多处 */
+     IssueSection.vue / ClaudeLinks.vue（scroll-margin-top）共用，避免同一个数字散落多处 */
   --header-height: 3.625rem;
+
+  /* 分类导航的高度。CategoryNav.vue 直接拿它定高，而不是靠内边距加行高撑出来：
+     锚点偏移也要读这个值，两边读同一个数才不会对不上（原来写死的 4rem 比实际高了 21px） */
+  --category-nav-height: 2.6875rem;
+
+  /* 板块标题到自己下边框的距离。锚点跳转后标题上方到导航栏下边框也留这么多，
+     上下对称靠的是两处读同一个变量 */
+  --section-title-gap: 0.5rem;
 
   /* 悬浮分页胶囊在视口底部占用的总纵向空间（胶囊高度 + bottom 偏移 + 安全间距），
      供 App.vue 的 .wrap 底部 padding 使用，避免遮住页脚文案 */
@@ -102,6 +110,24 @@ a:focus-visible {
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
+  }
+}
+
+/* 直角、窄条、主题紫的滚动条。
+   标准属性只能改颜色和 thin/auto，做不出直角和精确宽度；而只要 scrollbar-width 或
+   scrollbar-color 不是 auto，Chromium 和 Safari 就会整体忽略 ::-webkit-scrollbar。
+   所以标准属性只能关在 @supports 里给 Firefox 兜底，挪出来 Chrome 就退回系统滚动条。 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+}
+@supports not selector(::-webkit-scrollbar) {
+  :root {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) transparent;
   }
 }
 

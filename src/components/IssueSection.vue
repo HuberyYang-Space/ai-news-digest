@@ -19,8 +19,8 @@ defineProps<{ section: IssueSection, anchorId: string }>()
 <style scoped>
 .issue-section {
   margin-bottom: 2.5rem;
-  /* 锚点跳转时既要躲开固定页头，也要躲开吸顶的分类导航（4rem 是它自己的高度） */
-  scroll-margin-top: calc(var(--header-height) + 4rem);
+  /* 锚点跳转时躲开固定页头和吸顶的分类导航，再留出和标题下方一样的间距 */
+  scroll-margin-top: calc(var(--header-height) + var(--category-nav-height) + var(--section-title-gap));
 }
 .category-name {
   font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
@@ -30,7 +30,7 @@ defineProps<{ section: IssueSection, anchorId: string }>()
   letter-spacing: 0.1em;
   color: var(--accent);
   margin: 0 0 0.9rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: var(--section-title-gap);
   border-bottom: 1px solid var(--border);
 }
 .item-list {

@@ -21,7 +21,7 @@ defineProps<{ anchorId: string }>()
 <style scoped>
 .issue-section {
   margin-bottom: 2.5rem;
-  scroll-margin-top: calc(var(--header-height) + 4rem);
+  scroll-margin-top: calc(var(--header-height) + var(--category-nav-height) + var(--section-title-gap));
 }
 .category-name {
   font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
@@ -33,7 +33,7 @@ defineProps<{ anchorId: string }>()
   /* 不留下外边距：这里只有两条，标题到板块横线的距离若比条目之间的分隔线大一截，
      一眼就能看出第一条被压低了。各条统一由 .link-row 的 1rem 内边距决定间距 */
   margin: 0;
-  padding-bottom: 0.5rem;
+  padding-bottom: var(--section-title-gap);
   border-bottom: 1px solid var(--border);
 }
 .link-list {
