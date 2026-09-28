@@ -1,0 +1,401 @@
+{
+  "number": 10,
+  "startDate": "2026-09-20T15:59:59.999Z",
+  "endDate": "2026-09-27T15:59:59.999Z",
+  "dateLabel": "2026年9月20日 — 27日",
+  "publishedAt": "2026-09-28T05:34:42.590Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Introducing GPT-6 Sol and Luna",
+          "titleZh": "介绍 GPT-6 Sol 和 Luna",
+          "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "descriptionZh": "来认识一下 GPT-6 Sol 和 Luna 这两款模型吧，它们以不同能力与成本的平衡，将前沿智能融入日常工作。",
+          "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "formattedDate": "2026年9月22日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "TechCrunch AI",
+            "Simon Willison's Weblog"
+          ]
+        },
+        {
+          "title": "Gemini 3.8 text-to-speech says hello",
+          "titleZh": "Gemini 3.8 文本转语音功能说“你好”",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+          "formattedDate": "2026年9月23日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog"
+          ]
+        },
+        {
+          "title": "Rendering huge pull requests in the GitHub Copilot app",
+          "titleZh": "在 GitHub Copilot 应用中渲染大型拉取请求",
+          "description": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on…",
+          "descriptionZh": "我们如何重构 GitHub Copilot 应用中的差异显示界面，以支持打开包含百万行代码且附有数百条内联评审评论的拉取请求。文章《在 GitHub Copilot 应用中渲染庞大的拉取请求》首发于……",
+          "link": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+          "formattedDate": "2026年9月23日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "titleZh": "爱彼迎扩大了GPT-6 Astra和OpenAI前沿模型的使用范围",
+          "description": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+          "descriptionZh": "了解爱彼迎如何扩大对 GPT-6 Astra 和 OpenAI 前沿模型的访问权限，以帮助工程团队排查 bug、设计系统并加快上线速度。",
+          "link": "https://openai.com/index/airbnb-gpt-6-astra",
+          "formattedDate": "2026年9月23日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Expanding OpenAI Academy with new learning paths",
+          "titleZh": "通过新增学习路径扩展 OpenAI 学院",
+          "description": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+          "descriptionZh": "探索 OpenAI Academy 面向员工、开发者、领导者、教育工作者和学生推出的全新学习路径，帮助大家掌握并展示实用的 AI 技能。",
+          "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "formattedDate": "2026年9月21日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "titleZh": "借助 Codex，Proaction 的销售额增长了 60%，并节省了 75 多个小时",
+          "description": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+          "descriptionZh": "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 能够更快地构建、运营和销售现代车队管理解决方案。",
+          "link": "https://openai.com/index/proaction",
+          "formattedDate": "2026年9月25日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "When chat is the wrong UI",
+          "titleZh": "当聊天功能作为用户界面并不合适时",
+          "description": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. The post When chat is the wrong UI appeared first on The GitHub Blog.",
+          "descriptionZh": "当开发者需要比聊天框更直观的交互形式时，该怎么办？这时就需要画布了。文章《当聊天不是合适的 UI 时》首先发布于 GitHub 博客。",
+          "link": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+          "formattedDate": "2026年9月24日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+          "titleZh": "利用 GitHub Security Lab Taskflow Agent 实现的基于 AI 的模糊测试",
+          "description": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on…",
+          "descriptionZh": "在这篇博客文章中，我将介绍如何使用基于 GitHub Security Lab Taskflow Agent AI 框架的新模糊测试任务流。文章《利用 GitHub Security Lab Taskflow Agent 实现基于 AI 的模糊测试》首发于……",
+          "link": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+          "formattedDate": "2026年9月24日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+          "titleZh": "利用 LFM2.5-VL-DSpark 加速视觉语言模型",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+          "formattedDate": "2026年9月24日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "titleZh": "如何使用 NVIDIA Warp 和 MjWarp 加速机器人仿真与学习工作流",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "formattedDate": "2026年9月23日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Advancing Private AI Compute with secure, server-side memory",
+          "titleZh": "借助安全的服务器端内存，推动私有AI计算的发展",
+          "description": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+          "descriptionZh": "在“私有AI计算”中引入私有、服务器端的内存，以支持个人AI应用。",
+          "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+          "formattedDate": "2026年9月23日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+          "titleZh": "英国的AISI和EvalEval如何确保基准测试结果的可重复性",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/evaleval-aisi",
+          "formattedDate": "2026年9月22日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+          "titleZh": "距离TechCrunch Disrupt 2026还有6天，现在报名可节省高达200美元",
+          "description": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+          "descriptionZh": "当前票价优惠将于6天后，即太平洋时间9月25日晚上11:59结束。赶在截止日期前，加入Disrupt大会，与10,000多名创始人、投资者和科技领袖共聚一堂，并可享受最高200美元的票价优惠。",
+          "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+          "formattedDate": "2026年9月20日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+          "titleZh": "我们如何绘制了美国边境“虚拟墙”沿线首份全面死亡情况地图",
+          "description": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This…",
+          "descriptionZh": "我们针对美墨边境地区死亡事件和监控情况展开的为期15个月的调查，始于一个简单的问题：为什么会有那么多人死在政府监控塔附近，而这些监控塔本应是用来追踪和抓捕他们的？这……",
+          "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+          "formattedDate": "2026年9月21日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google tests letting Gemini call businesses for you",
+          "titleZh": "谷歌正在测试让Gemini代你致电企业",
+          "description": "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.",
+          "descriptionZh": "谷歌表示，这项AI通话功能将首先向美国境内已付费订阅Gemini服务的Pixel 11用户开放。",
+          "link": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+          "formattedDate": "2026年9月24日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Meta introduces camera-free AI glasses",
+          "titleZh": "Meta推出无摄像头AI眼镜",
+          "description": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
+          "descriptionZh": "Meta表示，这款无摄像头眼镜将更加轻便，电池续航时间最长可达12小时。",
+          "link": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+          "formattedDate": "2026年9月23日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+          "titleZh": "丰田要求员工培训类人机器人，但表示人类不会被取代",
+          "description": "Toyota's push comes as automakers race to develop and deploy humanoid robots.",
+          "descriptionZh": "在各大汽车制造商竞相研发和部署类人机器人之际，丰田也加入了这一行列。",
+          "link": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+          "formattedDate": "2026年9月22日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+          "titleZh": "Anthropic 发布了 Opus 5.5 版本，价格更低，性能达到《Fable》级别",
+          "description": "Anthropic called it \"the strongest-performing model we've tested to date.\"",
+          "descriptionZh": "Anthropic称其为“迄今为止我们测试过的表现最强的模型”。",
+          "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+          "formattedDate": "2026年9月22日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Latent Space"
+          ]
+        },
+        {
+          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+          "titleZh": "Meta旗下特权极高的AI助手Muse存在一个严重的0day漏洞",
+          "description": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+          "descriptionZh": "一次简单的ClickFix攻击仅仅是完全劫持新代理的一种方式。",
+          "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+          "formattedDate": "2026年9月21日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management",
+          "titleZh": "GKE Pod 快照可缩短模型加载时间，并将工作转移至快照生命周期管理",
+          "description": "Google has published benchmarks for GKE Pod snapshots, reporting up to 89% lower startup latency and a 70B model loading in 37 seconds. The feature checkpoints CPU and GPU memory through gVisor into Cloud Storage.…",
+          "descriptionZh": "谷歌发布了关于 GKE Pod 快照的基准测试数据，显示启动延迟最高可降低 89%，且一个 70B 的模型可在 37 秒内加载完成。该功能通过 gVisor 将 CPU 和 GPU 内存的检查点数据备份到 Cloud Storage……",
+          "link": "https://www.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月27日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud",
+          "titleZh": "Docker Cloud Sandboxes 在笔记本电脑和云端之间提供了统一的沙箱抽象层",
+          "description": "Docker Cloud Sandboxes provide secure, hosted execution environments for running AI coding agents on Docker-managed infrastructure. Built on hardware-enforced microVM isolation, the platform provides a consistent…",
+          "descriptionZh": "Docker Cloud Sandboxes 为在 Docker 管理的基础设施上运行 AI 编码代理提供了安全的托管执行环境。该平台基于硬件级微虚拟机隔离技术构建，提供了一致的……",
+          "link": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月26日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Presentation: Adaptive Recommenders in the Real World: Inference, Evals, and System Design",
+          "titleZh": "演讲：现实世界中的自适应推荐系统：推理、评估与系统设计",
+          "description": "Mallika Rao explains that the true complexity of adaptive recommendation systems lies outside model architecture. She discusses how real-time feedback loops, retrieval freshness, multi-stage orchestration, and…",
+          "descriptionZh": "马利卡·拉奥解释说，自适应推荐系统的真正复杂性并不在于模型架构。她探讨了实时反馈循环、检索结果的新鲜度、多阶段协调以及……",
+          "link": "https://www.infoq.com/presentations/adaptive-recommendation-systems-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年9月26日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+          "titleZh": "法院裁定，特朗普可因Anthropic拒绝启用Claude功能而将其列入黑名单",
+          "description": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
+          "descriptionZh": "评委们表示，“过度受限的人工智能模型”可能会导致军事行动失败。",
+          "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+          "formattedDate": "2026年9月25日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+          "titleZh": "原本预计人工智能会对应届毕业生造成严重冲击。但到目前为止，失业数据却显示了另一种情况。",
+          "description": "\"There is no evidence of any significant, widespread displacement or reduction in hiring.”",
+          "descriptionZh": "“没有证据表明存在任何显著且大范围的岗位流失或招聘减少。”",
+          "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+          "formattedDate": "2026年9月25日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "Quoting voxium",
+          "titleZh": "引用 voxium 的话",
+          "description": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code.…",
+          "descriptionZh": "自从我开始在一家大公司担任新职位以来，已经过去半个月了。这里没人知道任何情况。规格说明、代码、测试、产品需求文档、工单、工单处理结果、报告等等，所有这些都是由克劳德·科德完成的……",
+          "link": "https://simonwillison.net/2026/Sep/20/voxium/",
+          "formattedDate": "2026年9月20日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Trump orders AI rebrand as \"super intelligence\"",
+          "titleZh": "特朗普下令将人工智能重新命名为“超级智能”",
+          "description": "Article URL: https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand Comments URL: https://news.ycombinator.com/item?id=49809237 Points: 8 # Comments: 3",
+          "descriptionZh": "文章网址：https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand 评论网址：https://news.ycombinator.com/item?id=49809237 积分：8 # 评论：3",
+          "link": "https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand",
+          "formattedDate": "2026年9月22日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+          "titleZh": "Jev：System One 模型服务于产品，而非神明——专访 TypeSafe AI 首席执行官迪奥戈·阿尔梅达",
+          "description": "The definitive Jev podcast with its lead creator.",
+          "descriptionZh": "由首席创作者亲自主讲的权威《Jev》播客。",
+          "link": "https://www.latent.space/p/jev",
+          "formattedDate": "2026年9月21日",
+          "source": "Latent Space",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog"
+          ]
+        },
+        {
+          "title": "Show HN: AI Adoption Survey (Census)",
+          "titleZh": "Show HN：人工智能应用调查（普查）",
+          "description": "Article URL: https://www.crawlspider.com/pages/ai-adoption-rate Comments URL: https://news.ycombinator.com/item?id=49780915 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址：https://www.crawlspider.com/pages/ai-adoption-rate 评论网址：https://news.ycombinator.com/item?id=49780915 积分：1 # 评论：0",
+          "link": "https://www.crawlspider.com/pages/ai-adoption-rate",
+          "formattedDate": "2026年9月20日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
+          "titleZh": "Show HN：AgentTrace——面向人工智能代理的可观测性与运行时自愈引擎",
+          "description": "Article URL: https://github.com/mohitkumar188/AgentTrace Comments URL: https://news.ycombinator.com/item?id=49780222 Points: 4 # Comments: 0",
+          "descriptionZh": "文章网址：https://github.com/mohitkumar188/AgentTrace 评论网址：https://news.ycombinator.com/item?id=49780222 积分：4 # 评论：0",
+          "link": "https://github.com/mohitkumar188/AgentTrace",
+          "formattedDate": "2026年9月20日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Kākāpō Party",
+          "titleZh": "卡卡波党",
+          "description": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we…",
+          "descriptionZh": "工具：卡卡波党 昨天，我在“WeAreDevelopers 世界大会北美站”上发表了闭幕主题演讲。作为“STAR时刻”，我决定在演讲中穿插提及我们刚刚经历的、创下纪录的卡卡波繁殖季……",
+          "link": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+          "formattedDate": "2026年9月26日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+          "titleZh": "OpenRouter：从Seed到Stripe——与OpenRouter的Alex Atallah和AMP的Anjney Midha的对话",
+          "description": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+          "descriptionZh": "2023年，大多数人都不相信前沿模型实验室的数量会超过一两个。如今却已有数十家……而Stripe刚刚以70亿美元收购了其中最知名的一家。",
+          "link": "https://www.latent.space/p/openrouter",
+          "formattedDate": "2026年9月25日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] The Future of Latent Space",
+          "titleZh": "[AINews] 潜空间的未来",
+          "description": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+          "descriptionZh": "在这样一个宁静的日子里，让我们来聊聊幕后的工作——现在正式开始运营啦！",
+          "link": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+          "formattedDate": "2026年9月25日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+          "titleZh": "北方塘鹅、大蓝鹭、加州褐鹈鹕",
+          "description": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that…",
+          "descriptionZh": "北美塘鹅、大蓝鹭、加州褐鹈鹕，摄于美国加利福尼亚州蒙特雷湾国家海洋保护区。新入手的佳能EF 200-800mm镜头让我拍到了迄今为止最棒的莫里斯照片。它们真的很喜欢待在那下面……",
+          "link": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+          "formattedDate": "2026年9月25日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+          "titleZh": "Runway 的 WorldPrompt 与实时世界的构建",
+          "description": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+          "descriptionZh": "《GWM Worlds 2》利用持久化上下文和定时操作来驱动世界模型，从而实时生成视频和音频。",
+          "link": "https://www.latent.space/p/runway",
+          "formattedDate": "2026年9月25日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Note on 24th September 2026",
+          "titleZh": "2026年9月24日的备注",
+          "description": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary…",
+          "descriptionZh": "我与编程代理合作的时间越长，就越确信它们反而让软件工程变得更加困难。虽然我们可以借助它们做出令人惊叹的成果，但要充分发挥它们的全部潜力，则需要非凡的……",
+          "link": "https://simonwillison.net/2026/Sep/24/harder/",
+          "formattedDate": "2026年9月24日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI Safety's Disallowed Conclusion",
+          "titleZh": "AI安全领域中被禁止的结论",
+          "description": "Article URL: https://www.souprecipies.com/p/ai-safetys-disallowed-conclusion Comments URL: https://news.ycombinator.com/item?id=49852267 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址：https://www.souprecipies.com/p/ai-safetys-disallowed-conclusion 评论网址：https://news.ycombinator.com/item?id=49852267 积分：1 # 评论：0",
+          "link": "https://www.souprecipies.com/p/ai-safetys-disallowed-conclusion",
+          "formattedDate": "2026年9月26日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 306,
+    "published": 36,
+    "sourceCount": 11,
+    "translated": true
+  }
+}
