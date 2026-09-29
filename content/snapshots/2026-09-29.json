@@ -1,0 +1,1731 @@
+{
+  "collectedAt": "2026-09-29T02:36:16.945Z",
+  "items": [
+    {
+      "title": "How we will do better for Australia",
+      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "description": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "pubDate": "2026-09-28T19:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "pubDate": "2026-09-28T07:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Are you a Codex Original?",
+      "link": "https://openai.com/form/codex-originals",
+      "description": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more…",
+      "pubDate": "2026-09-28T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "description": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "pubDate": "2026-09-28T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "link": "https://openai.com/index/proaction",
+      "description": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "pubDate": "2026-09-25T19:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Two years of OpenAI Academy",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "pubDate": "2026-09-23T16:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "description": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "pubDate": "2026-09-23T13:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "link": "https://openai.com/index/ringg",
+      "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "pubDate": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "description": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "pubDate": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "description": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "pubDate": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "description": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "pubDate": "2026-09-23T12:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing MentalHealthBench",
+      "link": "https://openai.com/index/introducing-mentalhealthbench",
+      "description": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "pubDate": "2026-09-23T10:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "description": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "pubDate": "2026-09-23T02:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "link": "https://openai.com/index/airbnb-gpt-6-astra",
+      "description": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "pubDate": "2026-09-23T01:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "description": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "pubDate": "2026-09-23T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Better prompt caching for GPT-6",
+      "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "description": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "pubDate": "2026-09-22T21:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "pubDate": "2026-09-22T18:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "pubDate": "2026-09-22T12:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Priorities and principles for effective third party assessments",
+      "link": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "description": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "pubDate": "2026-09-22T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "pubDate": "2026-09-21T12:00:00.000Z",
+      "source": "OpenAI Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "description": "",
+      "pubDate": "2026-09-24T16:20:39.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "description": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "pubDate": "2026-09-23T16:00:57.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "description": "",
+      "pubDate": "2026-09-23T15:25:14.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "description": "",
+      "pubDate": "2026-09-15T17:05:57.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "pubDate": "2026-09-08T14:00:15.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "description": "",
+      "pubDate": "2026-09-03T15:02:08.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "description": "",
+      "pubDate": "2026-09-02T16:24:24.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "description": "",
+      "pubDate": "2026-09-02T16:18:31.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "description": "",
+      "pubDate": "2026-09-01T17:08:51.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "description": "",
+      "pubDate": "2026-08-27T16:11:32.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "description": "Piloting the world's first double-blind AI evaluations",
+      "pubDate": "2026-08-27T12:59:16.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "pubDate": "2026-08-26T17:01:00.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "description": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "pubDate": "2026-08-21T11:59:48.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing Gemini 3.7 Flash",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "description": "",
+      "pubDate": "2026-08-13T17:04:18.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "description": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "pubDate": "2026-08-12T14:01:59.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "description": "",
+      "pubDate": "2026-08-06T15:06:15.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "description": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "pubDate": "2026-07-30T15:00:59.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "description": "",
+      "pubDate": "2026-07-29T16:02:10.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "description": "",
+      "pubDate": "2026-07-28T13:21:37.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "description": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "pubDate": "2026-07-22T13:38:54.000Z",
+      "source": "Google DeepMind Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Holo4: powering generalist computer-use agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo4",
+      "description": "",
+      "pubDate": "2026-09-28T09:44:05.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "description": "",
+      "pubDate": "2026-09-24T14:08:57.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "description": "",
+      "pubDate": "2026-09-23T18:41:40.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "link": "https://huggingface.co/blog/evaleval-aisi",
+      "description": "",
+      "pubDate": "2026-09-22T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Transformers now runs llama.cpp quants",
+      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "description": "",
+      "pubDate": "2026-09-22T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "link": "https://huggingface.co/blog/omlx",
+      "description": "",
+      "pubDate": "2026-09-22T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "description": "",
+      "pubDate": "2026-09-21T13:44:34.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "link": "https://huggingface.co/blog/tokenizers-v1",
+      "description": "",
+      "pubDate": "2026-09-21T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "description": "",
+      "pubDate": "2026-09-15T16:00:44.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "description": "",
+      "pubDate": "2026-09-10T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "link": "https://huggingface.co/blog/gradio-workflow-1111",
+      "description": "",
+      "pubDate": "2026-09-10T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "link": "https://huggingface.co/blog/Hcompany/neomme",
+      "description": "",
+      "pubDate": "2026-09-03T13:13:48.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "description": "",
+      "pubDate": "2026-09-03T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "link": "https://huggingface.co/blog/funes",
+      "description": "",
+      "pubDate": "2026-09-03T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "link": "https://huggingface.co/blog/train-to-paint-with-code",
+      "description": "",
+      "pubDate": "2026-09-03T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "link": "https://huggingface.co/blog/allenai/benchmirt",
+      "description": "",
+      "pubDate": "2026-09-01T21:39:07.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "description": "",
+      "pubDate": "2026-09-01T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "description": "",
+      "pubDate": "2026-08-28T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "description": "",
+      "pubDate": "2026-08-26T00:00:00.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "description": "",
+      "pubDate": "2026-08-25T15:14:14.000Z",
+      "source": "Hugging Face Blog",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "description": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app…",
+      "pubDate": "2026-09-25T18:00:00.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "When chat is the wrong UI",
+      "link": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "description": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. The post When chat is the wrong UI appeared first on The GitHub Blog.",
+      "pubDate": "2026-09-24T20:00:00.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "link": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "description": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on…",
+      "pubDate": "2026-09-24T18:26:12.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "link": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+      "description": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on…",
+      "pubDate": "2026-09-23T18:29:49.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "link": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "description": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog.",
+      "pubDate": "2026-09-18T15:00:00.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "link": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "description": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot…",
+      "pubDate": "2026-09-17T00:26:43.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "description": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared…",
+      "pubDate": "2026-09-11T18:26:10.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "description": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners:…",
+      "pubDate": "2026-09-10T21:31:19.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "description": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub…",
+      "pubDate": "2026-09-04T16:04:14.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+      "description": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful. The post GitHub Copilot app for Beginners: Run several agents at once appeared…",
+      "pubDate": "2026-09-03T16:00:00.000Z",
+      "source": "GitHub Blog (AI & ML)",
+      "category": "官方/实验室"
+    },
+    {
+      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+      "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+      "description": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
+      "pubDate": "2026-09-29T00:30:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "description": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+      "pubDate": "2026-09-28T23:39:20.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+      "description": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
+      "pubDate": "2026-09-28T21:29:18.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
+      "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "description": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
+      "pubDate": "2026-09-28T20:39:33.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "description": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
+      "pubDate": "2026-09-28T19:33:57.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "The AI boom took over Climate Week and not everyone is happy about it",
+      "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+      "description": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
+      "pubDate": "2026-09-28T19:21:59.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+      "description": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to…",
+      "pubDate": "2026-09-28T18:31:23.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+      "link": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+      "description": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
+      "pubDate": "2026-09-28T18:00:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+      "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+      "description": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature that built task-specific agents.",
+      "pubDate": "2026-09-28T17:29:50.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
+      "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "description": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
+      "pubDate": "2026-09-28T17:09:02.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "description": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+      "pubDate": "2026-09-28T16:52:38.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "description": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
+      "pubDate": "2026-09-28T15:30:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+      "link": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+      "description": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices…",
+      "pubDate": "2026-09-28T15:00:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
+      "description": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disrupt 2026 today.",
+      "pubDate": "2026-09-28T14:30:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Modulate raises $25M for its voice models and analysis suite",
+      "link": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "description": "Modulate deploys its models to detect deepfake, fraud and scam",
+      "pubDate": "2026-09-28T14:05:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is October 2",
+      "link": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
+      "description": "The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors, and tech leaders at San…",
+      "pubDate": "2026-09-28T14:00:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round",
+      "link": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "description": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "pubDate": "2026-09-28T14:00:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+      "link": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "description": "\"This funding helps us bring Instinct to more people and continue building the future of personal AI. It’s an exciting, creative time, and we're just getting started,\" founder Noah Shinn said in a statement.",
+      "pubDate": "2026-09-28T13:38:48.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "description": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump.",
+      "pubDate": "2026-09-27T20:34:28.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "description": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "pubDate": "2026-09-27T19:57:30.000Z",
+      "source": "TechCrunch AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "description": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border…",
+      "pubDate": "2026-09-28T22:17:07.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a…",
+      "pubDate": "2026-09-28T17:03:16.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Who’s liable when AI agents go rogue?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of…",
+      "pubDate": "2026-09-28T08:06:22.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "description": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will…",
+      "pubDate": "2026-09-25T09:16:25.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "The AI Hype Index: AI loves cheating",
+      "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "description": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two…",
+      "pubDate": "2026-09-23T09:00:00.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Don’t be fooled by this summer of AI hype",
+      "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "description": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face…",
+      "pubDate": "2026-09-22T11:04:51.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+      "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "description": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This…",
+      "pubDate": "2026-09-21T12:00:00.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "description": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of…",
+      "pubDate": "2026-09-21T12:00:00.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+      "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "description": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through…",
+      "pubDate": "2026-09-21T12:00:00.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "She died at the San Diego border. A surveillance camera was in plain sight",
+      "link": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+      "description": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern…",
+      "pubDate": "2026-09-21T12:00:00.000Z",
+      "source": "MIT Technology Review (AI)",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
+      "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+      "description": "China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
+      "pubDate": "2026-09-28T21:49:10.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Florida invokes extinction fears in legal bid to halt OpenAI development",
+      "link": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
+      "description": "State says LLMs threaten civilization as \"the greatest public nuisance ever created.\"",
+      "pubDate": "2026-09-28T20:49:39.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "OpenAI halts frontier-model training amid string of agent misalignment incidents",
+      "link": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/",
+      "description": "US Government websites among \"dozens of third parties\" OpenAI has recently notified.",
+      "pubDate": "2026-09-28T16:43:18.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Microsoft goes quiet after church groups ask for 1% of data center costs",
+      "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
+      "description": "“Microsoft claims to want to be a good neighbor, but the jury is still out.\"",
+      "pubDate": "2026-09-28T11:00:09.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
+      "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+      "description": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
+      "pubDate": "2026-09-25T21:36:20.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+      "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+      "description": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
+      "pubDate": "2026-09-25T21:10:51.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+      "description": "\"There is no evidence of any significant, widespread displacement or reduction in hiring.”",
+      "pubDate": "2026-09-25T19:11:05.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "link": "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/",
+      "description": "Microsoft's new Surface laptops forgo Copilot+ PC branding.",
+      "pubDate": "2026-09-25T17:57:37.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "link": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
+      "description": "Vendors rolling out AI have an \"incentive to deny as many claims as possible.\"",
+      "pubDate": "2026-09-25T11:00:28.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "New Jersey fines data center $1.1M after drone pics expose 62 gas generators",
+      "link": "https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/",
+      "description": "Million-dollar fines won’t end billionaires’ data center pollution, neighbors fear.",
+      "pubDate": "2026-09-24T18:20:58.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Google's first Suncatcher orbital data center test launches October 1",
+      "link": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
+      "description": "Google's experimental orbital data center will have four TPUs and only run for 15 minutes at a time.",
+      "pubDate": "2026-09-24T16:16:34.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+      "link": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+      "description": "\"There will obviously be legal consequences,\" prime minister promises.",
+      "pubDate": "2026-09-24T16:01:16.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Meta puts its AI assistant on a keychain",
+      "link": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+      "description": "Meta says the keychain-sized Muse Charm will ship in December.",
+      "pubDate": "2026-09-24T14:03:38.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+      "link": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/",
+      "description": "Trump focus on winning “AI race” may deter China from sharing safety intel.",
+      "pubDate": "2026-09-23T20:52:28.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
+      "link": "https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/",
+      "description": "$11M competition showed wildfire detection is still easier than stopping fires.",
+      "pubDate": "2026-09-23T20:28:42.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "YouTube promises custom feeds and a lot more AI later this year",
+      "link": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+      "description": "YouTube's next year could change the content you see with a big focus on AI and livestreams.",
+      "pubDate": "2026-09-23T19:35:53.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+      "link": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
+      "description": "\"So absurd and embarrassing ...\"",
+      "pubDate": "2026-09-23T17:39:39.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+      "description": "The frontier AI model race has entered its comparison shopping phase.",
+      "pubDate": "2026-09-22T21:25:18.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "description": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "pubDate": "2026-09-22T19:45:47.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+      "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+      "description": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.",
+      "pubDate": "2026-09-22T19:28:23.000Z",
+      "source": "Ars Technica AI",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Presentation: From Consumers to Builders: Turning 200 of our Team into Agent Creators in 2 Weeks",
+      "link": "https://www.infoq.com/presentations/building-internal-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Ben Maraney shares how Forter demystified AI agent creation for technical and non-technical staff. He discusses leveraging custom MCP servers, combining no-code and code-based platforms, sidestepping complex RAG setups,…",
+      "pubDate": "2026-09-28T11:00:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+      "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions.…",
+      "pubDate": "2026-09-28T04:54:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management",
+      "link": "https://www.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Google has published benchmarks for GKE Pod snapshots, reporting up to 89% lower startup latency and a 70B model loading in 37 seconds. The feature checkpoints CPU and GPU memory through gVisor into Cloud Storage.…",
+      "pubDate": "2026-09-27T06:46:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction across Laptop and Cloud",
+      "link": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Docker Cloud Sandboxes provide secure, hosted execution environments for running AI coding agents on Docker-managed infrastructure. Built on hardware-enforced microVM isolation, the platform provides a consistent…",
+      "pubDate": "2026-09-26T17:00:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Presentation: Adaptive Recommenders in the Real World: Inference, Evals, and System Design",
+      "link": "https://www.infoq.com/presentations/adaptive-recommendation-systems-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Mallika Rao explains that the true complexity of adaptive recommendation systems lies outside model architecture. She discusses how real-time feedback loops, retrieval freshness, multi-stage orchestration, and…",
+      "pubDate": "2026-09-26T11:00:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Home Made CobbleDB Replaces DynamoDB at Perplexity to Cut Query Latency 5x and Reduce Cloud Storage",
+      "link": "https://www.infoq.com/news/2026/09/cobbledb-perplexity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Perplexity has migrated its search infrastructure from Amazon DynamoDB to CobbleDB, an internally developed key-value store in Rust. This change reduced latency and costs associated with handling large document batches.…",
+      "pubDate": "2026-09-25T14:14:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Stateless MCP Removes Session Affinity Requirements for AWS Server Deployments",
+      "link": "https://www.infoq.com/news/2026/09/aws-stateless-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "AWS details how the latest Model Context Protocol specification removes protocol-level sessions, sticky-session requirements, and session storage for remote MCP servers. The change enables independent request routing…",
+      "pubDate": "2026-09-25T12:58:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "From Agent Authorization to AI Production Evaluation: QCon AI New York 2026",
+      "link": "https://www.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "QCon AI New York has confirmed 23 sessions covering agent authorization, production guardrails, shared inference infrastructure, and the evaluation of AI systems after deployment. By Artenisa Chatziou",
+      "pubDate": "2026-09-25T11:00:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Podcast: The Future of AI: from Enterprise Adoption to Open Source Sovereignty",
+      "link": "https://www.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "In this episode, Meryem Arik, Clara Higuera Cabañes, and Jeff Smith demystify the current state of AI in the enterprise. The discussion navigates the \"industrial revolution\" moment in AI adoption, exploring why…",
+      "pubDate": "2026-09-25T11:00:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Article: The Agent Harness: What it is and Two Ways to Build One",
+      "link": "https://www.infoq.com/articles/agent-harness-build-one/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "This article explains the development and operational layers of an agent harness through two implementations of a finance assistant: AWS AgentCore Harness and LangChain with Envoy AI Gateway. It compares how each…",
+      "pubDate": "2026-09-25T09:00:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "InfoQ Launches High-Performing Teams Certification Program",
+      "link": "https://www.infoq.com/news/2026/09/high-performing-teams-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "InfoQ has opened enrollment for a new five-week certification program covering engineering team design, delivery flow, AI-enabled work, and metrics, facilitated by InfoQ editor and podcast co-host Olimpiu Pop. By…",
+      "pubDate": "2026-09-24T15:00:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Un-Mused: How a Single Debug Setting Bypassed macOS Security in Meta’s AI Client",
+      "link": "https://www.infoq.com/news/2026/09/meta-muse-zeroday/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Security researcher Patrick Wardle revealed an unpatched zero-day vulnerability in Meta's Muse desktop client for macOS. This flaw lets unprivileged software manipulate the assistant's extensive permissions,…",
+      "pubDate": "2026-09-24T14:14:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Presentation: Designing Fast, Delightful UX with LLMs for Mobile Frontends",
+      "link": "https://www.infoq.com/presentations/llm-mobile-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Balakrishnan Ramdoss discusses how to architect production-grade, AI-powered conversational apps at scale. He explains how to overcome model latency, leverage server-driven UI and Backend-for-Frontend patterns to…",
+      "pubDate": "2026-09-24T09:24:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Apple Reference Image Signs Photos at the Sensor, Moving Provenance Trust away from C2PA",
+      "link": "https://www.infoq.com/news/2026/09/apple-reference-image-provenance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Apple has published the design of Reference Image, an iPhone 18 Pro camera mode that signs pixel data at the sensor and develops it in Private Cloud Compute under an Apple signature. Developers on Hacker News and Reddit…",
+      "pubDate": "2026-09-24T05:50:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
+      "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "description": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants.…",
+      "pubDate": "2026-09-23T14:14:00.000Z",
+      "source": "InfoQ AI, ML & Data Eng",
+      "category": "科技媒体"
+    },
+    {
+      "title": "AI Agents Are About to Flood the Workforce. No One's Ready for It",
+      "link": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
+      "description": "Article URL: https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/ Comments URL: https://news.ycombinator.com/item?id=49887331 Points: 1 # Comments: 0",
+      "pubDate": "2026-09-29T02:25:51.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
+      "link": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
+      "description": "Article URL: https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202 Comments URL: https://news.ycombinator.com/item?id=49887186 Points: 1 # Comments: 0",
+      "pubDate": "2026-09-29T02:03:55.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Show HN: Talktome - let your AI Agent call you",
+      "link": "https://github.com/rohanprichard/talktome",
+      "description": "I built TalkToMe, an open-source macOS app that lets an agent call you from its current session. You answer, talk, and hear its replies. The agent keeps its tools, files, and history. It works with Codex (Tested…",
+      "pubDate": "2026-09-29T02:01:08.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "AI agent memory can be poisoned – and later treated as the user's own past",
+      "link": "https://www.astraobscura.net/2026/09/28/the-memory-that-wasnt-yours/",
+      "description": "Article URL: https://www.astraobscura.net/2026/09/28/the-memory-that-wasnt-yours/ Comments URL: https://news.ycombinator.com/item?id=49887024 Points: 2 # Comments: 0",
+      "pubDate": "2026-09-29T01:43:14.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "OpenAI shelves new AI model after internal safety tests: Report",
+      "link": "https://www.channelnewsasia.com/business/open-ai-new-model-safety-6416906",
+      "description": "Article URL: https://www.channelnewsasia.com/business/open-ai-new-model-safety-6416906 Comments URL: https://news.ycombinator.com/item?id=49886753 Points: 2 # Comments: 1",
+      "pubDate": "2026-09-29T01:11:58.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "How well do you know AI?",
+      "link": "https://www.reddit.com/r/airealist/s/uhwf0kKbP5",
+      "description": "Article URL: https://www.reddit.com/r/airealist/s/uhwf0kKbP5 Comments URL: https://news.ycombinator.com/item?id=49886744 Points: 1 # Comments: 0",
+      "pubDate": "2026-09-29T01:10:52.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "We found 24 Android vulnerabilities using our open source AI security agent",
+      "link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "description": "Article URL: https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/ Comments URL: https://news.ycombinator.com/item?id=49886609 Points: 7 # Comments: 2",
+      "pubDate": "2026-09-29T00:55:47.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Show HN: Jylus – give AI systems evidence from changing data.",
+      "link": "https://jylus.ai/try",
+      "description": "Article URL: https://jylus.ai/try Comments URL: https://news.ycombinator.com/item?id=49886404 Points: 2 # Comments: 0",
+      "pubDate": "2026-09-29T00:33:11.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "AI Companies Are Not (Necessarily) Liable for Unintended AI Cyberattacks",
+      "link": "https://sarahconstantin.substack.com/p/ai-companies-are-not-necessarily",
+      "description": "Article URL: https://sarahconstantin.substack.com/p/ai-companies-are-not-necessarily Comments URL: https://news.ycombinator.com/item?id=49886368 Points: 3 # Comments: 1",
+      "pubDate": "2026-09-29T00:29:20.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "AI and the Revenge of the Non-Techies",
+      "link": "https://maroun-baydoun.com/blog/ai-revenge-non-techies/",
+      "description": "Article URL: https://maroun-baydoun.com/blog/ai-revenge-non-techies/ Comments URL: https://news.ycombinator.com/item?id=49886277 Points: 5 # Comments: 2",
+      "pubDate": "2026-09-29T00:18:30.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "AI's next training data: your dodgy gaming skills",
+      "link": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/",
+      "description": "Article URL: https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/ Comments URL: https://news.ycombinator.com/item?id=49886262 Points: 2 # Comments: 0",
+      "pubDate": "2026-09-29T00:15:25.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Atrocious AI-Written Tests",
+      "link": "https://gruhn.me/blog/2026-09-29/",
+      "description": "Article URL: https://gruhn.me/blog/2026-09-29/ Comments URL: https://news.ycombinator.com/item?id=49886186 Points: 3 # Comments: 0",
+      "pubDate": "2026-09-29T00:05:36.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "China broadens travel curbs to encompass family of top AI talent",
+      "link": "https://www.business-standard.com/world-news/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent-126092801465_1.html",
+      "description": "Article URL: https://www.business-standard.com/world-news/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent-126092801465_1.html Comments URL: https://news.ycombinator.com/item?id=49886040 Points: 5 #…",
+      "pubDate": "2026-09-28T23:46:50.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
+      "link": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+      "description": "Article URL: https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/ Comments URL: https://news.ycombinator.com/item?id=49886005 Points: 74 # Comments: 66",
+      "pubDate": "2026-09-28T23:40:59.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Nvidia announces AI safety platform",
+      "link": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "description": "Article URL: https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents Comments URL: https://news.ycombinator.com/item?id=49885977 Points: 2 # Comments: 2",
+      "pubDate": "2026-09-28T23:38:02.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "AI tools generated nearly $1B in extra costs, Blue Cross insurers say",
+      "link": "https://www.reuters.com/legal/litigation/ai-tools-generated-nearly-1-billion-extra-costs-blue-cross-insurers-say-2026-09-24/",
+      "description": "Article URL: https://www.reuters.com/legal/litigation/ai-tools-generated-nearly-1-billion-extra-costs-blue-cross-insurers-say-2026-09-24/ Comments URL: https://news.ycombinator.com/item?id=49885780 Points: 3 # Comments:…",
+      "pubDate": "2026-09-28T23:15:07.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Go Pace Yourself (an example of what AI films done right looks like)",
+      "link": "https://www.reddit.com/r/Anthropic/comments/1wnd5qh/go_pace_yourself/",
+      "description": "Article URL: https://www.reddit.com/r/Anthropic/comments/1wnd5qh/go_pace_yourself/ Comments URL: https://news.ycombinator.com/item?id=49885670 Points: 2 # Comments: 2",
+      "pubDate": "2026-09-28T23:03:54.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "What if automating AI R&D triggers an intelligence explosion? [pdf]",
+      "link": "https://casp.ac/__l5e/assets-v1/5efd4b41-deb5-4513-a0a3-b4f82d2b79ea/intelligence-explosion.pdf",
+      "description": "Article URL: https://casp.ac/__l5e/assets-v1/5efd4b41-deb5-4513-a0a3-b4f82d2b79ea/intelligence-explosion.pdf Comments URL: https://news.ycombinator.com/item?id=49885476 Points: 1 # Comments: 0",
+      "pubDate": "2026-09-28T22:41:59.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "AI Almost Started a U.S.–China War – and No One Seems to Care",
+      "link": "https://theintercept.com/2026/09/28/ai-military-nuclear-war-doomsday/",
+      "description": "Article URL: https://theintercept.com/2026/09/28/ai-military-nuclear-war-doomsday/ Comments URL: https://news.ycombinator.com/item?id=49885420 Points: 1 # Comments: 1",
+      "pubDate": "2026-09-28T22:34:48.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Reliable AI automation done right (not with a model)",
+      "link": "https://skeptical.ai/",
+      "description": "Article URL: https://skeptical.ai/ Comments URL: https://news.ycombinator.com/item?id=49885387 Points: 2 # Comments: 0",
+      "pubDate": "2026-09-28T22:31:53.000Z",
+      "source": "Hacker News (AI)",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Claude Sonnet 5.5",
+      "link": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "description": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be…",
+      "pubDate": "2026-09-28T22:07:38.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Quoting @joedaroo",
+      "link": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+      "description": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement.…",
+      "pubDate": "2026-09-28T19:11:42.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Quoting Muse AI Agent",
+      "link": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+      "description": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told…",
+      "pubDate": "2026-09-28T04:01:30.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "2026 in LLMs (so far)",
+      "link": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "description": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in…",
+      "pubDate": "2026-09-27T23:54:15.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "S3 Is the Future, S3 Is the Past",
+      "link": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
+      "description": "My comment on S3 Is the Future, S3 Is the Past — Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in a full decade :…",
+      "pubDate": "2026-09-27T23:09:19.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Bluesky reply bot checker",
+      "link": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+      "description": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless…",
+      "pubDate": "2026-09-27T18:41:44.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Kākāpō Party",
+      "link": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "description": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in…",
+      "pubDate": "2026-09-26T23:39:06.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Quoting John Gruber",
+      "link": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+      "description": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an…",
+      "pubDate": "2026-09-25T17:22:01.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+      "link": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+      "description": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that…",
+      "pubDate": "2026-09-25T02:07:04.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Note on 24th September 2026",
+      "link": "https://simonwillison.net/2026/Sep/24/harder/",
+      "description": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary…",
+      "pubDate": "2026-09-24T23:31:08.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "commit-rewriter 0.2",
+      "link": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "description": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
+      "pubDate": "2026-09-24T20:06:53.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "datasette 1.0a41",
+      "link": "https://simonwillison.net/2026/Sep/24/datasette/",
+      "description": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other…",
+      "pubDate": "2026-09-24T19:15:23.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "link": "https://simonwillison.net/2026/Sep/23/hn-49823961/",
+      "description": "My comment on We just shipped support for the ugliest part of HTTP: Vary — Hacker News. I've been wanting this from Cloudflare for years . The classic problem here is if you do that thing where user agents that send…",
+      "pubDate": "2026-09-23T23:14:57.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Gemini 3.8 TTS Playground",
+      "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "description": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create…",
+      "pubDate": "2026-09-23T17:12:27.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Shadow roots, explained with live examples",
+      "link": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "description": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
+      "pubDate": "2026-09-23T16:37:18.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "link": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "description": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things…",
+      "pubDate": "2026-09-23T02:53:19.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "description": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to…",
+      "pubDate": "2026-09-22T23:46:41.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "llm 0.36",
+      "link": "https://simonwillison.net/2026/Sep/22/llm/",
+      "description": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises…",
+      "pubDate": "2026-09-22T18:48:37.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Quoting @therealcornpop",
+      "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+      "description": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird…",
+      "pubDate": "2026-09-22T18:03:21.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "llm-anthropic 0.29",
+      "link": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "description": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+      "pubDate": "2026-09-22T17:14:55.000Z",
+      "source": "Simon Willison's Weblog",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "link": "https://www.latent.space/p/thariq",
+      "description": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+      "pubDate": "2026-09-29T01:48:18.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "link": "https://www.latent.space/p/openrouter",
+      "description": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+      "pubDate": "2026-09-25T23:14:41.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] The Future of Latent Space",
+      "link": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "description": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+      "pubDate": "2026-09-25T05:37:00.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "link": "https://www.latent.space/p/runway",
+      "description": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "pubDate": "2026-09-25T01:30:57.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "link": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "description": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+      "pubDate": "2026-09-24T15:03:16.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+      "link": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+      "description": "Team Zuck is absolutely on fire.",
+      "pubDate": "2026-09-24T08:12:59.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "link": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "description": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+      "pubDate": "2026-09-23T13:27:18.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "link": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "description": "overshadowing more efficient GPT6 models from OpenAI",
+      "pubDate": "2026-09-23T06:41:41.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "link": "https://www.latent.space/p/john-platt",
+      "description": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "pubDate": "2026-09-22T21:07:39.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "link": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "description": "crowning a new Chinese frontier lab",
+      "pubDate": "2026-09-22T06:30:56.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "link": "https://www.latent.space/p/jev",
+      "description": "The definitive Jev podcast with its lead creator.",
+      "pubDate": "2026-09-21T22:13:49.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "link": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+      "description": "Imitation is the sincerest form of Flattery",
+      "pubDate": "2026-09-19T05:48:28.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "description": "a quiet day",
+      "pubDate": "2026-09-18T06:28:43.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+      "link": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "description": "A dash of cold water keeps the foomers away.",
+      "pubDate": "2026-09-17T07:28:25.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "link": "https://www.latent.space/p/aiuc",
+      "description": "We sit down with AIUC’s CEO on their Series A!",
+      "pubDate": "2026-09-16T18:07:45.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "link": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "description": "congrats to TypeSafe!",
+      "pubDate": "2026-09-16T11:09:53.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Can Skills Learned in Games Transfer to Real-World Work?",
+      "link": "https://www.latent.space/p/good-start-labs",
+      "description": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
+      "pubDate": "2026-09-15T20:11:54.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+      "link": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "description": "Pacing gathers pace.",
+      "pubDate": "2026-09-15T04:50:36.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+      "link": "https://www.latent.space/p/recursive",
+      "description": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+      "pubDate": "2026-09-14T16:04:16.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+      "link": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+      "description": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
+      "pubDate": "2026-09-12T15:01:19.000Z",
+      "source": "Latent Space",
+      "category": "社区/独立博客"
+    },
+    {
+      "title": "Kākāpō Party",
+      "link": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "description": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in…",
+      "pubDate": "2026-09-26T23:39:06.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Quoting Thariq Shihipar",
+      "link": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+      "description": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods,…",
+      "pubDate": "2026-09-18T19:09:27.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Quoting Boris Cherny",
+      "link": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
+      "description": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests,…",
+      "pubDate": "2026-09-11T17:47:11.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Video compressor",
+      "link": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "description": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code…",
+      "pubDate": "2026-09-07T18:29:07.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "description": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default…",
+      "pubDate": "2026-08-27T22:50:25.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "link": "https://simonwillison.net/2026/Aug/8/auto-mode/",
+      "description": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most…",
+      "pubDate": "2026-08-08T22:36:03.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "description": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent…",
+      "pubDate": "2026-07-21T12:54:02.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Claude Code uses Bun written in Rust now",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "description": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring…",
+      "pubDate": "2026-07-19T03:54:09.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "description": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I…",
+      "pubDate": "2026-07-05T01:00:48.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Fable's judgement",
+      "link": "https://simonwillison.net/2026/Jul/3/judgement/",
+      "description": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own…",
+      "pubDate": "2026-07-03T18:51:06.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "llm-coding-agent 0.1a0",
+      "link": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/",
+      "description": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new…",
+      "pubDate": "2026-07-02T19:33:12.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/",
+      "description": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to…",
+      "pubDate": "2026-06-22T23:43:51.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Cloudflare CAPTCHA on at least one ampersand",
+      "link": "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/",
+      "description": "TIL: Cloudflare CAPTCHA on at least one ampersand I'm using Cloudflare's CAPTCHA (they call it a \"Web Application Firewall > Custom rules > Managed Challenge\" these days) to prevent crawlers from aggresively spidering…",
+      "pubDate": "2026-06-16T00:21:36.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Claude Fable is relentlessly proactive",
+      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "description": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll…",
+      "pubDate": "2026-06-11T23:35:17.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "How we contain Claude across products",
+      "link": "https://simonwillison.net/2026/May/30/how-we-contain-claude/",
+      "description": "How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented , and in the absence of detailed documentation it's hard to know how much I can…",
+      "pubDate": "2026-05-30T21:36:24.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+      "link": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/",
+      "description": "Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first built it four years…",
+      "pubDate": "2026-05-30T15:34:00.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "link": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "description": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is…",
+      "pubDate": "2026-05-27T16:38:35.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+      "link": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/",
+      "description": "Using Claude Code: The Unreasonable Effectiveness of HTML Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request from Claude.…",
+      "pubDate": "2026-05-08T21:00:11.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Live blog: Code w/ Claude 2026",
+      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/",
+      "description": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. Tags: ai , generative-ai , llms , anthropic , claude , claude-code , live-blog",
+      "pubDate": "2026-05-06T15:58:27.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    },
+    {
+      "title": "Sightings",
+      "link": "https://simonwillison.net/2026/May/2/sightings/",
+      "description": "/elsewhere/sightings/ I have a new camera (a Canon R6 Mark II) so I'm taking a lot more photos of birds. I share my best wildlife photos on iNaturalist , and based on yesterday's successful prototype I decided to add…",
+      "pubDate": "2026-05-02T17:26:40.000Z",
+      "source": "Simon Willison (Claude Code)",
+      "category": "Claude"
+    }
+  ],
+  "errors": [
+    {
+      "source": "VentureBeat AI",
+      "message": "Status code 429"
+    }
+  ]
+}
