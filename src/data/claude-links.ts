@@ -30,5 +30,6 @@ export interface ClaudeLink {
 
 export const CLAUDE_LINKS: ClaudeLink[] = [
   { name: 'Claude 官方博客', href: 'https://claude.com/blog', host: 'claude.com' },
+  { name: 'Claude Code 官方博客', href: 'https://claude.dev/', host: 'claude.dev' },
   { name: 'Claude Code 发版记录', href: 'https://github.com/anthropics/claude-code/releases', host: 'github.com' },
 ]
