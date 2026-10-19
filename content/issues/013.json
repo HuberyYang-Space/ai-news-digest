@@ -1,0 +1,401 @@
+{
+  "number": 13,
+  "startDate": "2026-10-11T15:59:59.999Z",
+  "endDate": "2026-10-18T15:59:59.999Z",
+  "dateLabel": "2026年10月11日 — 18日",
+  "publishedAt": "2026-10-19T07:22:30.144Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+          "titleZh": "欢迎使用 Muse Spark Open：Meta 推出的开放权重前沿多模态专家混合模型",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/meta-muse-spark-open",
+          "formattedDate": "2026年10月15日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": [
+            "TechCrunch AI",
+            "Latent Space"
+          ]
+        },
+        {
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "titleZh": "Gemini 4 Argon：专为解决您最棘手的问题而打造",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+          "formattedDate": "2026年10月13日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "titleZh": "伊塔乌银行如何为其全体客户构建生成式人工智能",
+          "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+          "descriptionZh": "借助对话式界面 ia.i 以及 IARA 治理平台，伊塔乌银行正在巴西监管最为严格的行业之一中，将其“AI First”战略应用于客户和员工。",
+          "link": "https://openai.com/index/itau-generative-ai",
+          "formattedDate": "2026年10月16日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+          "titleZh": "扩展 Indic 预训练：2.8 万亿个令牌及一个开放的数据生成管道",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+          "formattedDate": "2026年10月16日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Benefit Street Partners answers questions faster with Codex",
+          "titleZh": "Benefit Street Partners 借助 Codex 更快地回答问题",
+          "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+          "descriptionZh": "阿南特·库马尔开发了用于比较贷款估值和分析信贷协议的工具，并利用Codex进行代码审查和加快后续跟进。",
+          "link": "https://openai.com/index/benefit-street-partners",
+          "formattedDate": "2026年10月16日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+          "titleZh": "面向代理的 Stack Overflow 借助 ChatGPT 插件使注册量翻了三倍",
+          "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+          "descriptionZh": "两名工程师借助 Codex，仅用几周时间就推出了“Stack Overflow for Agents”，而其 ChatGPT 插件帮助将客服专员的创建量提升了 10 倍。",
+          "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+          "formattedDate": "2026年10月16日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+          "titleZh": "Welcome Beam：一款可拥有、定制和扩展的 501B 开源模型",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/reflection-beam",
+          "formattedDate": "2026年10月16日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+          "titleZh": "Granite Switch 4.1：通过单一终端实现聊天、决策和语音功能",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+          "formattedDate": "2026年10月15日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Bringing GPT-Rosalind to academic research labs",
+          "titleZh": "将GPT-Rosalind引入学术研究实验室",
+          "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+          "descriptionZh": "现推出“罗莎琳德学术计划”，为符合条件的学术实验室提供由该计划赞助的GPT-Rosalind访问权限及相关工具，以推动生命科学研究的发展。",
+          "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+          "formattedDate": "2026年10月15日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Developing Gemini 4 Argon responsibly and safely",
+          "titleZh": "负责任且安全地开发“双子座4号”氩气系统",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "formattedDate": "2026年10月13日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+          "titleZh": "GitHub 的机密检测模型：以更少的干扰发现更多机密",
+          "description": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets…",
+          "descriptionZh": "GitHub 的基于上下文的机密分类器提高了检测质量，将加权接受率提升了 11.5%，并将扫描执行时间的中位数缩短了 86%。博文《GitHub 的机密检测模型：发现更多机密……》",
+          "link": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "formattedDate": "2026年10月13日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+          "titleZh": "面向初学者的 GitHub Copilot 应用：如何让 Copilot 了解你的代码库",
+          "description": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase…",
+          "descriptionZh": "了解如何向您的代码库添加自定义说明和技能、使用自定义代理，以及连接 Playwright 等 MCP 服务器。这篇博文《GitHub Copilot 入门指南：如何让 Copilot 了解您的代码库……》",
+          "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+          "formattedDate": "2026年10月12日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+          "titleZh": "距离 TechCrunch Disrupt 2026 还有 48 小时——直接聆听那些正在打造未来的人们的见解",
+          "description": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+          "descriptionZh": "距离TechCrunch Disrupt 2026在旧金山莫斯康西展馆开幕不到48小时。在现场票价上涨前购买入场券，最高可节省100美元，购买第二张入场券还可享五折优惠。或者，您还可以享受其他优惠。",
+          "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+          "formattedDate": "2026年10月11日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+          "titleZh": "Replit首席执行官表示，工作的未来是“自动驾驶公司”",
+          "description": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+          "descriptionZh": "Replit 首席执行官阿姆贾德·马萨德设想了一个“自动驾驶公司”的未来，届时人工智能代理将处理日常任务，而人们则专注于更高层次的决策。",
+          "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+          "formattedDate": "2026年10月16日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+          "titleZh": "Anthropic警告称，小型AI模型可能通过物联网设备进行自我复制",
+          "description": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+          "descriptionZh": "“基于小体积的复制程序”可能会催生新一代计算机蠕虫。",
+          "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+          "formattedDate": "2026年10月14日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+          "titleZh": "Google Play 现在允许任何人开发可在 Android 上运行的、采用 Vibe 编码的私有应用",
+          "description": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+          "descriptionZh": "谷歌正在让用户更轻松地开发和使用通过人工智能创建的个人安卓应用，而无需将这些应用在 Google Play 商店上向所有人公开。",
+          "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+          "formattedDate": "2026年10月13日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+          "titleZh": "成立仅5年，互动聊天机器人平台Character.AI便申请破产",
+          "description": "The startup will sell some of its assets to Disney for $20 million.",
+          "descriptionZh": "这家初创公司将以2000万美元的价格向迪士尼出售部分资产。",
+          "link": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+          "formattedDate": "2026年10月13日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
+          "titleZh": "“逆向工程一切”项目将人工智能代理引入二进制分析领域",
+          "description": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and IDA. The project lets…",
+          "descriptionZh": "“Reverse Engineer Anything”（REA）是一个拥有超过 20 万个 GitHub 星标的开源项目，它将 Claude Code 和 Codex 等编程代理与 Ghidra、Hopper 和 IDA 等逆向工程工具连接起来。该项目允许……",
+          "link": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月17日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+          "titleZh": "亚马逊收购 DuckLabs，并将 DuckDB 整合到 Amazon Aurora PostgreSQL 中",
+          "description": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development…",
+          "descriptionZh": "亚马逊已收购了分析型数据库DuckDB的开发公司DuckLabs。联合创始人汉内斯·穆莱森（Hannes Mühleisen）和马克·拉斯维尔德（Mark Raasveldt）将继续在AWS旗下领导该团队。此次收购旨在加强……",
+          "link": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月17日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "OpenAI models hacked a crypto wallet and breached more websites",
+          "titleZh": "OpenAI的模型黑入了一个加密货币钱包，并入侵了更多网站",
+          "description": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+          "descriptionZh": "如果操作键盘的是人类，这些行为本可能导致刑事指控。",
+          "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+          "formattedDate": "2026年10月16日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+          "titleZh": "警方称，制作AI儿童色情内容的“thegentlemanpervert”是一名新泽西州检察官",
+          "description": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+          "descriptionZh": "一名Discord用户举报了AI生成的儿童性虐待材料（CSAM），导致新泽西州副总检察长被捕。",
+          "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+          "formattedDate": "2026年10月16日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
+          "titleZh": "Google EnvHarness 使自进化智能体能够在动态环境中学习",
+          "description": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. According to the…",
+          "descriptionZh": "谷歌研究人员将 EnvHarness 开源，这是一个无需修改智能体、环境或评估系统，即可根据智能体的弱点动态调整智能体训练环境的框架。据……",
+          "link": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月16日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "titleZh": "圆桌讨论：与人工智能设计病毒的创造者对话",
+          "description": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints…",
+          "descriptionZh": "收听本次讲座或观看下方视频：人工智能能设计出新的生命形式吗？2025年，斯坦福大学博士生塞缪尔·金（Samuel King）利用生成式人工智能模型提出了基因蓝图，从而给出了一个初步答案……",
+          "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "formattedDate": "2026年10月16日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+          "titleZh": "Meta 可能会利用一份范围广泛的新商业服务条款，以避免支付数百万的人工智能许可费",
+          "description": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+          "descriptionZh": "Meta“精简”了其商业服务条款。法律专家警告称，这是AI领域的一次权力争夺。",
+          "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+          "formattedDate": "2026年10月16日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "web-edit 0.1a0",
+          "titleZh": "web-edit 0.1a0",
+          "description": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had…",
+          "descriptionZh": "发布：web-edit 0.1a0 我当时正在用手机通过 Codex Remote 处理一个项目，突然发现自己想编辑一个凭证文件，却不想让这些凭证在 LLM 本身中进行往返传输。所以……我……",
+          "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
+          "formattedDate": "2026年10月12日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Ask HN: Now that AI makes the execution easy, do ideas matter more?",
+          "titleZh": "向HN提问：既然人工智能让执行变得轻松，那么创意是否变得更加重要了？",
+          "description": "Do you think this is true? Comments URL: https://news.ycombinator.com/item?id=50066263 Points: 1 # Comments: 0",
+          "descriptionZh": "你觉得这是真的吗？评论链接：https://news.ycombinator.com/item?id=50066263 积分：1 # 评论：0",
+          "link": "https://news.ycombinator.com/item?id=50066263",
+          "formattedDate": "2026年10月13日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: Shpyrd – A new type of cloud for AI era",
+          "titleZh": "Show HN：Shpyrd——AI时代的一种新型云服务",
+          "description": "Article URL: https://www.shpyrd.io Comments URL: https://news.ycombinator.com/item?id=50048731 Points: 7 # Comments: 20",
+          "descriptionZh": "文章网址：https://www.shpyrd.io 评论网址：https://news.ycombinator.com/item?id=50048731 积分：7 # 评论：20",
+          "link": "https://www.shpyrd.io",
+          "formattedDate": "2026年10月11日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] High Taste Testers Ep. 1",
+          "titleZh": "[AINews] 《挑剔的品鉴家》第1集",
+          "description": "a quiet day lets us pilot a new show",
+          "descriptionZh": "一个清闲的日子让我们有机会试播一档新节目",
+          "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+          "formattedDate": "2026年10月17日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+          "titleZh": "引用阿迪·奥斯马尼、摩根·韦斯特利·兰特和王青的话",
+          "description": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review…",
+          "descriptionZh": "我们认为，“是否有人工审查过代码？”这一问题，并不能准确地替代“这次变更可能出现什么问题，以及哪种检查——无论是自动检查还是人工检查——才是发现该问题的正确方式？”这一问题。当审查……时，提出这一问题的方式也发生了变化……",
+          "link": "https://simonwillison.net/2026/Oct/16/code-review/",
+          "formattedDate": "2026年10月16日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+          "titleZh": "[AINews] 代理模型推翻了多义性理论；大幅提升了可解释性与对齐度",
+          "description": "Nick Cammarata out of nowhere with some major claims!",
+          "descriptionZh": "尼克·卡马拉塔突然抛出了一些惊人言论！",
+          "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+          "formattedDate": "2026年10月16日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Chirp Pong",
+          "titleZh": "Chirp Pong",
+          "description": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It…",
+          "descriptionZh": "工具：Chirp Pong 又一个游戏实验——我想看看是否可行：在两部独立的手机上，通过静态 HTML 运行一款双人游戏，其中网络通信代码利用通过麦克风发送的“啁啾声”。它……",
+          "link": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+          "formattedDate": "2026年10月15日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+          "titleZh": "Anthropic在IPO前向投资者透露，季度营收增长近50%，达到168亿美元",
+          "description": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday.…",
+          "descriptionZh": "Anthropic在IPO前向投资者透露，季度营收增长近50%，达到168亿美元。在这篇《金融时报》的报道中，“向投资者透露”这一表述出现了四次，该报道讲述了Anthropic周三举办投资者说明会的情况……",
+          "link": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+          "formattedDate": "2026年10月15日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+          "titleZh": "[AINews] Modal以10亿美元ARR和160亿美元D轮融资成为纽约市最新一家AI基础设施领域“独角兽”，5个月内用户量和估值均增长3倍，1年内增长15倍",
+          "description": "Sandboxes are all you need.",
+          "descriptionZh": "沙盒就足够了。",
+          "link": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+          "formattedDate": "2026年10月15日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+          "titleZh": "跨越门槛：OpenAI 与 Anthropic 如何处理金融智能体在自主性与安全性方面的挑战",
+          "description": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+          "descriptionZh": "在“纽约人工智能工程师大会”上，前沿实验室和金融机构探讨了如何在赋予智能体有益的自主权的同时，仍将关键决策掌握在人类手中。",
+          "link": "https://www.latent.space/p/crossing-the-threshold",
+          "formattedDate": "2026年10月14日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "What 500 MiniMax Code Tests Revealed About AI Saying \"Done\"",
+          "titleZh": "500次MiniMax代码测试揭示了关于AI说“完成”的哪些信息",
+          "description": "Article URL: https://defuzex.ai/blog/what-500-minimax-code-tests-revealed-about-ai-saying-done Comments URL: https://news.ycombinator.com/item?id=50136796 Points: 2 # Comments: 0",
+          "descriptionZh": "文章网址： https://defuzex.ai/blog/what-500-minimax-code-tests-revealed-about-ai-saying-done 评论网址：https://news.ycombinator.com/item?id=50136796 积分：2 # 评论：0",
+          "link": "https://defuzex.ai/blog/what-500-minimax-code-tests-revealed-about-ai-saying-done",
+          "formattedDate": "2026年10月18日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Drunken Goddess Reflux Public Demo Canceled over AI Imitation Concerns",
+          "titleZh": "《醉神反流》公开试玩因人工智能模仿担忧而取消",
+          "description": "Article URL: https://noisypixel.net/drunken-goddess-reflux-public-demo-canceled-ai-imitation-concerns/ Comments URL: https://news.ycombinator.com/item?id=50136741 Points: 1 # Comments: 1",
+          "descriptionZh": "文章网址： https://noisypixel.net/drunken-goddess-reflux-public-demo-canceled-ai-imitation-concerns/ 评论网址：https://news.ycombinator.com/item?id=50136741 积分：1 # 评论：1",
+          "link": "https://noisypixel.net/drunken-goddess-reflux-public-demo-canceled-ai-imitation-concerns/",
+          "formattedDate": "2026年10月18日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 220,
+    "published": 36,
+    "sourceCount": 11,
+    "translated": true
+  }
+}
