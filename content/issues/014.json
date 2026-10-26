@@ -1,0 +1,398 @@
+{
+  "number": 14,
+  "startDate": "2026-10-18T15:59:59.999Z",
+  "endDate": "2026-10-25T15:59:59.999Z",
+  "dateLabel": "2026年10月18日 — 25日",
+  "publishedAt": "2026-10-26T04:59:06.002Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+          "titleZh": "优步携手OpenAI，向全体员工推出ChatGPT Work",
+          "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+          "descriptionZh": "优步正在向超过30,000名员工推出ChatGPT Work，帮助团队进行调研、分析数据、制作演示文稿以及完成复杂的工作流程。",
+          "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "formattedDate": "2026年10月22日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "OpenAI models are coming to Google Cloud",
+          "titleZh": "OpenAI 模型即将登陆 Google Cloud",
+          "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+          "descriptionZh": "OpenAI 和 Google Cloud 正将前沿模型和 Codex 工作流引入 Gemini 的“模型花园”（Model Garden），用户可通过 Google Cloud Marketplace 获取。",
+          "link": "https://openai.com/index/openai-models-google-cloud",
+          "formattedDate": "2026年10月21日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "OpenAI acquires Orchestra Bio",
+          "titleZh": "OpenAI 收购 Orchestra Bio",
+          "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+          "descriptionZh": "OpenAI 正在收购 Orchestra Bio，旨在将人工智能驱动的运营模式引入生命科学研发领域，帮助生物制药团队加速药物研发并推动新疗法的进步。",
+          "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+          "formattedDate": "2026年10月20日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+          "titleZh": "TorchNeuron：在 AWS Trainium 上运行 HF 模型比以往任何时候都更轻松",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/hf-torchneuron",
+          "formattedDate": "2026年10月19日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "titleZh": "快速扩展在线存储容量，以服务超过10亿的ChatGPT用户（第二部分）",
+          "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "descriptionZh": "了解 OpenAI 如何通过可靠的多租户架构、全球缓存和 Azure Cosmos DB 实现 Habitat 的扩展，从而使 ChatGPT 的读取速度提升 12 倍。",
+          "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "formattedDate": "2026年10月23日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+          "titleZh": "LitPivot：通过在文献图景中进行动态语境化来发展研究思路",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/allenai/litpivot",
+          "formattedDate": "2026年10月23日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Does Your Model Run on AWS Trainium? Look It Up",
+          "titleZh": "您的模型是否在 AWS Trainium 上运行？去查查吧",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+          "formattedDate": "2026年10月23日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+          "titleZh": "将数据库分级转化为强化学习奖励：使用ThinkingBox对代理进行训练后优化",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+          "formattedDate": "2026年10月22日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Beyond tree cover: mapping the world’s forest types",
+          "titleZh": "超越树木覆盖率：绘制全球森林类型图",
+          "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+          "descriptionZh": "一张将地球上每一块10米见方的土地划分为不同森林类型的全球地图。",
+          "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+          "formattedDate": "2026年10月22日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "titleZh": "3位Java冠军如何利用GitHub Copilot提高工作效率",
+          "description": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased…",
+          "descriptionZh": "三位 Java 冠军分享了他们如何利用 GitHub Copilot 解决问题、加快开发进度，并确保最终结果仍由人类负责。这篇题为《3 位 Java 冠军如何利用 GitHub Copilot 提升……》的文章……",
+          "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "formattedDate": "2026年10月20日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How to continue a GitHub Copilot app session in VS Code",
+          "titleZh": "如何在 VS Code 中继续 GitHub Copilot 应用的会话",
+          "description": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared…",
+          "descriptionZh": "了解如何将 GitHub Copilot 应用中的代理会话转移到 VS Code 中，同时不丢失对话记录、代码更改或工作上下文。文章《如何在 VS Code 中继续 GitHub Copilot 应用的会话》已发布……",
+          "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+          "formattedDate": "2026年10月19日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "Canva releases its first image generation model",
+          "titleZh": "Canva 发布了其首个图像生成模型",
+          "description": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+          "descriptionZh": "Canva 正向所有用户开放其新的图像模型，承诺以更低的成本提供更优质、更可定制的性能。",
+          "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+          "formattedDate": "2026年10月22日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+          "titleZh": "2026年TechCrunch创始人峰会：您需要了解的一切",
+          "description": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their…",
+          "descriptionZh": "TechCrunch 创始人峰会将于 11 月 4 日在波士顿举行，这是一场为期一整天的聚会，各发展阶段的创始人将在此与顶尖风投机构和经验丰富的创业者交流，以获取关于构建和扩展其……的实用见解。",
+          "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+          "formattedDate": "2026年10月21日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "SpaceX’s AI business is beating expectations",
+          "titleZh": "SpaceX的人工智能业务表现超出预期",
+          "description": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+          "descriptionZh": "SpaceX在第三季度实现盈利，净利润达44亿美元。人工智能是其盈利的主要动力。",
+          "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+          "formattedDate": "2026年10月20日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "The new economics of enterprise AI",
+          "titleZh": "企业人工智能的新经济模式",
+          "description": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure,…",
+          "descriptionZh": "试想，你的公司刚刚发现了电力。起初只有少数几台机器靠它运转，而且没人担心效率问题——耗电量低，价值显而易见。但一旦电力成为基础设施……",
+          "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+          "formattedDate": "2026年10月20日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+          "titleZh": "美国下令联邦机构将其系统中中国DeepSeek人工智能移除",
+          "description": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+          "descriptionZh": "美国以国家安全为由，下令联邦民事机构移除DeepSeek的产品以及基于其技术开发的第三方服务。",
+          "link": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "formattedDate": "2026年10月20日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+          "titleZh": "当用户分享对话内容时，Meta Muse 会泄露他们的个人和商业机密",
+          "description": "Meta is suspending the sharing feature while it investigates its privacy.",
+          "descriptionZh": "Meta正在暂停该分享功能，以便对其隐私问题展开调查。",
+          "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+          "formattedDate": "2026年10月20日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
+          "titleZh": "谷歌利用Gemini 4 Argon，仅用一夜时间就优化了Agent Development Kit中20万行的Python代码库",
+          "description": "Google explained how an 11-hour unattended run of Gemini 4 Argon produced two accepted optimizations for Google Agent Development Kit's codebase, reducing in-memory session-preparation overhead by about 40% in long…",
+          "descriptionZh": "谷歌解释了“Gemini 4 Argon”在无人值守运行11小时后，如何为谷歌代理开发工具包（Google Agent Development Kit）的代码库生成了两项被采纳的优化方案，从而在长时间运行中将内存中的会话准备开销降低了约40%……",
+          "link": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月24日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+          "titleZh": "谷歌的数据代理套件正式发布，将代理安全防护措施在技能和IAM之间进行划分",
+          "description": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and…",
+          "descriptionZh": "谷歌已正式推出 Data Agent Kit，这是一套免费的 MCP 工具和 37 项开源技能，可将编程代理与超过 15 项谷歌数据云服务连接起来。该套件随附两种防护机制，并且……",
+          "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月24日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+          "titleZh": "谷歌更新的隐私政策称，您的Gmail可能会被用于广告",
+          "description": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+          "descriptionZh": "启用“个人智能”功能可为公司提供更多用于广告定向的数据。",
+          "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "formattedDate": "2026年10月23日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+          "titleZh": "英特尔获得豁免，此前市场担忧美国针对外国制造机器人的模糊禁令可能影响其晶圆厂",
+          "description": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+          "descriptionZh": "该公司表示，外国制造的机器人车辆对美国的芯片生产至关重要。",
+          "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+          "formattedDate": "2026年10月23日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects",
+          "titleZh": "Anthropic 为关键开源项目新增了可选的安全扫描功能",
+          "description": "AI company Anthropic has launched OSS Scanner, a free, opt-in service to find vulnerabilities in open-source projects. Enrolled maintainers receive periodic security reports generated by the company's strongest models,…",
+          "descriptionZh": "人工智能公司Anthropic推出了OSS Scanner，这是一项免费的、需主动注册的服务，用于发现开源项目中的漏洞。注册的维护者将定期收到由该公司最强大的模型生成的安全报告……",
+          "link": "https://www.infoq.com/news/2026/10/anthropic-oss-security-scanner/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月23日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Designing an AI serving harness built to last",
+          "titleZh": "设计一款经久耐用的AI服务框架",
+          "description": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has…",
+          "descriptionZh": "在企业人工智能领域，下一个竞争优势与其说取决于选择哪种模型，不如说取决于围绕该模型构建什么。这是一个重要的转变。在过去的几年里，关于人工智能的大部分讨论都……",
+          "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+          "formattedDate": "2026年10月22日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "titleZh": "向“代理式人工智能基金会”捐赠代理技能",
+          "description": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI…",
+          "descriptionZh": "向Agentic AI基金会捐赠Agent Skills 来自Anthropic的最新消息：我们致力于保持Agent Skills的开放性、社区驱动性以及供应商中立性。今天，我们将该标准捐赠给Agentic AI……",
+          "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+          "formattedDate": "2026年10月22日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+          "titleZh": "为什么人工智能计算设备都是矩形——Modal首席执行官埃里克·伯恩哈德森",
+          "description": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+          "descriptionZh": "弹性GPU、沙箱式增长以及代理云的经济性",
+          "link": "https://www.latent.space/p/modal-d",
+          "formattedDate": "2026年10月22日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "You are the Team  — Anekha Sokhal, Moshi",
+          "titleZh": "你们就是团队  —— 阿内卡·索卡尔，莫希",
+          "description": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+          "descriptionZh": "Moshi 如何将市场数据转化为可操作的洞察，以及为何人工智能工具必须适应交易者的工作流程。",
+          "link": "https://www.latent.space/p/moshi",
+          "formattedDate": "2026年10月22日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+          "titleZh": "[AINews] OpenAI的“Patch the Planet”项目是利用GPT-5.6 Sol发现PHP核心中PHP2Shell漏洞的两个团队之一，该漏洞影响了70%的网站；双方经过两个月的协调应对",
+          "description": "The Big Hardening begins",
+          "descriptionZh": "“大强化”拉开帷幕",
+          "link": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+          "formattedDate": "2026年10月22日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Claude Mods: Flipping the Harness Inside Out",
+          "titleZh": "克劳德改装：将线束翻转过来",
+          "description": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+          "descriptionZh": "克劳德·莫兹（Claude Mods）是“注意力接口”的一种早期形式。它将代理连接带范式从“连接带面向机器”转变为“连接带面向人类”。",
+          "link": "https://www.latent.space/p/claude-mods",
+          "formattedDate": "2026年10月21日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: AI for Group Chats",
+          "titleZh": "Show HN：群聊中的AI应用",
+          "description": "Article URL: https://boba.app Comments URL: https://news.ycombinator.com/item?id=50201068 Points: 2 # Comments: 0",
+          "descriptionZh": "文章网址：https://boba.app 评论网址：https://news.ycombinator.com/item?id=50201068 积分：2 # 评论：0",
+          "link": "https://boba.app",
+          "formattedDate": "2026年10月22日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: I made a free Mac app to annotate screen for AI agents",
+          "titleZh": "Show HN：我开发了一款免费的 Mac 应用，用于为 AI 代理标注屏幕内容",
+          "description": "Hey HN, I'm Nika. I've built a tool for myself that lets user draw on the screen to annotate important parts and use it as simpler pointers for AI agents screenshot inputs. Comments URL:…",
+          "descriptionZh": "大家好，HN，我是Nika。我为自己开发了一个工具，用户可以通过在屏幕上绘图来标注重要部分，并将这些标注作为更简便的提示，供AI代理处理截图输入时使用。评论链接：…",
+          "link": "https://www.trylasso.online",
+          "formattedDate": "2026年10月21日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Self-hosted AI spend attribution",
+          "titleZh": "自建AI广告支出归因",
+          "description": "Article URL: https://github.com/CosturaAI/costura Comments URL: https://news.ycombinator.com/item?id=50160072 Points: 3 # Comments: 0",
+          "descriptionZh": "文章网址：https://github.com/CosturaAI/costura 评论网址：https://news.ycombinator.com/item?id=50160072 积分：3 # 评论：0",
+          "link": "https://github.com/CosturaAI/costura",
+          "formattedDate": "2026年10月20日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: OpenFlow – AI Agent Workflow Builder",
+          "titleZh": "Show HN：OpenFlow——AI 代理工作流构建器",
+          "description": "Article URL: https://github.com/SeeRay11/OpenFlow Comments URL: https://news.ycombinator.com/item?id=50159710 Points: 3 # Comments: 0",
+          "descriptionZh": "文章网址：https://github.com/SeeRay11/OpenFlow 评论网址：https://news.ycombinator.com/item?id=50159710 积分：3 # 评论：0",
+          "link": "https://github.com/SeeRay11/OpenFlow",
+          "formattedDate": "2026年10月20日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "battledrones v14: Compass Rose, a four player map",
+          "titleZh": "battledrones v14：《罗盘玫瑰》，一张四人地图",
+          "description": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle -…",
+          "descriptionZh": "发布：Battledrones v14：Compass Rose，一张四人地图。我为《Battledrones》添加了四人在线模式——之前的地图最多只能支持两人。以下是我当时使用的初始提示：为四人战斗添加一张新地图——…",
+          "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
+          "formattedDate": "2026年10月24日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Quick Study",
+          "titleZh": "快速学习",
+          "description": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my…",
+          "descriptionZh": "工具：向 Claude Opus 5.5 High 发送“快速学习提示”：构建一个工具，当用户打开一张照片时，该工具能利用画布元素和模拟画笔，在几秒钟内快速绘制出该照片的版本。另请参阅我的……",
+          "link": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+          "formattedDate": "2026年10月23日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Introducing Kimi K3.1 Pro",
+          "titleZh": "Kimi K3.1 Pro 产品介绍",
+          "description": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version…",
+          "descriptionZh": "Kimi K3.1 Pro 正式发布。Kimi K3.1 Pro 今日已登陆 Kimi API——目前尚未公开权重，但 Moonshot 承诺“完整模型权重将于 2026 年 11 月 4 日前发布”。他们还提供了一个“高速”版本……",
+          "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+          "formattedDate": "2026年10月23日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 287,
+    "published": 35,
+    "sourceCount": 11,
+    "translated": true
+  }
+}
