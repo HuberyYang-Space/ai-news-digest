@@ -1,0 +1,383 @@
+{
+  "number": 15,
+  "startDate": "2026-10-25T15:59:59.999Z",
+  "endDate": "2026-11-01T15:59:59.999Z",
+  "dateLabel": "2026年10月25日 — 11月1日",
+  "publishedAt": "2026-11-02T06:25:52.956Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "titleZh": "Gemini 4 Carbon：我们的下一代旗舰机型",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "formattedDate": "2026年10月28日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": [
+            "OpenAI Blog",
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "Introducing GPT-6.1 Terra",
+          "titleZh": "GPT-6.1 Terra 正式发布",
+          "description": "Bringing fast and capable computer use to everyone",
+          "descriptionZh": "让每个人都能享受快速、高效的计算机使用体验",
+          "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+          "formattedDate": "2026年10月26日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog"
+          ]
+        },
+        {
+          "title": "nemotron-halloween",
+          "titleZh": "nemotron-万圣节",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "formattedDate": "2026年10月30日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "titleZh": "让网站更轻松地表达人工智能训练偏好",
+          "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+          "descriptionZh": "OpenAI 将遵循统一的 robots.txt 信号，以帮助网站运营商向参与该计划的服务提供商传达其 AI 训练偏好。",
+          "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "formattedDate": "2026年10月30日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Community safety report and new protections for teens",
+          "titleZh": "社区安全报告及针对青少年的新保护措施",
+          "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+          "descriptionZh": "OpenAI 正通过扩大防护措施、加强早期干预以及对公共安全报告作出新的承诺，来强化 ChatGPT 中的暴力预防工作。",
+          "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "formattedDate": "2026年10月30日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Fair use benefits everyone",
+          "titleZh": "合理使用对大家都有好处",
+          "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+          "descriptionZh": "OpenAI 分享了来自创作者、学者、无障碍倡导者及法律专家等群体的法庭陈述摘录，内容涉及“合理使用”如何支持人工智能的训练与创新。",
+          "link": "https://openai.com/index/fair-use-benefits-everyone",
+          "formattedDate": "2026年10月30日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Granite Switch 4.1.1 — Update models like you update software",
+          "titleZh": "Granite Switch 4.1.1 — 像更新软件一样更新模型",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "formattedDate": "2026年10月29日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+          "titleZh": "宣布启动“ProtoStar”项目：让公共资助的科学研究做好迎接人工智能的准备",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/announcing-project-protostar",
+          "formattedDate": "2026年10月29日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+          "titleZh": "欢迎 Le Chonk：Hugging Face 上的 Mistral Large 4",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/mistral-large4",
+          "formattedDate": "2026年10月29日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Genie 4: A new generation of world simulation",
+          "titleZh": "Genie 4：新一代世界模拟",
+          "description": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+          "descriptionZh": "Genie 4：我们的全新世界模型，为实时模拟带来前所未有的逼真效果。",
+          "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "formattedDate": "2026年10月27日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+          "titleZh": "DoorDash表示，其仅收到“几百”份来自AI代理的订单",
+          "description": "DoorDash said that it is open to working with third-party agent makers.",
+          "descriptionZh": "DoorDash表示，该公司愿意与第三方代理商合作。",
+          "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+          "formattedDate": "2026年10月30日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+          "titleZh": "还有5天：这是您在2026年TechCrunch创始人峰会上建立联系、拓展业务并节省开支的最后机会",
+          "description": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+          "descriptionZh": "仅需5天即可节省高达100美元，还可免费获得一张11月4日在波士顿举行的2026年TechCrunch创始人峰会入场券。立即注册。",
+          "link": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+          "formattedDate": "2026年10月30日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Article: InfoQ AI, ML and Data Engineering Trends Report - 2026",
+          "titleZh": "文章：InfoQ《2026年人工智能、机器学习与数据工程趋势报告》",
+          "description": "This InfoQ Trends Report offers readers a comprehensive overview of emerging trends and technologies in the areas of AI, ML, and Data Engineering. This report summarizes the InfoQ editorial team’s and external guests'…",
+          "descriptionZh": "本份《InfoQ趋势报告》为读者全面概述了人工智能、机器学习和数据工程领域的新兴趋势与技术。本报告总结了InfoQ编辑团队及外部嘉宾的……",
+          "link": "https://www.infoq.com/articles/ai-ml-data-engineering-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月30日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+          "titleZh": "你无需信仰神明，也能以宗教为由申请在工作中免于使用人工智能",
+          "description": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+          "descriptionZh": "肯塔基大学的一名行政人员大卫·杜尔曼最近获得了基于宗教理由的豁免，无需在工作场所使用人工智能。",
+          "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+          "formattedDate": "2026年10月30日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+          "titleZh": "随着搜索流量的减少，Reddit宣布将转向登录后才能使用的模式",
+          "description": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+          "descriptionZh": "随着人工智能改变人们在网上查找信息的方式，Reddit正在重新审视其开放网络的初心，以保护其用户和业务。",
+          "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+          "formattedDate": "2026年10月29日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+          "titleZh": "DeepMind 发布了 Genie 4 世界模型，有望呈现更逼真的物理现象和人类形象",
+          "description": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+          "descriptionZh": "Genie 4 即将向开发者和 Google AI Ultra 订阅用户推出。",
+          "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+          "formattedDate": "2026年10月27日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+          "titleZh": "AWS 容量在 2027 年前已基本售罄，但仍预留了按需容量的余地",
+          "description": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock.…",
+          "descriptionZh": "亚马逊首席执行官安迪·贾西表示，AWS的大部分已承诺云算力在2027年底前已基本售罄，2028年部分算力也已分配完毕，同时该公司仍在为按需服务、EC2和Bedrock预留冗余容量……",
+          "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月1日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+          "titleZh": "谷歌公布了名为“PageBreak”的AI安全代理，该工具发现了500多个XSS漏洞",
+          "description": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models…",
+          "descriptionZh": "根据谷歌发表的一篇论文，自今年1月全面投入运行以来，其由人工智能驱动的安全代理已在公司各Web应用程序中发现了500多个XSS漏洞。PageBreak使用了Gemini模型……",
+          "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月31日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+          "titleZh": "随着公司业务重心转向为人工智能数据中心提供动力，超音速客机的前景存疑",
+          "description": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+          "descriptionZh": "Boom公司的客机项目可能推迟，其数据中心供电业务也失去了一家客户。",
+          "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+          "formattedDate": "2026年10月30日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+          "titleZh": "Cursor 上的 Anthropic VS Code 扩展程序被植入后门近 12 小时",
+          "description": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+          "descriptionZh": "目前尚不清楚攻击者是如何获得Anthropic经过验证的Cursor账户访问权限的。",
+          "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "formattedDate": "2026年10月30日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+          "titleZh": "达特茅斯学院的教务长曾警告我们警惕人工智能作弊——但他自己使用人工智能却导致他丢了工作",
+          "description": "People who love AI don't always love telling others they used it.",
+          "descriptionZh": "热爱人工智能的人并不总是喜欢告诉别人自己用过它。",
+          "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+          "formattedDate": "2026年10月30日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
+          "titleZh": "DoorDash 借助 AI 代理将杂货重复订单处理时延从 16 秒缩短至 2 秒",
+          "description": "DoorDash reduced grocery reorder latency from 16 to 2 seconds by precomputing recurring purchase needs using batch LLM inference and deterministic validation. Live catalog resolution keeps product selections current,…",
+          "descriptionZh": "DoorDash 通过利用批量大型语言模型（LLM）推理和确定性验证预先计算定期采购需求，将生鲜商品的补货延迟从 16 秒缩短至 2 秒。实时商品目录更新确保产品选择始终保持最新……",
+          "link": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年10月30日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+          "titleZh": "Anthropic 如何安全地交付全球排名第一的大语言模型（LLM）：将“大脑”与“双手”分离",
+          "description": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable…",
+          "descriptionZh": "凯特琳·莱斯（Katelyn Lesse）和安吉拉·江（Angela Jiang）做客Latent Space节目，详细讲解了Claude平台背后的技术原理：推出Opus 5.5、将模型的“大脑”与智能体的“双手”分离、扩展API，以及构建可靠的……",
+          "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+          "formattedDate": "2026年10月27日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google's $500B bloodbath reflects the danger it faces from AI",
+          "titleZh": "谷歌5000亿美元的“血洗”反映了其面临的人工智能威胁",
+          "description": "Article URL: https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai Comments URL: https://news.ycombinator.com/item?id=50310929 Points: 4 # Comments: 2",
+          "descriptionZh": "文章网址：https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai 评论网址： https://news.ycombinator.com/item?id=50310929 积分：4 # 评论：2",
+          "link": "https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai",
+          "formattedDate": "2026年10月30日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Meaning After an AI Eucatastrophe",
+          "titleZh": "《人工智能“欧卡塔斯罗”之后》的含义",
+          "description": "Article URL: https://meaningness.substack.com/p/meaning-after-an-ai-eucatastrophe Comments URL: https://news.ycombinator.com/item?id=50253325 Points: 2 # Comments: 0",
+          "descriptionZh": "文章网址：https://meaningness.substack.com/p/meaning-after-an-ai-eucatastrophe 评论网址：https://news.ycombinator.com/item?id=50253325 积分：2 # 评论：0",
+          "link": "https://meaningness.substack.com/p/meaning-after-an-ai-eucatastrophe",
+          "formattedDate": "2026年10月27日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Some cybersecurity x AI dichotomies",
+          "titleZh": "网络安全与人工智能之间的某些二分法",
+          "description": "Article URL: https://cje.io/2026/10/26/some-cyber-ai-dichotomies/ Comments URL: https://news.ycombinator.com/item?id=50252948 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址：https://cje.io/2026/10/26/some-cyber-ai-dichotomies/ 评论网址：https://news.ycombinator.com/item?id=50252948 积分：1 # 评论：0",
+          "link": "https://cje.io/2026/10/26/some-cyber-ai-dichotomies/",
+          "formattedDate": "2026年10月27日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How We Took Over ChatGPT Accounts",
+          "titleZh": "我们是如何接管ChatGPT账户的",
+          "description": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is…",
+          "descriptionZh": "我们是如何接管ChatGPT账户的 Parameter Labs 描述了他们发现的一个漏洞，该漏洞针对的是ChatGPT对“artifacts”模式的实现（OpenAI以前将此称为“Canvas”，但看起来最新版本是……",
+          "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "formattedDate": "2026年10月31日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "datasette-llm 0.1a9",
+          "titleZh": "datasette-llm 0.1a9",
+          "description": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default…",
+          "descriptionZh": "发布：datasette-llm 0.1a9 我正在筹备对 Datasette Agent 进行一些重大升级，但在此之前，先对底层的 datasette-llm 插件进行了一项微小的用户体验改进。现在它会自动采用默认……",
+          "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+          "formattedDate": "2026年10月31日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+          "titleZh": "智能代理引导用户：利用智能代理处理长期财务工作",
+          "description": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+          "descriptionZh": "Arca的人工智能负责人探讨了持久性内存、定制化接口的优势，以及持续数天的代理式工作流。",
+          "link": "https://latent.space/p/arca/",
+          "formattedDate": "2026年10月31日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+          "titleZh": "[AINews] 谷歌承认“AI模式”拖累搜索业务收入；收入下降15%，市值蒸发5000亿美元，创2004年IPO以来最严重跌幅。AI熊市即将到来？",
+          "description": "It turns out you cannot have your cake AND eat it",
+          "descriptionZh": "原来，鱼与熊掌不可兼得",
+          "link": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+          "formattedDate": "2026年10月31日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "dbreunig/nesformer",
+          "titleZh": "dbreunig/nesformer",
+          "description": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super…",
+          "descriptionZh": "dbreunig/nesformer 受 Divyansh Agrawal 开发的 qwenputer 启发，Drew Breunig 将一个可运行的任天堂娱乐系统（NES）6502 处理器模拟器嵌入到了 Qwen3.5-4B 的配重中。现在，你可以运行诸如《超级……》等 NES ROM 了……",
+          "link": "https://simonwillison.net/2026/Oct/30/nesformer/",
+          "formattedDate": "2026年10月30日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+          "titleZh": "[AINews] 构建AIE CODE：顶级编程代理大会",
+          "description": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+          "descriptionZh": "Mistral的无权重版本发布、前沿动态，以及今日AI相关推特和Reddit的汇总。",
+          "link": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+          "formattedDate": "2026年10月30日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "API credits benefit for eligible ChatGPT subscriptions",
+          "titleZh": "符合条件的 ChatGPT 订阅可享受 API 配额优惠",
+          "description": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the…",
+          "descriptionZh": "符合条件的 ChatGPT 订阅用户可享受 API 积分福利 本月初，Anthropic 宣布为其 Max 和 Team 订阅用户推出一项慷慨的新福利：每月支付 100 美元、200 美元和 500 美元的订阅用户将获得……",
+          "link": "https://simonwillison.net/2026/Oct/29/api-credits/",
+          "formattedDate": "2026年10月29日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Postgres 19 is late, and it's AI's fault",
+          "titleZh": "Postgres 19 推迟发布，这都要怪人工智能",
+          "description": "Article URL: http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html Comments URL: https://news.ycombinator.com/item?id=50312408 Points: 4 # Comments: 1",
+          "descriptionZh": "文章网址：http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html 评论网址： https://news.ycombinator.com/item?id=50312408 积分：4 # 评论：1",
+          "link": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+          "formattedDate": "2026年10月31日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 234,
+    "published": 34,
+    "sourceCount": 9,
+    "translated": true
+  }
+}
