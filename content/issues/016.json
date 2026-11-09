@@ -1,0 +1,384 @@
+{
+  "number": 16,
+  "startDate": "2026-11-01T15:59:59.999Z",
+  "endDate": "2026-11-08T15:59:59.999Z",
+  "dateLabel": "2026年11月1日 — 8日",
+  "publishedAt": "2026-11-09T06:51:46.925Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Qodo builds context into AI code review with Codex",
+          "titleZh": "Qodo 借助 Codex 将上下文融入 AI 代码审查",
+          "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+          "descriptionZh": "Qodo 将公司知识和编码规范整合到 Codex 中，帮助开发者在提交拉取请求之前，跨仓库发现 P0 级问题。",
+          "link": "https://openai.com/index/qodo-codex-plugin",
+          "formattedDate": "2026年11月2日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Beyond code generation: A developer’s guide to agentic engineering",
+          "titleZh": "超越代码生成：面向开发者的代理工程指南",
+          "description": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code…",
+          "descriptionZh": "编写代码的速度变快了，但围绕代码的其他工作却没有。了解如何利用 GitHub Copilot 进行规划、编写代码、审查更改以及排查生产环境问题，以及哪些工作仍需要您亲自判断。这篇博文《超越代码……》",
+          "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+          "formattedDate": "2026年11月6日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "titleZh": "ToyBlocks：一个用于机器人学习和评估的可控环境",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/allenai/toyblocks",
+          "formattedDate": "2026年11月6日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "titleZh": "与Hacktron合作，寻找OpenAI系统中的漏洞",
+          "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+          "descriptionZh": "OpenAI 正与 Hacktron 合作，以发现安全漏洞、测试与第三方服务的连接，并借助前沿人工智能技术加强防御能力。",
+          "link": "https://openai.com/index/partnering-with-hacktron",
+          "formattedDate": "2026年11月6日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "titleZh": "评估人工智能代理如何处理日常湿实验室科学工作",
+          "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+          "descriptionZh": "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量人工智能代理解读原始实验数据以及处理日常湿实验室科学任务的能力。",
+          "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "formattedDate": "2026年11月6日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "titleZh": "埃及英语和尼日利亚英语加入“开放式语音识别排行榜”",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "formattedDate": "2026年11月6日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+          "titleZh": "用于交互式世界模拟的全新 NVIDIA Cosmos 3 开源模型",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+          "formattedDate": "2026年11月5日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "titleZh": "Gemini Omni 1.2 Flash：速度快、性价比高，且支持更长的视频片段",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+          "formattedDate": "2026年11月5日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Australian universities are creating AI-native graduates",
+          "titleZh": "澳大利亚各大学正在培养具备人工智能素养的毕业生",
+          "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+          "descriptionZh": "澳大利亚各所大学正在扩大ChatGPT的使用范围，并将人工智能引入教学，以帮助学生为进入人工智能驱动的职场做好准备。",
+          "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "formattedDate": "2026年11月5日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "titleZh": "深入解析 Phonon TTS：推出超越行业基准的高质量设备端语音技术。",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/phonon-tts",
+          "formattedDate": "2026年11月5日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Agentic cheminformatics with Google Antigravity",
+          "titleZh": "基于 Google Antigravity 的代理式化学信息学",
+          "description": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+          "descriptionZh": "了解 Google Antigravity 以及我们的化学信息学技能如何加速药物发现工作流程、搜索化合物并提出新型刚性大环化合物。",
+          "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "formattedDate": "2026年11月3日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+          "titleZh": "Agility 是首家在股市上市的纯人形机器人公司。你会买入吗？",
+          "description": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
+          "descriptionZh": "Agility 今天在纳斯达克上市，成为首家公开上市的纯人形机器人公司。",
+          "link": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+          "formattedDate": "2026年11月5日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "After the midterms, a bigger clash over data centers could be coming",
+          "titleZh": "中期选举结束后，围绕数据中心的更大规模冲突可能即将爆发",
+          "description": "Data center opposition crossed party lines in Tuesday’s midterms.",
+          "descriptionZh": "在周二的中期选举中，反对建设数据中心的呼声跨越了党派界限。",
+          "link": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "formattedDate": "2026年11月5日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+          "titleZh": "基于开源人工智能？Hugging Face 政策主管谈成本、风险与权衡",
+          "description": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more…",
+          "descriptionZh": "随着企业、政府和初创公司纷纷寄望于更低的成本、更大的控制权和更高的灵活性，开源模型正日益成为主流。但随着功能日益强大的模型变得越来越……",
+          "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+          "formattedDate": "2026年11月4日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google will let schools skip AI tools, but they have to give up search, too",
+          "titleZh": "谷歌将允许学校不使用人工智能工具，但它们也必须放弃搜索功能",
+          "description": "Google will offer schools AI tools that purportedly don't give away the answers.",
+          "descriptionZh": "谷歌将向学校提供据称不会直接提供答案的人工智能工具。",
+          "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+          "formattedDate": "2026年11月3日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+          "titleZh": "据美国情报备忘录称，Megaspeed公司一名高管被招募去监视英伟达首席执行官",
+          "description": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+          "descriptionZh": "据报道，今年早些时候流传的一份备忘录称，中国国家安全部招募了一名女性科技高管，以对英伟达首席执行官进行间谍活动。",
+          "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "formattedDate": "2026年11月7日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+          "titleZh": "Grab 如何通过安全处理人工智能生成的代码变更激增来提升移动应用的稳定性",
+          "description": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges,…",
+          "descriptionZh": "Grab 表示，人工智能编码助手的日益普及不仅加快了开发速度，还增加了每次发布中的代码变更量，从而增加了出现缺陷和崩溃的可能性。为应对这些挑战，……",
+          "link": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月7日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+          "titleZh": "开源项目 pg_vectorsearch 为 PostgreSQL 带来了更具可扩展性的向量搜索功能",
+          "description": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach…",
+          "descriptionZh": "Tiger Data 发布了 pg_vectorsearch，这是一个用于向量相似性搜索的开源 PostgreSQL 扩展，目前处于 alpha 阶段。其 PRISM 索引采用数据分区和压缩技术，而非基于图的方法……",
+          "link": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月7日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+          "titleZh": "“Meta 难道以为我们不识字吗？”Meta 放弃了那份条款可疑的商业条款更新。",
+          "description": "Meta won't force Facebook page owners to allow AI training on linked content.",
+          "descriptionZh": "Meta 不会强制要求 Facebook 页面所有者允许利用其关联内容进行人工智能训练。",
+          "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+          "formattedDate": "2026年11月6日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Could potential AI clones of GTA VI force a quicker official port?",
+          "titleZh": "《GTA VI》的潜在AI克隆版会促使官方加快移植进度吗？",
+          "description": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+          "descriptionZh": "Rockstar的一位前技术总监认为，这家开发商正面临新的时间压力。",
+          "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+          "formattedDate": "2026年11月6日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+          "titleZh": "GitLab 19.5 将无代理开发纳入 DevOps 平台的规范管理范畴",
+          "description": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact…",
+          "descriptionZh": "10月15日发布的 GitLab 19.5 将代理式软件开发与治理置于平台核心，不仅正式推出了 GitLab MCP 服务器，还扩展了外部 AI 代理的交互方式……",
+          "link": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月6日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+          "titleZh": "我看着一个类人机器人打扫我的公寓。这感觉就像是提前体验了一把未来。",
+          "description": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new…",
+          "descriptionZh": "我通常不是那种会花钱请保洁员的人。我太节俭了，而且我其实挺喜欢一边听播客，一边用“魔力擦”把浴缸擦得干干净净。但当我看到一条关于一款新产品的X帖子时……",
+          "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+          "formattedDate": "2026年11月6日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AWS Ships Continuum for Code Vulnerabilities",
+          "titleZh": "AWS 推出用于检测代码漏洞的 Continuum",
+          "description": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Published pricing charges…",
+          "descriptionZh": "AWS 已在两个区域正式推出“Continuum for code”漏洞检测服务。该服务通过在沙箱中运行真实的漏洞利用程序来验证漏洞的可利用性，随后将修复方案作为拉取请求发布。公布的定价标准如下……",
+          "link": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月6日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "llm 0.37",
+          "titleZh": "llm 0.37",
+          "description": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new…",
+          "descriptionZh": "发布：llm 0.37 这次我发布的 LLM CLI 工具和 Python 库的最新版本包含大量内容，凝聚了大约两个月来积累的功能和修复。我添加了 gpt-6.1-sol 和 gpt-6.1-terra，此外还新增了一个……",
+          "link": "https://simonwillison.net/2026/Nov/2/llm/",
+          "formattedDate": "2026年11月2日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+          "titleZh": "在无法查看数据的情况下构建法律代理——Legora首席技术官雅各布·劳里岑",
+          "description": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one…",
+          "descriptionZh": "Legora 无法获知其代理程序为律师所做工作的任何蛛丝马迹。这些数据属于该律师事务所的客户。在无法看到代理程序工作内容的情况下，该如何构建和测试它呢？雅各布·劳里岑是 Legora 的首席技术官，他是……",
+          "link": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+          "formattedDate": "2026年11月2日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: Open-world text adventure played through AI agents",
+          "titleZh": "Show HN：通过AI代理进行游玩的世界开放式文字冒险游戏",
+          "description": "Hey HN, I am building Eremoterra, this experiment of trying to make a game out of an MCP (to learn MCP stuff, but also had a lot fun designing the game). You play in your own agent. The server returns a fact sheet for…",
+          "descriptionZh": "嗨，HN，我正在开发《Eremoterra》，这是一个尝试将MCP转化为游戏的实验项目（既为了学习MCP相关知识，设计游戏本身也让我乐在其中）。玩家将操控自己的代理进行游戏。服务器会返回一份关于……的事实说明书……",
+          "link": "https://eremoterra.com/",
+          "formattedDate": "2026年11月5日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Ask HN: AI Coding Preference",
+          "titleZh": "向 HN 提问：关于 AI 编程的偏好",
+          "description": "Do you prefer tabs or spaces with code generated from your AI models? Comments URL: https://news.ycombinator.com/item?id=50374297 Points: 1 # Comments: 2",
+          "descriptionZh": "对于AI模型生成的代码，您更喜欢使用制表符还是空格？ 评论链接：https://news.ycombinator.com/item?id=50374297 积分：1 # 评论数：2",
+          "link": "https://news.ycombinator.com/item?id=50374297",
+          "formattedDate": "2026年11月5日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI Can Write More of the Code. We Still Have to Engineer the System",
+          "titleZh": "人工智能可以编写更多的代码。但我们仍然需要对系统进行工程设计。",
+          "description": "Article URL: https://picon.dev/en/publications/ai-assisted-engineering/ Comments URL: https://news.ycombinator.com/item?id=50331998 Points: 6 # Comments: 2",
+          "descriptionZh": "文章网址：https://picon.dev/en/publications/ai-assisted-engineering/ 评论网址：https://news.ycombinator.com/item?id=50331998 积分：6 # 评论：2",
+          "link": "https://picon.dev/en/publications/ai-assisted-engineering/",
+          "formattedDate": "2026年11月2日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+          "titleZh": "datasette #3046：对于 HTML 页面，不要向 Firefox 发送 link: rel=next HTTP 头",
+          "description": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch…",
+          "descriptionZh": "datasette #3046：不要向 Firefox 发送 HTML 页面的 link: rel=next HTTP 头 今天我在查看 Firefox 的网络面板时，注意到对某个 Datasette 表页面的请求触发了 HTTP 预取……",
+          "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+          "formattedDate": "2026年11月7日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Anthropic IPO: Whither Now?",
+          "titleZh": "[AINews] Anthropic 首次公开募股：接下来会如何？",
+          "description": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+          "descriptionZh": "2026年11月6日——ARC Prize 对 Inkling 2 Small 进行了测试，Thinking Machines 则解释了该系统如何发现早期检查点绕过了防护措施。",
+          "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+          "formattedDate": "2026年11月7日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Quoting Nilay Patel",
+          "titleZh": "引用尼拉伊·帕特尔的话",
+          "description": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop…",
+          "descriptionZh": "这些产品的质量还不够好，无法让人们接受其高昂的成本。你不能跟人们说，为了看一些人工智能概览和那些最荒唐可笑的深度伪造垃圾内容，他们就得忍受自家后院数据中心发出的嗡嗡声……",
+          "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+          "formattedDate": "2026年11月6日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+          "titleZh": "《控制生物学》——法比安·泰斯，慕尼黑亥姆霍兹研究所",
+          "description": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+          "descriptionZh": "随着系统生物学领域的工作日益活跃，旨在以更高的分辨率、更广的范围和更多样化的方法绘制生物学图谱，法比安·泰斯正将研究前沿从绘制图谱推进到预测，进而延伸至对生物学的调控。",
+          "link": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+          "formattedDate": "2026年11月6日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+          "titleZh": "[AINews] Inkling 2 Small：在12T代币上仅用68小时完成训练，超越了Muse Spark",
+          "description": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+          "descriptionZh": "2026年11月5日——深入了解Inkling 2 Small的训练过程以及METR对Anthropic公司人工智能研究的研究。",
+          "link": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+          "formattedDate": "2026年11月6日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Quoting Paul Ford",
+          "titleZh": "引用保罗·福特的话",
+          "description": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . — Paul Ford , The Web Is More Than Enough Tags: browsers , paul-ford ,…",
+          "descriptionZh": "网络浏览器是一款功能极其、极其、极其强大的应用程序软件，而利用这种强大功能的成本似乎正在逐日降低。——保罗·福特，《网络已绰绰有余》 标签：浏览器、保罗·福特、……",
+          "link": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+          "formattedDate": "2026年11月5日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI agents stole 190k gaming credentials for under $400 in model costs",
+          "titleZh": "AI代理仅花费不到400美元的模型成本，就窃取了19万条游戏账号凭证",
+          "description": "Article URL: https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/ Comments URL: https://news.ycombinator.com/item?id=50409687 Points: 1 # Comments: 3",
+          "descriptionZh": "文章网址：https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/ 评论网址： https://news.ycombinator.com/item?id=50409687 积分：1 # 评论：3",
+          "link": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+          "formattedDate": "2026年11月8日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 233,
+    "published": 35,
+    "sourceCount": 11,
+    "translated": true
+  }
+}
