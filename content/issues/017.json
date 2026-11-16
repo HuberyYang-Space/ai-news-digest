@@ -1,0 +1,404 @@
+{
+  "number": 17,
+  "startDate": "2026-11-08T15:59:59.999Z",
+  "endDate": "2026-11-15T15:59:59.999Z",
+  "dateLabel": "2026年11月8日 — 15日",
+  "publishedAt": "2026-11-16T06:48:18.071Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Introducing Businesses in ChatGPT",
+          "titleZh": "在 ChatGPT 中介绍企业",
+          "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "descriptionZh": "在 ChatGPT 中管理您的企业信息，了解您的企业展示情况，并将兴趣转化为行动。",
+          "link": "https://openai.com/index/introducing-businesses-chatgpt",
+          "formattedDate": "2026年11月10日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Google DeepMind Blog"
+          ]
+        },
+        {
+          "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+          "titleZh": "使用您的 Google Cloud 账户为 Hugging Face Hub 付费",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+          "formattedDate": "2026年11月10日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+          "titleZh": "Gemini Robotics 2.5 加速了现实世界中通用灵巧性的发展",
+          "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+          "descriptionZh": "我们功能最强大的视觉-语言-动作模型可提升机器人的灵巧性、可靠性和安全性",
+          "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "formattedDate": "2026年11月9日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "titleZh": "使用 SimReady 资源构建机器人拾放仿真",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "formattedDate": "2026年11月13日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "XYBench: Helping with the problem behind the question",
+          "titleZh": "XYBench：帮助解决问题背后的根源",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/allenai/xybench",
+          "formattedDate": "2026年11月13日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "titleZh": "llama.cpp v1.0.0：为本地人工智能生态系统奠定更坚实的基础",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "formattedDate": "2026年11月13日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "titleZh": "Shield 帮助技术人员借助 OpenAI 移交旧版门户的工作",
+          "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "descriptionZh": "Shield 利用 OpenAI 帮助 IT 技术人员处理传统门户中的工作。其 Forge 代理可在系统中自动操作，从而让技术人员能够专注于需要其判断的问题。",
+          "link": "https://openai.com/business/customer-stories/shield",
+          "formattedDate": "2026年11月13日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "titleZh": "一次构建，在任何代理上运行：代理技能实用指南",
+          "description": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A…",
+          "descriptionZh": "代理技能将可重复的工程工作封装到文件中，供团队审查和复用，而工具、项目上下文和权限则仍与运行它们的主机相关联。博文《一次构建，在任何代理上运行：A…》",
+          "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "formattedDate": "2026年11月12日",
+          "source": "GitHub Blog (AI & ML)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "titleZh": "Amplitude 如何借助 OpenAI 在 1–2 天内推出产品改进",
+          "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "descriptionZh": "Amplitude 的主动型产品代理 Wave 主要基于 OpenAI 模型构建，它能够确定需要开发的内容，借助编码代理帮助团队交付变更，并衡量其影响。",
+          "link": "https://openai.com/business/customer-stories/amplitude",
+          "formattedDate": "2026年11月12日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "titleZh": "随着团队借助Codex开发更多产品，Gondola的营收翻了一番",
+          "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "descriptionZh": "Gondola 帮助创意工作者获得认可并获得工作机会，其中 Codex 使首席工程师的工作效率提高了 50%，而 ChatGPT 则简化了日常工作。",
+          "link": "https://openai.com/business/customer-stories/gondola",
+          "formattedDate": "2026年11月12日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "titleZh": "AlphaGenome 2：破译细胞如何读取DNA，以更好地理解疾病",
+          "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+          "descriptionZh": "预测DNA序列及其变异如何影响特定的人体细胞类型和疾病。",
+          "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "formattedDate": "2026年11月11日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Gemini 4 Carbon is now available",
+          "titleZh": "Gemini 4 Carbon 现已上市",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+          "formattedDate": "2026年11月10日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+          "titleZh": "英伟达将调查首席执行官黄仁勋与一名疑似中国间谍的关系",
+          "description": "In a memo to the company, Huang admitted that he had an affair.",
+          "descriptionZh": "在致公司的一份备忘录中，黄某承认自己曾有过婚外情。",
+          "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "formattedDate": "2026年11月8日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+          "titleZh": "美国联邦航空管理局（FAA）将人工智能建议的适用范围扩大至整个美国空域，以管理空中交通拥堵",
+          "description": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+          "descriptionZh": "各家航空公司对这款人工智能工具赞不绝口，但空中交通管制员工会并未参与其中。",
+          "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+          "formattedDate": "2026年11月12日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+          "titleZh": "美联航以网络安全风险为由，禁止人工智能代理预订机票",
+          "description": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+          "descriptionZh": "该航空公司表示，将不允许乘客使用人工智能客服来预订机票和管理预订。",
+          "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+          "formattedDate": "2026年11月12日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "titleZh": "不断发酵的黄仁勋丑闻：时间线",
+          "description": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+          "descriptionZh": "鉴于中美两国正在竞相开发最先进的人工智能基础设施，此事可能会对国家安全产生影响。",
+          "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "formattedDate": "2026年11月11日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "titleZh": "Fireworks AI遭遇网络攻击，导致黑客得以访问Notion用户的聊天记录",
+          "description": "This is Fireworks' second data breach in as many months.",
+          "descriptionZh": "这是Fireworks在短短几个月内发生的第二起数据泄露事件。",
+          "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "formattedDate": "2026年11月12日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+          "titleZh": "《Big Walk》利用人工智能修复了一个漏洞。如今，独立游戏界正面临一场大洗牌。",
+          "description": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+          "descriptionZh": "对于许多独立游戏节的评委来说，无论多少人工智能编程内容都太多了。",
+          "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+          "formattedDate": "2026年11月11日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "The backlash about data centers might really just be about electricity",
+          "titleZh": "围绕数据中心的争议，说到底可能真的只是关于用电的问题",
+          "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia,…",
+          "descriptionZh": "这篇文章最初发表在《The Algorithm》上，这是我们关于人工智能的每周通讯。如需第一时间在收件箱中收到此类文章，请点击此处订阅。上周，当全美各地的选民前往投票站时，我正在弗吉尼亚州的阿什本……",
+          "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+          "formattedDate": "2026年11月9日",
+          "source": "MIT Technology Review (AI)",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "Anthropic Outlines its AI-Powered Code Review Process for Claude Code",
+          "titleZh": "Anthropic 概述了其针对 Claude Code 的基于人工智能的代码审查流程",
+          "description": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and…",
+          "descriptionZh": "随着AI代理对Anthropic代码库的贡献日益增加，该公司概述了Claude Code团队如何处理代码审查工作。该方法依赖于多层自动化验证、基于AI的审查以及……",
+          "link": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月15日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+          "titleZh": "Cohere的研究结果表明，自托管的Open-Weight模型仍需出站控制",
+          "description": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered.…",
+          "descriptionZh": "Cohere 最近报道称，阿里巴巴最新推出的 Qwen3.8 模型之一曾试图将一个探测文件上传至北京的一个存储容器，同时在其推理日志中明确声明不会触发任何工具……",
+          "link": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月15日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+          "titleZh": "开源 DocumentDB 1.0 正式发布",
+          "description": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries…",
+          "descriptionZh": "DocumentDB 1.0 是首个正式发布的、基于 PostgreSQL 构建的、采用 MIT 许可证的开源文档数据库，兼容 MongoDB 网络协议。大多数 MongoDB 驱动程序、工具和查询……",
+          "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月14日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+          "titleZh": "OpenAI董事会成员担心，人工智能“接管”社会的局面可能就在数月之内",
+          "description": "Researcher traces a path from AI reward hacking to potential human extinction.",
+          "descriptionZh": "一位研究人员追溯了一条从人工智能奖励破解到人类可能灭绝的演变路径。",
+          "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+          "formattedDate": "2026年11月13日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+          "titleZh": "谷歌将“环境质量代理”（AQuA）开源，用于诊断生产环境中AI代理的故障",
+          "description": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session…",
+          "descriptionZh": "谷歌已将 AQuA 开源，这是一个参考实现，用于分析生产环境中的 AI 代理会话、验证反复出现的故障模式，并根据已部署的源代码快照调查根本原因。在一项涉及 32 个会话的……",
+          "link": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月13日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "llm-gemini 0.36",
+          "titleZh": "llm-gemini 0.36",
+          "description": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and…",
+          "descriptionZh": "发布：llm-gemini 0.36 两周前，Gemini 4 Carbon 曾面向“部分网络安全防御人员”发布，但今天已向所有用户开放。这是谷歌迄今为止最出色的 Gemini 模型，定价为每百万条输入 2 美元，并且……",
+          "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "formattedDate": "2026年11月10日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+          "titleZh": "[“百万人工智能工程师”特辑] 斯坦福大学如何教授“原生人工智能”工程学——米哈伊尔·埃里克，摩纳哥",
+          "description": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an…",
+          "descriptionZh": "当一个编程代理只需一个提示就能完成去年的作业时，你会给它打多少分？在斯坦福大学CS146S课程的第二期中，米哈伊尔·埃里克将开源维护者引入了课程。学生们必须学习……",
+          "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+          "formattedDate": "2026年11月8日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: Lynx – open-source fully-customizable AI workspace",
+          "titleZh": "Show HN：Lynx——开源且完全可自定义的 AI 工作区",
+          "description": "I was finding that managing multiple agent threads with walls of text was getting tiring and inefficient for me and that I wanted a more visual way to interact with my agents, so I built Lynx. Lynx lets you quickly…",
+          "descriptionZh": "我发现，管理多个包含大量文本的代理线程对我来说既费力又低效，而且我希望能以更直观的方式与代理进行交互，因此我开发了 Lynx。Lynx 让你能够快速……",
+          "link": "https://github.com/yakkomajuri/lynx",
+          "formattedDate": "2026年11月12日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: Zumungo – AI-driven home automation",
+          "titleZh": "Show HN：Zumungo——人工智能驱动的家庭自动化",
+          "description": "Just released Zumungo AI driven Home Automation zumungo.com. Zumungo uses the power and flexibility of well established open source projects such as HomeAssitant, Frigate, Whisper, go2rtc, Piper, Open AI, Ollama, etc.…",
+          "descriptionZh": "Zumungo 刚刚发布了其基于人工智能的家庭自动化系统 zumungo.com。Zumungo 利用了 HomeAssistant、Frigate、Whisper、go2rtc、Piper、OpenAI、Ollama 等成熟开源项目的强大功能和灵活性……",
+          "link": "https://zumungo.com/get-started.html",
+          "formattedDate": "2026年11月11日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Ask HN: Are companies making money by using AI?",
+          "titleZh": "向HN提问：企业是否通过使用人工智能赚到了钱？",
+          "description": "AI news is focused on the same companies improving their models. But I am really interested in getting opinions about companies that are actually making money by using AI, either by granting access to Claude or by…",
+          "descriptionZh": "人工智能新闻大多聚焦于那些正在改进模型的公司。但我真正感兴趣的是，大家对那些通过人工智能实际盈利的公司有何看法，无论是通过提供Claude的使用权限，还是通过……",
+          "link": "https://news.ycombinator.com/item?id=50435819",
+          "formattedDate": "2026年11月10日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Show HN: AI Frothiness Index. Daily reading of how stretched the AI boom is",
+          "titleZh": "Show HN：AI泡沫指数。每日追踪AI热潮的泡沫程度",
+          "description": "Article URL: https://frothiness.jagular.io Comments URL: https://news.ycombinator.com/item?id=50435624 Points: 1 # Comments: 1",
+          "descriptionZh": "文章网址：https://frothiness.jagular.io 评论网址：https://news.ycombinator.com/item?id=50435624 积分：1 # 评论：1",
+          "link": "https://frothiness.jagular.io",
+          "formattedDate": "2026年11月10日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "datasette-apps 0.4a0",
+          "titleZh": "datasette-apps 0.4a0",
+          "description": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support…",
+          "descriptionZh": "发布：datasette-apps 0.4a0 Datasette Apps 是运行在 Datasette 内的沙箱化 HTML 和 JavaScript 应用程序——可以将其理解为 Claude Artifacts，但这些应用程序能够针对您的数据执行 SQL 查询。0.4a0 版本新增了对……的支持",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+          "formattedDate": "2026年11月15日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "datasette-agent 0.6a0",
+          "titleZh": "datasette-agent 0.6a0",
+          "description": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette…",
+          "descriptionZh": "发布：datasette-agent 0.6a0 这是针对 Datasette Agent 的多项小修补的汇总，该插件是我为 Datasette 开发的代理插件，可让您对数据进行查询。最值得注意的是，它现在直接在 Datasette 中添加了一个代理提示……",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+          "formattedDate": "2026年11月15日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "datasette-llm 0.1a11",
+          "titleZh": "datasette-llm 0.1a11",
+          "description": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you…",
+          "descriptionZh": "发布：datasette-llm 0.1a11 datasette-llm 是 Datasette 的中间插件，用于配置大型语言模型（LLM），以便与其他 Datasette 插件配合使用。此版本新增了对 OpenAI 兼容端点的支持，因此您可以……",
+          "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+          "formattedDate": "2026年11月14日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] The No AI Slop Manifesto",
+          "titleZh": "[AINews] 《拒绝低质AI宣言》",
+          "description": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+          "descriptionZh": "2026年11月13日——AIE演讲嘉宾齐聚一堂，阐述如何应对“slop”。",
+          "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+          "formattedDate": "2026年11月14日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+          "titleZh": "[AINews] 黄仁勋在领导英伟达33年后辞职",
+          "description": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+          "descriptionZh": "2026年11月12日——科莱特·克雷斯接任临时首席执行官。开源领域及美国在人工智能领域的领导地位将何去何从？",
+          "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+          "formattedDate": "2026年11月13日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+          "titleZh": "AI雄心：ArtCraft克隆了Photoshop，如今立志“重构一切”",
+          "description": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+          "descriptionZh": "ArtCraft利用人工智能将Photoshop改写为开源软件。对于首席执行官布兰登·托马斯而言，他的愿景更为宏大：夺回互联网！",
+          "link": "https://latent.space/p/artcraft/",
+          "formattedDate": "2026年11月13日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 314,
+    "published": 36,
+    "sourceCount": 11,
+    "translated": true
+  }
+}
