@@ -1,0 +1,383 @@
+{
+  "number": 18,
+  "startDate": "2026-11-15T15:59:59.999Z",
+  "endDate": "2026-11-22T15:59:59.999Z",
+  "dateLabel": "2026年11月15日 — 22日",
+  "publishedAt": "2026-11-23T07:53:01.051Z",
+  "sections": [
+    {
+      "category": "官方/实验室",
+      "items": [
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "titleZh": "隆重推出 GPT-6.2 Astra 和 Sol",
+          "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "descriptionZh": "隆重推出 GPT‑6.2 Astra 和 Sol，它们在 ChatGPT Work、Codex 和 API 上均能以更低的成本提供更优质的专业输出、编码、计算机应用及效率。",
+          "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "formattedDate": "2026年11月17日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Simon Willison's Weblog",
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Introducing OpenAI for Chile",
+          "titleZh": "向智利介绍 OpenAI",
+          "description": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "descriptionZh": "OpenAI 与智利政府正携手合作，旨在支持负责任地采用人工智能、提升公共部门的技能水平，并帮助当地初创企业开发人工智能应用。",
+          "link": "https://openai.com/index/introducing-openai-for-chile",
+          "formattedDate": "2026年11月17日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": [
+            "Google DeepMind Blog"
+          ]
+        },
+        {
+          "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "titleZh": "Streamhouse 中的时间序列模型：新领域与应用场景",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "formattedDate": "2026年11月18日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Perplexity and Intelligence",
+          "titleZh": "困惑与智慧",
+          "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+          "descriptionZh": "困惑度如何衡量人工智能模型的进展，以及它为何能帮助开发者建立一种评估新兴能力的共同方法。",
+          "link": "https://openai.com/index/perplexity-and-intelligence",
+          "formattedDate": "2026年11月22日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Combatting adversarial distillation",
+          "titleZh": "应对对抗性蒸馏",
+          "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+          "descriptionZh": "OpenAI 针对对抗性蒸馏的分层方法结合了模型训练、安全防护措施、检测和强制执行，以防范能力提取。",
+          "link": "https://openai.com/index/combatting-adversarial-distillation",
+          "formattedDate": "2026年11月20日",
+          "source": "OpenAI Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+          "titleZh": "欢迎使用 Inkling 2 Mini，为您的本地设置带来尖端性能",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/inkling2mini",
+          "formattedDate": "2026年11月20日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+          "titleZh": "介绍安全带适配器：将您最喜欢的型号适配到安全带上，以提升性能并降低成本",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+          "formattedDate": "2026年11月20日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+          "titleZh": "DaisyRose-27B：开拓训练后效率的新疆界",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "formattedDate": "2026年11月18日",
+          "source": "Hugging Face Blog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Genie 4 is now available",
+          "titleZh": "Genie 4 现已上市",
+          "description": "",
+          "descriptionZh": "",
+          "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+          "formattedDate": "2026年11月18日",
+          "source": "Google DeepMind Blog",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "科技媒体",
+      "items": [
+        {
+          "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+          "titleZh": "因多力多滋薯片袋触发AI枪支警报，受创青少年起诉学校和警方",
+          "description": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+          "descriptionZh": "诉讼：该学区超过99%的AI枪支警报均为误报。",
+          "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+          "formattedDate": "2026年11月19日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+          "titleZh": "英伟达表示，在黄仁勋离职后，其开源人工智能战略依然保持不变",
+          "description": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+          "descriptionZh": "尽管黄仁勋突然离职，英伟达的临时首席执行官仍重申了该公司的开源人工智能战略，并表示计划收购Hugging Face。",
+          "link": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+          "formattedDate": "2026年11月17日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+          "titleZh": "黄仁勋表示，如果能重返英伟达担任首席执行官，他将“深感荣幸”",
+          "description": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+          "descriptionZh": "在辞职后的首次公开声明中，英伟达创始人黄仁勋暗示他愿意重返首席执行官职位。",
+          "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+          "formattedDate": "2026年11月17日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Ars Technica AI"
+          ]
+        },
+        {
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "titleZh": "不断发酵的黄仁勋丑闻：时间线",
+          "description": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+          "descriptionZh": "黄仁勋因婚外情一事已从英伟达辞职，鉴于中美两国正在竞相开发最先进的人工智能基础设施，此事可能对国家安全产生影响。",
+          "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "formattedDate": "2026年11月19日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
+          "titleZh": "2026 年旧金山 QCon 大会：作为一名工程师，如何利用人工智能让团队实力倍增",
+          "description": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel…",
+          "descriptionZh": "在2026年旧金山QCon大会上，Pinterest的高级工程师兼Web平台技术负责人乔丹·卡特勒（Jordan Cutler）发表了演讲，探讨了当每位工程师都能使用相同的人工智能工具时，工程师的角色将发生怎样的变化。作者：丹尼尔……",
+          "link": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月19日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google’s AI feature in Search gets its own incognito mode",
+          "titleZh": "谷歌搜索中的AI功能推出了专属的隐身模式",
+          "description": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+          "descriptionZh": "谷歌推出的新功能“临时对话”允许用户在“AI模式”下进行对话，这些对话既不会被添加到搜索记录中，也不会影响未来的推荐结果。",
+          "link": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+          "formattedDate": "2026年11月18日",
+          "source": "TechCrunch AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Google makes it easier to use Gemini without training AI on your data",
+          "titleZh": "谷歌让用户无需使用自己的数据训练人工智能，也能更轻松地使用Gemini",
+          "description": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+          "descriptionZh": "在 Gemini 活动设置中，AI 训练和聊天记录现在将分别设有独立的开关。",
+          "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+          "formattedDate": "2026年11月17日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "TechCrunch AI"
+          ]
+        },
+        {
+          "title": "US moves to cut China’s remote access to AI chips",
+          "titleZh": "美国采取措施限制中国远程获取人工智能芯片",
+          "description": "Trump bets China won’t mind US blocking remote access to AI chips.",
+          "descriptionZh": "特朗普打赌，中国不会介意美国封锁对人工智能芯片的远程访问。",
+          "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+          "formattedDate": "2026年11月16日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+          "titleZh": "黄仁勋的盟友们建立了一个“战情室”，旨在助他重返英伟达",
+          "description": "Huang is weighing a return just days after resigning amid a deepening scandal.",
+          "descriptionZh": "在因丑闻不断发酵而辞职仅数日后，黄正在考虑重返岗位。",
+          "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+          "formattedDate": "2026年11月16日",
+          "source": "Ars Technica AI",
+          "alsoReportedBy": [
+            "MIT Technology Review (AI)"
+          ]
+        },
+        {
+          "title": "AWS Open-Sources Emulator for Local Testing of 200+ Services by Coding Agents",
+          "titleZh": "AWS 开源了一款模拟器，供 Coding Agents 用于对 200 多项服务进行本地测试",
+          "description": "AWS Emulator is a generally available local HTTPS endpoint, generated from public Smithy API models, that lets developers and coding agents test against more than 200 AWS services without an account, with published…",
+          "descriptionZh": "AWS Emulator 是一个已正式发布的本地 HTTPS 端点，由公开的 Smithy API 模型生成，它允许开发人员和编码代理在无需账户的情况下，针对 200 多项 AWS 服务进行测试，并提供已发布的……",
+          "link": "https://www.infoq.com/news/2026/11/aws-emulator-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月16日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Claude Code Has Been Leaking Secrets through its \"Don't Ask Again\" Feature",
+          "titleZh": "Claude Code 一直通过其“不再询问”功能泄露机密",
+          "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified…",
+          "descriptionZh": "安全公司Apiiro发现，由于Claude Code为实现“不再提示”功能，将机密信息存储在开发者机器上的本地文件中，导致这些信息被暴露在公共代码仓库中。该公司发现……",
+          "link": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月22日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+          "titleZh": "谷歌宣布推出 Agent Compute Engine，用于安全地运行人工智能代理",
+          "description": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API…",
+          "descriptionZh": "谷歌最近发布了 Agent Compute Engine，这是一项托管服务，可在隔离的微虚拟机（microVM）中运行人工智能代理，并具备检查点功能，可暂停和恢复执行环境。该设计将凭据、API……",
+          "link": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "formattedDate": "2026年11月22日",
+          "source": "InfoQ AI, ML & Data Eng",
+          "alsoReportedBy": []
+        }
+      ]
+    },
+    {
+      "category": "社区/独立博客",
+      "items": [
+        {
+          "title": "PostgreSQL 19 Released",
+          "titleZh": "PostgreSQL 19 正式发布",
+          "description": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of…",
+          "descriptionZh": "PostgreSQL 19 正式发布 往年，PostgreSQL 通常在 9 月发布新版本，但今年的发布推迟了两个月，这主要是因为 PostgreSQL 团队需要处理一系列问题，作为……的一部分……",
+          "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+          "formattedDate": "2026年11月19日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": [
+            "InfoQ AI, ML & Data Eng"
+          ]
+        },
+        {
+          "title": "llm-gemini 0.38",
+          "titleZh": "llm-gemini 0.38",
+          "description": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was…",
+          "descriptionZh": "发布：llm-gemini 0.38 今天，谷歌推出了 Gemini 4 Neon。我最近曾撰文谈及 Gemini 4 系列的定价有多么令人困惑——而 Neon 不知为何让情况变得更加糟糕。此前，Gemini 4 产品线是……",
+          "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+          "formattedDate": "2026年11月18日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "External sandboxes for coding agents",
+          "titleZh": "用于编码代理的外部沙箱",
+          "description": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection…",
+          "descriptionZh": "用于编码代理的外部沙箱 我一直在探索对代理执行的代码进行沙箱隔离的新方法，重点在于让尝试本地模型时更加安全，无需担心出现错误或提示词注入……",
+          "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "formattedDate": "2026年11月17日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": [
+            "Hacker News (AI)"
+          ]
+        },
+        {
+          "title": "datasette-maplibre 0.1a0",
+          "titleZh": "datasette-maplibre 0.1a0",
+          "description": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you…",
+          "descriptionZh": "发布：datasette-maplibre 0.1a0 这是 Datasette 时隔许久推出的首个新地理空间插件！该插件将出色的 MapLibre GL 库与 OpenFreeMap 结合在一起，后者是由 Zsolt Ero 运营的免费矢量地图服务器（你……",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+          "formattedDate": "2026年11月15日",
+          "source": "Simon Willison's Weblog",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "AI may have solved the most important problem in mathematics",
+          "titleZh": "人工智能可能已经解决了数学领域中最重要的问题",
+          "description": "Article URL: https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics Comments URL: https://news.ycombinator.com/item?id=50583445 Points: 33 # Comments: 42",
+          "descriptionZh": "文章网址：https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics 评论网址： https://news.ycombinator.com/item?id=50583445 积分：33 # 评论：42",
+          "link": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
+          "formattedDate": "2026年11月20日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Agentic AI Attacks Nobody's Talking About (Yet)",
+          "titleZh": "（目前）无人谈论的具有自主性的AI攻击",
+          "description": "Article URL: https://glyphzerolabs.com/blog/2026-04-17-agentic-ai-attacks/ Comments URL: https://news.ycombinator.com/item?id=50527524 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址：https://glyphzerolabs.com/blog/2026-04-17-agentic-ai-attacks/ 评论网址：https://news.ycombinator.com/item?id=50527524 积分：1 # 评论：0",
+          "link": "https://glyphzerolabs.com/blog/2026-04-17-agentic-ai-attacks/",
+          "formattedDate": "2026年11月17日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Riemann Hypothesis proved...twice independently",
+          "titleZh": "[AINews] 黎曼猜想已被证明……且有两次独立的证明",
+          "description": "November 20 2026 —",
+          "descriptionZh": "2026年11月20日 —",
+          "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+          "formattedDate": "2026年11月21日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+          "titleZh": "对抗“Slop”的战争及其新兴武器：形式验证",
+          "description": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+          "descriptionZh": "过去，利用数学方法证明软件的正确性通常需要专业人员来完成。如今，人工智能和精益方法正在帮助实现该过程的自动化。",
+          "link": "https://latent.space/p/formal-verification/",
+          "formattedDate": "2026年11月20日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+          "titleZh": "[AINews] Anthropic 成功完成史上规模最大的首次公开募股（IPO），估值达 1.5 万亿美元",
+          "description": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+          "descriptionZh": "2026年11月19日——ANT的发行价为83美元，开盘价升至111.50美元，收盘价为97.17美元。此外，谷歌向开发者开放了Genie 4。",
+          "link": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+          "formattedDate": "2026年11月20日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+          "titleZh": "将Linear的GTM扩展至1亿美元ARR——首席运营官克里斯蒂娜·科尔多瓦",
+          "description": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+          "descriptionZh": ">50%的工单由客服人员生成，支撑月经常性收入（ARR）达1亿美元的AI预算，以及在没有SDR或FDE的情况下开展销售",
+          "link": "https://latent.space/p/linear-scaling/",
+          "formattedDate": "2026年11月19日",
+          "source": "Latent Space",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "The Dangers of AI 'Handoverism'",
+          "titleZh": "人工智能“移交主义”的危险",
+          "description": "Article URL: https://www.ft.com/content/45194ea4-4fa7-4c38-a5b2-137eb7402d57 Comments URL: https://news.ycombinator.com/item?id=50585432 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址：https://www.ft.com/content/45194ea4-4fa7-4c38-a5b2-137eb7402d57 评论网址： https://news.ycombinator.com/item?id=50585432 积分：1 # 评论：0",
+          "link": "https://www.ft.com/content/45194ea4-4fa7-4c38-a5b2-137eb7402d57",
+          "formattedDate": "2026年11月21日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        },
+        {
+          "title": "Images of Canada's most wanted are AI-generated",
+          "titleZh": "加拿大头号通缉犯的画像由人工智能生成",
+          "description": "Article URL: https://www.cbc.ca/news/canada/bolo-program-canada-fugitives-police-ai-9.7428331 Comments URL: https://news.ycombinator.com/item?id=50585403 Points: 1 # Comments: 0",
+          "descriptionZh": "文章网址：https://www.cbc.ca/news/canada/bolo-program-canada-fugitives-police-ai-9.7428331 评论网址： https://news.ycombinator.com/item?id=50585403 积分：1 # 评论：0",
+          "link": "https://www.cbc.ca/news/canada/bolo-program-canada-fugitives-police-ai-9.7428331",
+          "formattedDate": "2026年11月21日",
+          "source": "Hacker News (AI)",
+          "alsoReportedBy": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "collected": 306,
+    "published": 33,
+    "sourceCount": 9,
+    "translated": true
+  }
+}
